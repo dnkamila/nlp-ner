@@ -22,12 +22,18 @@ public class Main {
 	private static String prefixPersonFilename = "data/resources/list-prefix-person.txt";
 	private static String prefixOrganizationFilename = "data/resources/list-prefix-organization.txt";
 	private static String prefixLocationFilename = "data/resources/list-prefix-location.txt";
-
-	private static String prefixModelFilename = "model/tagger-model";
+        private static String suffixPersonFilename = "data/resources/list-suffix-person.txt";
+	private static String suffixOrganizationFilename = "data/resources/list-suffix-organization.txt";
+	private static String suffixLocationFilename = "data/resources/list-suffix-location.txt";
+        
+        private static String prefixModelFilename = "model/tagger-model";
 
 	private static HashSet<String> setPrefixPerson = new HashSet<String>();
 	private static HashSet<String> setPrefixOrganization = new HashSet<String>();
 	private static HashSet<String> setPrefixLocation = new HashSet<String>();
+	private static HashSet<String> setSuffixPerson = new HashSet<String>();
+	private static HashSet<String> setSuffixOrganization = new HashSet<String>();
+	private static HashSet<String> setSuffixLocation = new HashSet<String>();
 
 	public static void main(String[] args) throws Exception {
 		generateDatasetMaterial();
@@ -103,8 +109,13 @@ public class Main {
 		String prefixPerson = "";
 		String prefixOrganization = "";
 		String prefixLocation = "";
+                String suffixPerson = "";
+                String suffixLocation = "";
+                String suffixOrganization = "";
 		String prevPOS = "START";
 		String nextPOS = "";
+                String nextTokenRaw = "";
+                String nextTokenLower = "";
 
 		for (int ii = 0; ii < limit; ii++) {
 			String tokenRaw = corpusToken.get(ii);
@@ -114,10 +125,13 @@ public class Main {
 			String valPrefixTwoChar = tokenRaw.length() < 2 ? " P2=" + tokenRaw : " P2=" + tokenRaw.substring(0, 2);
 			String valPrefixThreeChar = tokenRaw.length() < 3 ? " P3=" + tokenRaw : " P3=" + tokenRaw.substring(0, 3);
 
-			if (ii == limit - 1)
+			if (ii == limit - 1) {
 				nextPOS = "END";
-			else
+                                nextTokenRaw = "";
+                        } else {
 				nextPOS = corpusPOS.get(ii + 1);
+                                nextTokenRaw = corpusToken.get(ii + 1);
+                        }
 			
 			if(nextPOS.equals("\n"))
 				nextPOS = "END";
@@ -129,18 +143,26 @@ public class Main {
 				prefixPerson = "";
 				prefixOrganization = "";
 				prefixLocation = "";
+				suffixPerson = "";
+				suffixOrganization = "";
+				suffixLocation = "";
 				valPrefixOneChar = "";
 				valPrefixTwoChar = "";
 				valPrefixThreeChar = "";
 				bw.write("\n");
 			} else {
 				firstToken = "";
+                                nextTokenLower = nextTokenRaw.toLowerCase();
+                                suffixPerson = setSuffixPerson.contains(nextTokenLower) ? " SUFFIXPERSON" : "";
+                                suffixLocation = setSuffixLocation.contains(nextTokenLower) ? " SUFFIXLOCATION" : "";
+                                suffixOrganization = setSuffixOrganization.contains(nextTokenLower) ? " SUFFIXORGANIZATION" : "";
 
 				firstCapitalized = firstCapitalized(tokenRaw) ? " FIRSTCAPITALIZED" : "";
 				allCapitalized = allCapitalized(tokenRaw) ? " ALLCAPITALIZED" : "";
 
 				bw.write(tokenLower + firstCapitalized + allCapitalized + firstToken + " " + prevPOS + " "
 						+ corpusPOS.get(ii) + " " + nextPOS + prefixPerson + prefixOrganization + prefixLocation
+                                                + suffixPerson + suffixLocation + suffixOrganization
 						+ valPrefixOneChar + valPrefixTwoChar + valPrefixThreeChar + " " + corpusLabel.get(ii) + "\n");
 
 				prefixPerson = setPrefixPerson.contains(tokenLower) ? " PREFIXPERSON" : "";
@@ -176,6 +198,9 @@ public class Main {
 		loadFileToSet(prefixPersonFilename, setPrefixPerson);
 		loadFileToSet(prefixOrganizationFilename, setPrefixOrganization);
 		loadFileToSet(prefixLocationFilename, setPrefixLocation);
+		loadFileToSet(suffixPersonFilename, setSuffixPerson);
+		loadFileToSet(suffixOrganizationFilename, setSuffixOrganization);
+		loadFileToSet(suffixLocationFilename, setSuffixLocation);
 	}
 
 	public static void loadFileToSet(String filename, HashSet<String> set) throws IOException {
