@@ -1,6 +1,5 @@
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
-import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -17,17 +16,14 @@ public class Main {
 	private static ArrayList<String> corpusToken = new ArrayList<String>();
 	private static ArrayList<String> corpusLabel = new ArrayList<String>();
 	private static ArrayList<String> corpusPOS = new ArrayList<String>();
-	private static ArrayList<String> corpusPrevPOS = new ArrayList<String>();
-	private static ArrayList<String> corpusNextPOS = new ArrayList<String>();
-	private static ArrayList<String> templateArgs = new ArrayList<String>();
 
 	private static int limit = 0;
 
 	private static String prefixPersonFilename = "data/resources/list-prefix-person.txt";
 	private static String prefixOrganizationFilename = "data/resources/list-prefix-organization.txt";
 	private static String prefixLocationFilename = "data/resources/list-prefix-location.txt";
+
 	private static String prefixModelFilename = "model/tagger-model";
-	private static String filenameFormat = "%s.txt";
 
 	private static HashSet<String> setPrefixPerson = new HashSet<String>();
 	private static HashSet<String> setPrefixOrganization = new HashSet<String>();
@@ -39,13 +35,11 @@ public class Main {
 	}
 
 	public static void generateDatasetMaterial() throws Exception {
-		BufferedReader br = new BufferedReader(new FileReader("data/resources/dummy.txt"));
+		BufferedReader br = new BufferedReader(new FileReader(corpusFilename));
 
 		try {
 			String s;
 			while ((s = br.readLine()) != null && !s.equals("")) {
-				// TODO : POS-Tagging sentence(s)
-
 				String[] temps = s.split("\\t");
 
 				s = temps[0];
@@ -60,7 +54,7 @@ public class Main {
 				StringTokenizer stTagged = new StringTokenizer(tagString(s.replaceAll("<[^>]*>", "")));
 				StringTokenizer st = new StringTokenizer(s);
 				String type = "NON";
-				// TODO : Match token with its POS
+
 				while (st.hasMoreTokens()) {
 					String temp = st.nextToken();
 					String tag = "";
@@ -87,11 +81,10 @@ public class Main {
 				corpusLabel.add("\n");
 			}
 			corpusToken.remove(corpusToken.size() - 1);
-			corpusLabel.remove(corpusLabel.size() - 1);
 			corpusPOS.remove(corpusPOS.size() - 1);
+			corpusLabel.remove(corpusLabel.size() - 1);
 
-			if (corpusToken.size() != corpusLabel.size() && corpusPOS.size() != corpusToken.size()) // ADD
-																									// corpusPOS.size()
+			if (corpusToken.size() != corpusLabel.size() && corpusPOS.size() != corpusToken.size())
 				throw new Exception();
 
 			limit = corpusToken.size();
@@ -101,36 +94,80 @@ public class Main {
 	}
 
 	public static void generateDataset() throws IOException {
+		BufferedWriter bw = new BufferedWriter(new FileWriter(datasetFilename));
 		generateResources();
 
+		String firstToken = " FIRSTOKEN";
+		String firstCapitalized = "";
+		String allCapitalized = "";
 		String prefixPerson = "";
 		String prefixOrganization = "";
 		String prefixLocation = "";
 		String prevPOS = "START";
 		String nextPOS = "";
+
 		for (int ii = 0; ii < limit; ii++) {
-			String token = corpusToken.get(ii).toLowerCase();
-			if (ii < limit-1)
-				nextPOS = corpusPOS.get(ii+1);
-			else if (ii == limit-1 || nextPOS.equals("\n"))
+			String tokenRaw = corpusToken.get(ii);
+			String tokenLower = corpusToken.get(ii).toLowerCase();
+
+			String valPrefixOneChar = tokenRaw.length() < 1 ? " P1=" + tokenRaw : " P1=" + tokenRaw.substring(0, 1);
+			String valPrefixTwoChar = tokenRaw.length() < 2 ? " P2=" + tokenRaw : " P2=" + tokenRaw.substring(0, 2);
+			String valPrefixThreeChar = tokenRaw.length() < 3 ? " P3=" + tokenRaw : " P3=" + tokenRaw.substring(0, 3);
+
+			if (ii < limit - 1)
+				nextPOS = corpusPOS.get(ii + 1);
+			else if (ii == limit - 1 || nextPOS.equals("\n"))
 				nextPOS = "END";
-			if (token.equals("\n")) {
+
+			if (tokenRaw.equals("\n")) {
+				firstToken = " FIRSTOKEN";
+				firstCapitalized = "";
+				allCapitalized = "";
 				prefixPerson = "";
 				prefixOrganization = "";
 				prefixLocation = "";
-				System.out.print("\n");
+				valPrefixOneChar = "";
+				valPrefixTwoChar = "";
+				valPrefixThreeChar = "";
 			} else {
-				System.out.println(token + " " + prevPOS + " " + corpusPOS.get(ii) + " " + nextPOS + prefixPerson + prefixOrganization
-					+ prefixLocation + " " + corpusLabel.get(ii));
+				firstToken = "";
 
-				prefixPerson = setPrefixPerson.contains(token) ? " PREFIXPERSON" : "";
-				prefixOrganization = setPrefixOrganization.contains(token) ? " PREFIXORGANIZATION" : "";
-				prefixLocation = setPrefixLocation.contains(token) ? " PREFIXLOCATION" : "";
+				firstCapitalized = firstCapitalized(tokenRaw) ? " FIRSTCAPITALIZED" : "";
+				allCapitalized = allCapitalized(tokenRaw) ? " ALLCAPITALIZED" : "";
+
+				bw.write(tokenLower + firstCapitalized + allCapitalized + firstToken + " " + prevPOS + " "
+						+ corpusPOS.get(ii) + " " + nextPOS + prefixPerson + prefixOrganization + prefixLocation
+						+ valPrefixOneChar + valPrefixTwoChar + valPrefixThreeChar + " " + corpusLabel.get(ii));
+
+				prefixPerson = setPrefixPerson.contains(tokenLower) ? " PREFIXPERSON" : "";
+				prefixOrganization = setPrefixOrganization.contains(tokenLower) ? " PREFIXORGANIZATION" : "";
+				prefixLocation = setPrefixLocation.contains(tokenLower) ? " PREFIXLOCATION" : "";
+
 				prevPOS = corpusPOS.get(ii);
 				if (prevPOS.equals("\n"))
 					prevPOS = "START";
 			}
+
+			bw.write("\n");
 		}
+
+		bw.close();
+	}
+
+	public static boolean firstCapitalized(String token) {
+		if (null == token || token.isEmpty())
+			return false;
+
+		return (Character.isUpperCase(token.codePointAt(0)));
+	}
+
+	public static boolean allCapitalized(String token) {
+		for (int i = 0; i < token.length(); i++) {
+			if (!Character.isUpperCase(token.charAt(i)))
+				return false;
+		}
+
+		return true;
 	}
 
 	public static void generateResources() throws IOException {
@@ -154,40 +191,4 @@ public class Main {
 		String tagged = tagger.tagString(stringToBeTagged);
 		return tagged.trim();
 	}
-
-	public static ArrayList<String> initializeDataset(String filename) throws IOException {
-		BufferedReader br = new BufferedReader(new FileReader(new File(filename)));
-		ArrayList<String> datasetSentences = new ArrayList<String>();
-
-		String line;
-		while ((line = br.readLine()) != null) {
-			if (line.matches("<kalimat id=\\w{1,}>")) {
-				String sentence = "";
-				while (!(line = br.readLine()).equals("</kalimat>")) {
-					String[] temp = line.split("\\s+");
-					for (int ii = 0; ii < temp.length - 1; ii++)
-						sentence += temp[ii] + "_" + temp[temp.length - 1] + " ";
-				}
-				if (!sentence.equals(""))
-					datasetSentences.add(sentence);
-			}
-		}
-		br.close();
-
-		return datasetSentences;
-	}
-
-	public static void trainDataset(ArrayList<String> templateArgs, String trainFilename) throws Exception {
-		templateArgs.add("-trainFile");
-		templateArgs.add(trainFilename);
-
-		run(templateArgs);
-	}
-
-	public static void run(ArrayList<String> templateArgs) throws Exception {
-		String[] args = new String[templateArgs.size()];
-		args = templateArgs.toArray(args);
-		MaxentTagger.main(args);
-	}
-
 }
