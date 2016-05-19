@@ -66,7 +66,7 @@ public class TrainCRF {
 	}
 
 	public static void main(String[] args) throws Exception {
-		TrainCRF trainer = new TrainCRF("data/train.txt", "data/test.txt");
-		//SimpleTagger.main(args);
+		//TrainCRF trainer = new TrainCRF("data/dataset.txt", "data/dataset.txt");
+		SimpleTagger.main(args);
 	}
 }

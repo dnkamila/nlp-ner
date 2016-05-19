@@ -114,9 +114,12 @@ public class Main {
 			String valPrefixTwoChar = tokenRaw.length() < 2 ? " P2=" + tokenRaw : " P2=" + tokenRaw.substring(0, 2);
 			String valPrefixThreeChar = tokenRaw.length() < 3 ? " P3=" + tokenRaw : " P3=" + tokenRaw.substring(0, 3);
 
-			if (ii < limit - 1)
+			if (ii == limit - 1)
+				nextPOS = "END";
+			else
 				nextPOS = corpusPOS.get(ii + 1);
-			else if (ii == limit - 1 || nextPOS.equals("\n"))
+			
+			if(nextPOS.equals("\n"))
 				nextPOS = "END";
 
 			if (tokenRaw.equals("\n")) {
@@ -129,6 +132,7 @@ public class Main {
 				valPrefixOneChar = "";
 				valPrefixTwoChar = "";
 				valPrefixThreeChar = "";
+				bw.write("\n");
 			} else {
 				firstToken = "";
 
@@ -137,7 +141,7 @@ public class Main {
 
 				bw.write(tokenLower + firstCapitalized + allCapitalized + firstToken + " " + prevPOS + " "
 						+ corpusPOS.get(ii) + " " + nextPOS + prefixPerson + prefixOrganization + prefixLocation
-						+ valPrefixOneChar + valPrefixTwoChar + valPrefixThreeChar + " " + corpusLabel.get(ii));
+						+ valPrefixOneChar + valPrefixTwoChar + valPrefixThreeChar + " " + corpusLabel.get(ii) + "\n");
 
 				prefixPerson = setPrefixPerson.contains(tokenLower) ? " PREFIXPERSON" : "";
 				prefixOrganization = setPrefixOrganization.contains(tokenLower) ? " PREFIXORGANIZATION" : "";
@@ -147,8 +151,6 @@ public class Main {
 				if (prevPOS.equals("\n"))
 					prevPOS = "START";
 			}
-
-			bw.write("\n");
 		}
 
 		bw.close();
