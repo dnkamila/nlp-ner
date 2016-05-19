@@ -137,7 +137,7 @@ public class Main {
 				nextPOS = "END";
 
 			if (tokenRaw.equals("\n")) {
-				firstToken = " FIRSTOKEN";
+				firstToken = " FIRSTTOKEN";
 				firstCapitalized = "";
 				allCapitalized = "";
 				prefixPerson = "";
@@ -151,7 +151,6 @@ public class Main {
 				valPrefixThreeChar = "";
 				bw.write("\n");
 			} else {
-				firstToken = "";
                                 nextTokenLower = nextTokenRaw.toLowerCase();
                                 suffixPerson = setSuffixPerson.contains(nextTokenLower) ? " SUFFIXPERSON" : "";
                                 suffixLocation = setSuffixLocation.contains(nextTokenLower) ? " SUFFIXLOCATION" : "";
@@ -170,6 +169,7 @@ public class Main {
 				prefixLocation = setPrefixLocation.contains(tokenLower) ? " PREFIXLOCATION" : "";
 
 				prevPOS = corpusPOS.get(ii);
+				firstToken = "";
 				if (prevPOS.equals("\n"))
 					prevPOS = "START";
 			}
