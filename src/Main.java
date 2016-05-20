@@ -65,9 +65,10 @@ public class Main {
 		BufferedWriter bw = new BufferedWriter(new FileWriter(labeledFilename));
 		
 		for(int ii = 0; ii < corpusToken.size(); ii++) {
-			bw.write(corpusToken.get(ii) + " " + br.readLine());
-			if(!corpusToken.get(ii).equals("\n"))
-				bw.write("\n");
+			if(!corpusToken.get(ii).equals("\n")) {
+			    bw.write(corpusToken.get(ii).trim() + " " + br.readLine());
+                        }
+                        bw.write("\n");
 		}
 		
 		br.close();
@@ -201,10 +202,13 @@ public class Main {
 				firstCapitalized = firstCapitalized(tokenRaw) ? " FIRSTCAPITALIZED" : "";
 				allCapitalized = allCapitalized(tokenRaw) ? " ALLCAPITALIZED" : "";
 
-				bw.write((corpusLabel == null || corpusLabel.size() == 0? "" : tokenLower) + firstCapitalized + allCapitalized + firstToken + " " + prevPOS + " "
+				String toWrite = ((corpusLabel == null || corpusLabel.size() == 0? "" : tokenLower) + firstCapitalized + allCapitalized + firstToken + " " + prevPOS + " "
 						+ corpusPOS.get(ii) + " " + nextPOS + prefixPerson + prefixOrganization + prefixLocation
 						+ suffixPerson + suffixLocation + suffixOrganization + valPrefixOneChar + valPrefixTwoChar
 						+ valPrefixThreeChar + " " + (corpusLabel == null || corpusLabel.size() == 0? tokenLower : corpusLabel.get(ii)) + "\n");
+
+                                toWrite = toWrite.trim();
+                                bw.write(toWrite);
 
 				prefixPerson = setPrefixPerson.contains(tokenLower) ? " PREFIXPERSON" : "";
 				prefixOrganization = setPrefixOrganization.contains(tokenLower) ? " PREFIXORGANIZATION" : "";
