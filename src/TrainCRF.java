@@ -1,15 +1,22 @@
-import java.io.*;
-import java.util.*;
-import java.util.regex.*;
-import java.util.zip.*;
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.regex.Pattern;
 
-import cc.mallet.fst.*;
-import cc.mallet.optimize.Optimizable;
-import cc.mallet.pipe.*;
-import cc.mallet.pipe.iterator.*;
-import cc.mallet.pipe.tsf.*;
-import cc.mallet.types.*;
-import cc.mallet.util.*;
+import cc.mallet.fst.CRF;
+import cc.mallet.fst.CRFTrainerByLabelLikelihood;
+import cc.mallet.fst.CRFWriter;
+import cc.mallet.fst.PerClassAccuracyEvaluator;
+import cc.mallet.fst.TokenAccuracyEvaluator;
+import cc.mallet.fst.TransducerTrainer;
+import cc.mallet.pipe.Pipe;
+import cc.mallet.pipe.SerialPipes;
+import cc.mallet.pipe.SimpleTaggerSentence2TokenSequence;
+import cc.mallet.pipe.TokenSequence2FeatureVectorSequence;
+import cc.mallet.pipe.iterator.LineGroupIterator;
+import cc.mallet.types.InstanceList;
 
 public class TrainCRF {
 	public TrainCRF(String trainingFilename, String testingFilename) throws IOException {
@@ -20,16 +27,6 @@ public class TrainCRF {
 		conjunctions[1] = new int[] { 1 };
 
 		pipes.add(new SimpleTaggerSentence2TokenSequence());
-		pipes.add(new OffsetConjunctions(conjunctions));
-		// pipes.add(new FeaturesInWindow("PREV-", -1, 1));
-		pipes.add(new TokenTextCharPrefix("C1=", 1));
-		pipes.add(new TokenTextCharPrefix("C2=", 2));
-		pipes.add(new TokenTextCharPrefix("C3=", 3));
-		pipes.add(new RegexMatches("CAPITALIZED", Pattern.compile("^\\p{Lu}.*")));
-		/*pipes.add(new RegexMatches("STARTSNUMBER", Pattern.compile("^[0-9].*")));
-		pipes.add(new RegexMatches("HYPHENATED", Pattern.compile(".*\\-.*")));
-		pipes.add(new RegexMatches("DOLLARSIGN", Pattern.compile(".*\\$.*")));*/
-		pipes.add(new TokenFirstPosition("FIRSTTOKEN"));
 		pipes.add(new TokenSequence2FeatureVectorSequence());
 
 		Pipe pipe = new SerialPipes(pipes);
@@ -37,12 +34,12 @@ public class TrainCRF {
 		InstanceList trainingInstances = new InstanceList(pipe);
 		InstanceList testingInstances = new InstanceList(pipe);
 
-		trainingInstances.addThruPipe(new LineGroupIterator(
-				new BufferedReader(new InputStreamReader(new FileInputStream(trainingFilename))),
-				Pattern.compile("^\\s*$"), true));
-		testingInstances.addThruPipe(new LineGroupIterator(
-				new BufferedReader(new InputStreamReader(new FileInputStream(testingFilename))),
-				Pattern.compile("^\\s*$"), true));
+		trainingInstances.addThruPipe(
+				new LineGroupIterator(new BufferedReader(new InputStreamReader(new FileInputStream(trainingFilename))),
+						Pattern.compile("^\\s*$"), true));
+		testingInstances.addThruPipe(
+				new LineGroupIterator(new BufferedReader(new InputStreamReader(new FileInputStream(testingFilename))),
+						Pattern.compile("^\\s*$"), true));
 
 		CRF crf = new CRF(pipe, null);
 		// crf.addStatesForLabelsConnectedAsIn(trainingInstances);
@@ -52,21 +49,28 @@ public class TrainCRF {
 		CRFTrainerByLabelLikelihood trainer = new CRFTrainerByLabelLikelihood(crf);
 		trainer.setGaussianPriorVariance(10.0);
 
-		// CRFTrainerByStochasticGradient trainer =
-		// new CRFTrainerByStochasticGradient(crf, 1.0);
-
-		// CRFTrainerByL1LabelLikelihood trainer =
-		// new CRFTrainerByL1LabelLikelihood(crf, 0.75);
-
-		// trainer.addEvaluator(new PerClassAccuracyEvaluator(trainingInstances,
-		// "training"));
+		CRFWriter crfWriter = new CRFWriter("model/ner_crf.model") {
+			@Override
+			public boolean precondition(TransducerTrainer tt) {
+				// save the trained model after training finishes
+				return tt.getIteration() % Integer.MAX_VALUE == 0;
+			}
+		};
+		trainer.addEvaluator(crfWriter);
 		trainer.addEvaluator(new PerClassAccuracyEvaluator(testingInstances, "testing"));
+		trainer.addEvaluator(new PerClassAccuracyEvaluator(trainingInstances, "training"));
 		trainer.addEvaluator(new TokenAccuracyEvaluator(testingInstances, "testing"));
+		trainer.addEvaluator(new TokenAccuracyEvaluator(trainingInstances, "training"));
 		trainer.train(trainingInstances);
+	}
+	
+	public static void testUsingModel(String s) {
+		
 	}
 
 	public static void main(String[] args) throws Exception {
-		//TrainCRF trainer = new TrainCRF("data/dataset.txt", "data/dataset.txt");
-		SimpleTagger.main(args);
+		Main.generateDatasetMaterial();
+		Main.generateDataset();
+		TrainCRF trainer = new TrainCRF("data/train.txt", "data/test.txt");
 	}
 }

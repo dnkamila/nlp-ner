@@ -1,5 +1,6 @@
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -12,6 +13,8 @@ import edu.stanford.nlp.tagger.maxent.MaxentTagger;
 public class Main {
 	private static String corpusFilename = "data/training_data.txt";
 	private static String datasetFilename = "data/dataset.txt";
+	private static String trainingDatasetFilename = "data/training_dataset_fold-%d.txt";
+	private static String testingDatasetFilename = "data/testing_dataset_fold-%d.txt";
 
 	private static ArrayList<String> corpusToken = new ArrayList<String>();
 	private static ArrayList<String> corpusLabel = new ArrayList<String>();
@@ -22,11 +25,11 @@ public class Main {
 	private static String prefixPersonFilename = "data/resources/list-prefix-person.txt";
 	private static String prefixOrganizationFilename = "data/resources/list-prefix-organization.txt";
 	private static String prefixLocationFilename = "data/resources/list-prefix-location.txt";
-        private static String suffixPersonFilename = "data/resources/list-suffix-person.txt";
+	private static String suffixPersonFilename = "data/resources/list-suffix-person.txt";
 	private static String suffixOrganizationFilename = "data/resources/list-suffix-organization.txt";
 	private static String suffixLocationFilename = "data/resources/list-suffix-location.txt";
-        
-        private static String prefixModelFilename = "model/tagger-model";
+
+	private static String prefixModelFilename = "model/tagger-model";
 
 	private static HashSet<String> setPrefixPerson = new HashSet<String>();
 	private static HashSet<String> setPrefixOrganization = new HashSet<String>();
@@ -109,13 +112,13 @@ public class Main {
 		String prefixPerson = "";
 		String prefixOrganization = "";
 		String prefixLocation = "";
-                String suffixPerson = "";
-                String suffixLocation = "";
-                String suffixOrganization = "";
+		String suffixPerson = "";
+		String suffixLocation = "";
+		String suffixOrganization = "";
 		String prevPOS = "START";
 		String nextPOS = "";
-                String nextTokenRaw = "";
-                String nextTokenLower = "";
+		String nextTokenRaw = "";
+		String nextTokenLower = "";
 
 		for (int ii = 0; ii < limit; ii++) {
 			String tokenRaw = corpusToken.get(ii);
@@ -127,13 +130,13 @@ public class Main {
 
 			if (ii == limit - 1) {
 				nextPOS = "END";
-                                nextTokenRaw = "";
-                        } else {
+				nextTokenRaw = "";
+			} else {
 				nextPOS = corpusPOS.get(ii + 1);
-                                nextTokenRaw = corpusToken.get(ii + 1);
-                        }
-			
-			if(nextPOS.equals("\n"))
+				nextTokenRaw = corpusToken.get(ii + 1);
+			}
+
+			if (nextPOS.equals("\n"))
 				nextPOS = "END";
 
 			if (tokenRaw.equals("\n")) {
@@ -151,18 +154,18 @@ public class Main {
 				valPrefixThreeChar = "";
 				bw.write("\n");
 			} else {
-                                nextTokenLower = nextTokenRaw.toLowerCase();
-                                suffixPerson = setSuffixPerson.contains(nextTokenLower) ? " SUFFIXPERSON" : "";
-                                suffixLocation = setSuffixLocation.contains(nextTokenLower) ? " SUFFIXLOCATION" : "";
-                                suffixOrganization = setSuffixOrganization.contains(nextTokenLower) ? " SUFFIXORGANIZATION" : "";
+				nextTokenLower = nextTokenRaw.toLowerCase();
+				suffixPerson = setSuffixPerson.contains(nextTokenLower) ? " SUFFIXPERSON" : "";
+				suffixLocation = setSuffixLocation.contains(nextTokenLower) ? " SUFFIXLOCATION" : "";
+				suffixOrganization = setSuffixOrganization.contains(nextTokenLower) ? " SUFFIXORGANIZATION" : "";
 
 				firstCapitalized = firstCapitalized(tokenRaw) ? " FIRSTCAPITALIZED" : "";
 				allCapitalized = allCapitalized(tokenRaw) ? " ALLCAPITALIZED" : "";
 
 				bw.write(tokenLower + firstCapitalized + allCapitalized + firstToken + " " + prevPOS + " "
 						+ corpusPOS.get(ii) + " " + nextPOS + prefixPerson + prefixOrganization + prefixLocation
-                                                + suffixPerson + suffixLocation + suffixOrganization
-						+ valPrefixOneChar + valPrefixTwoChar + valPrefixThreeChar + " " + corpusLabel.get(ii) + "\n");
+						+ suffixPerson + suffixLocation + suffixOrganization + valPrefixOneChar + valPrefixTwoChar
+						+ valPrefixThreeChar + " " + corpusLabel.get(ii) + "\n");
 
 				prefixPerson = setPrefixPerson.contains(tokenLower) ? " PREFIXPERSON" : "";
 				prefixOrganization = setPrefixOrganization.contains(tokenLower) ? " PREFIXORGANIZATION" : "";
@@ -174,7 +177,6 @@ public class Main {
 					prevPOS = "START";
 			}
 		}
-
 		bw.close();
 	}
 
@@ -194,7 +196,7 @@ public class Main {
 		return true;
 	}
 
-	public static void generateResources() throws IOException {
+	private static void generateResources() throws IOException {
 		loadFileToSet(prefixPersonFilename, setPrefixPerson);
 		loadFileToSet(prefixOrganizationFilename, setPrefixOrganization);
 		loadFileToSet(prefixLocationFilename, setPrefixLocation);
@@ -203,7 +205,7 @@ public class Main {
 		loadFileToSet(suffixLocationFilename, setSuffixLocation);
 	}
 
-	public static void loadFileToSet(String filename, HashSet<String> set) throws IOException {
+	private static void loadFileToSet(String filename, HashSet<String> set) throws IOException {
 		BufferedReader br = new BufferedReader(new FileReader(filename));
 
 		String s;
@@ -213,6 +215,13 @@ public class Main {
 		br.close();
 	}
 
+	public static void splitTrainingTesting() throws Exception {
+		BufferedReader br = new BufferedReader(new FileReader(corpusFilename));
+		BufferedWriter bwTrain = new BufferedWriter(new FileWriter(trainingDatasetFilename));
+		BufferedWriter bwTest = new BufferedWriter(new FileWriter(testingDatasetFilename));
+		
+	}
+	
 	private static String tagString(String stringToBeTagged) throws Exception {
 		MaxentTagger tagger = new MaxentTagger(prefixModelFilename + ".tagger");
 		String tagged = tagger.tagString(stringToBeTagged);
