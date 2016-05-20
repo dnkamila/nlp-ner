@@ -15,6 +15,8 @@ import edu.stanford.nlp.tagger.maxent.MaxentTagger;
 public class Main {
 	private static String corpusFilename = "data/training_data.txt";
 	private static String datasetFilename = "data/dataset.txt";
+	private static String unlabeledFilename = "data/testing_data_unannotated.txt";
+	private static String unlabeledDatasetFilename = "data/unlabeled_dataset.txt";
 	private static String labeledFilename = "data/labeled.txt";
 	
 	private static ArrayList<String> corpusToken = new ArrayList<String>();
@@ -43,23 +45,23 @@ public class Main {
 		/*generateDatasetMaterial(corpusFilename);
 		generateDataset(datasetFilename);*/
 		
-		generateDatasetMaterialUnlabeled("data/dummy.txt");
-		generateDataset("data/dummy_dataset.txt");
+		generateDatasetMaterialUnlabeled(unlabeledFilename);
+		generateDataset(unlabeledDatasetFilename);
 		
-		PrintStream psOutput = new PrintStream(new FileOutputStream("data/dummy_temp.txt"));
+		PrintStream psOutput = new PrintStream(new FileOutputStream("data/temp.txt"));
 		System.setOut(psOutput);
 		
 		args = new String[3];
 		
 		args[0] = "--model-file";
 		args[1] = "model/ner_crf.model";
-		args[2] = "data/dummy_dataset.txt";
+		args[2] = unlabeledDatasetFilename;
 		
 		SimpleTagger.main(args);
 		
 		psOutput.close();
 		
-		BufferedReader br = new BufferedReader(new FileReader("data/dummy_temp.txt"));
+		BufferedReader br = new BufferedReader(new FileReader("data/temp.txt"));
 		BufferedWriter bw = new BufferedWriter(new FileWriter(labeledFilename));
 		
 		for(int ii = 0; ii < corpusToken.size(); ii++) {
