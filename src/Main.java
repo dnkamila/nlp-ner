@@ -62,8 +62,11 @@ public class Main {
 		BufferedReader br = new BufferedReader(new FileReader("data/dummy_temp.txt"));
 		BufferedWriter bw = new BufferedWriter(new FileWriter(labeledFilename));
 		
-		for(int ii = 0; ii < corpusToken.size(); ii++)
-			bw.write(corpusToken.get(ii) + " " + br.readLine() + "\n");
+		for(int ii = 0; ii < corpusToken.size(); ii++) {
+			bw.write(corpusToken.get(ii) + " " + br.readLine());
+			if(!corpusToken.get(ii).equals("\n"))
+				bw.write("\n");
+		}
 		
 		br.close();
 		bw.close();
