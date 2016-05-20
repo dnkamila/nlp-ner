@@ -1,8 +1,10 @@
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.StringTokenizer;
@@ -13,7 +15,8 @@ import edu.stanford.nlp.tagger.maxent.MaxentTagger;
 public class Main {
 	private static String corpusFilename = "data/training_data.txt";
 	private static String datasetFilename = "data/dataset.txt";
-
+	private static String labeledFilename = "data/labeled.txt";
+	
 	private static ArrayList<String> corpusToken = new ArrayList<String>();
 	private static ArrayList<String> corpusLabel = new ArrayList<String>();
 	private static ArrayList<String> corpusPOS = new ArrayList<String>();
@@ -37,11 +40,14 @@ public class Main {
 	private static HashSet<String> setSuffixLocation = new HashSet<String>();
 
 	public static void main(String[] args) throws Exception {
-		/*generateDatasetMaterial(corpusFilename);
-		generateDataset();*/
+		generateDatasetMaterial(corpusFilename);
+		generateDataset(datasetFilename);
 		
 		/*generateDatasetMaterialUnlabeled("data/dummy.txt");
-		generateDataset("data/dummy_dataset.txt");*/
+		generateDataset("data/dummy_dataset.txt");
+		
+		PrintStream psOutput = new PrintStream(new FileOutputStream("data/dummy_temp.txt"));
+		System.setOut(psOutput);
 		
 		args = new String[3];
 		
@@ -50,6 +56,21 @@ public class Main {
 		args[2] = "data/dummy_dataset.txt";
 		
 		SimpleTagger.main(args);
+		
+		psOutput.close();
+		
+		BufferedReader br = new BufferedReader(new FileReader("data/dummy_temp.txt"));
+		BufferedWriter bw = new BufferedWriter(new FileWriter(labeledFilename));
+		
+		System.out.println("ayam");
+		System.out.println(corpusToken.size());
+		for(int ii = 0; ii < corpusToken.size(); ii++) {
+			System.out.println(corpusToken.get(ii) + " " + br.readLine() + "\n");
+			//bw.write(corpusToken.get(ii) + " " + br.readLine() + "\n");
+		}
+		
+		br.close();
+		bw.close();*/
 	}
 
 	public static void generateDatasetMaterial(String filename) throws Exception {
