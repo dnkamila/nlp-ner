@@ -36,8 +36,6 @@ public class TrainHMM {
 		// hmm.addStatesForBiLabelsConnectedAsIn(trainingInstances);
 
 		HMMTrainerByLikelihood trainer = new HMMTrainerByLikelihood(hmm);
-		/*TransducerEvaluator trainingEvaluator = new PerClassAccuracyEvaluator(trainingInstances, "training");
-		TransducerEvaluator testingEvaluator = new PerClassAccuracyEvaluator(testingInstances, "testing");*/
 
 		trainer.addEvaluator(new PerClassAccuracyEvaluator(trainingInstances, "training"));
 		trainer.addEvaluator(new TokenAccuracyEvaluator(trainingInstances, "training"));
@@ -55,7 +53,8 @@ public class TrainHMM {
 	}
 
 	public static void main(String[] args) throws Exception {
+		/*Main.generateDatasetMaterial();
+		Main.generateDataset();*/
 		TrainHMM.run("data/dataset.txt");
-		//SimpleTagger.main(args);
 	}
 }

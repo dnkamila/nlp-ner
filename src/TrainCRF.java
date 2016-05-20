@@ -50,17 +50,17 @@ public class TrainCRF {
 		CRFTrainerByLabelLikelihood trainer = new CRFTrainerByLabelLikelihood(crf);
 		trainer.setGaussianPriorVariance(10.0);
 
-		/*FileOutputStream fos = new FileOutputStream("model/ner_hmm.model");
+		/*FileOutputStream fos = new FileOutputStream("model/ner_crf.model");
 		ObjectOutputStream oos = new ObjectOutputStream(fos);
 		oos.writeObject(hmm);
 		
 		oos.close();*/
 		
-		//trainer.addEvaluator(crfWriter);
-		trainer.addEvaluator(new PerClassAccuracyEvaluator(testingInstances, "testing"));
 		trainer.addEvaluator(new PerClassAccuracyEvaluator(trainingInstances, "training"));
-		trainer.addEvaluator(new TokenAccuracyEvaluator(testingInstances, "testing"));
 		trainer.addEvaluator(new TokenAccuracyEvaluator(trainingInstances, "training"));
+		
+		trainer.addEvaluator(new PerClassAccuracyEvaluator(testingInstances, "testing"));
+		trainer.addEvaluator(new TokenAccuracyEvaluator(testingInstances, "testing"));
 		
 		trainer.train(trainingInstances);
 	}
