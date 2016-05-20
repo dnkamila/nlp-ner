@@ -1,7 +1,9 @@
 import java.io.BufferedReader;
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 import java.util.regex.Pattern;
 
@@ -20,7 +22,7 @@ import cc.mallet.types.InstanceList;
 import cc.mallet.util.Randoms;
 
 public class TrainCRF {
-	public static void run(String datasetFilename) throws IOException {
+	public static void run(String datasetFilename, String modelFilename) throws IOException {
 		ArrayList<Pipe> pipes = new ArrayList<Pipe>();
 
 		int[][] conjunctions = new int[2][];
@@ -50,11 +52,11 @@ public class TrainCRF {
 		CRFTrainerByLabelLikelihood trainer = new CRFTrainerByLabelLikelihood(crf);
 		trainer.setGaussianPriorVariance(10.0);
 
-		/*FileOutputStream fos = new FileOutputStream("model/ner_crf.model");
+		FileOutputStream fos = new FileOutputStream(modelFilename);
 		ObjectOutputStream oos = new ObjectOutputStream(fos);
-		oos.writeObject(hmm);
+		oos.writeObject(crf);
 		
-		oos.close();*/
+		oos.close();
 		
 		trainer.addEvaluator(new PerClassAccuracyEvaluator(trainingInstances, "training"));
 		trainer.addEvaluator(new TokenAccuracyEvaluator(trainingInstances, "training"));
@@ -68,6 +70,6 @@ public class TrainCRF {
 	public static void main(String[] args) throws Exception {
 		/*Main.generateDatasetMaterial();
 		Main.generateDataset();*/
-		TrainCRF.run("data/dataset.txt");
+		TrainCRF.run("data/dataset.txt", "model/ner_crf.model");
 	}
 }

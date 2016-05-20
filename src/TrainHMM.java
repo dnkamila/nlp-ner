@@ -13,7 +13,7 @@ import cc.mallet.types.*;
 import cc.mallet.util.*;
 
 public class TrainHMM {
-	public static void run(String datasetFilename) throws IOException {
+	public static void run(String datasetFilename, String modelFilename) throws IOException {
 		ArrayList<Pipe> pipes = new ArrayList<Pipe>();
 
 		pipes.add(new SimpleTaggerSentence2TokenSequence());
@@ -45,16 +45,16 @@ public class TrainHMM {
 		
 		trainer.train(trainingInstances);
 
-		/*FileOutputStream fos = new FileOutputStream("model/ner_hmm.model");
+		FileOutputStream fos = new FileOutputStream(modelFilename);
 		ObjectOutputStream oos = new ObjectOutputStream(fos);
 		oos.writeObject(hmm);
 		
-		oos.close();*/
+		oos.close();
 	}
 
 	public static void main(String[] args) throws Exception {
 		/*Main.generateDatasetMaterial();
 		Main.generateDataset();*/
-		TrainHMM.run("data/dataset.txt");
+		TrainHMM.run("data/dataset.txt", "model/ner_hmm.model");
 	}
 }
