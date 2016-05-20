@@ -1,16 +1,21 @@
-import java.io.*;
-import java.util.*;
-import java.util.regex.*;
-import java.util.zip.*;
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.regex.Pattern;
 
-import javax.swing.UnsupportedLookAndFeelException;
-
-import cc.mallet.fst.*;
-import cc.mallet.pipe.*;
-import cc.mallet.pipe.iterator.*;
-import cc.mallet.pipe.tsf.*;
-import cc.mallet.types.*;
-import cc.mallet.util.*;
+import cc.mallet.fst.HMM;
+import cc.mallet.fst.HMMTrainerByLikelihood;
+import cc.mallet.fst.PerClassAccuracyEvaluator;
+import cc.mallet.fst.TokenAccuracyEvaluator;
+import cc.mallet.pipe.Pipe;
+import cc.mallet.pipe.SerialPipes;
+import cc.mallet.pipe.SimpleTaggerSentence2TokenSequence;
+import cc.mallet.pipe.TokenSequence2FeatureSequence;
+import cc.mallet.pipe.iterator.LineGroupIterator;
+import cc.mallet.types.InstanceList;
+import cc.mallet.util.Randoms;
 
 public class TrainHMM {
 	public static void run(String datasetFilename) throws IOException {
@@ -36,9 +41,7 @@ public class TrainHMM {
 		// hmm.addStatesForBiLabelsConnectedAsIn(trainingInstances);
 
 		HMMTrainerByLikelihood trainer = new HMMTrainerByLikelihood(hmm);
-		/*TransducerEvaluator trainingEvaluator = new PerClassAccuracyEvaluator(trainingInstances, "training");
-		TransducerEvaluator testingEvaluator = new PerClassAccuracyEvaluator(testingInstances, "testing");*/
-
+		
 		trainer.addEvaluator(new PerClassAccuracyEvaluator(trainingInstances, "training"));
 		trainer.addEvaluator(new TokenAccuracyEvaluator(trainingInstances, "training"));
 		
@@ -56,6 +59,5 @@ public class TrainHMM {
 
 	public static void main(String[] args) throws Exception {
 		TrainHMM.run("data/dataset.txt");
-		//SimpleTagger.main(args);
 	}
 }

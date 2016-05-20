@@ -5,8 +5,10 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.regex.Pattern;
 
-import cc.mallet.fst.CRF;
-import cc.mallet.fst.CRFTrainerByLabelLikelihood;
+import cc.mallet.fst.MEMM;
+import cc.mallet.fst.MEMMTrainer;
+import cc.mallet.fst.MEMMTrainer.MEMMOptimizableByLabelLikelihood;
+import cc.mallet.fst.tests.TestMEMM;
 import cc.mallet.fst.PerClassAccuracyEvaluator;
 import cc.mallet.fst.TokenAccuracyEvaluator;
 import cc.mallet.pipe.Pipe;
@@ -15,10 +17,10 @@ import cc.mallet.pipe.SimpleTaggerSentence2TokenSequence;
 import cc.mallet.pipe.TokenSequence2FeatureVectorSequence;
 import cc.mallet.pipe.iterator.LineGroupIterator;
 import cc.mallet.types.InstanceList;
-import cc.mallet.util.Randoms;
 
-public class TrainCRF {
-	public static void run(String datasetFilename) throws IOException {
+public class TrainMEMM {
+
+	public TrainMEMM(String trainingFilename, String testingFilename) throws IOException {
 		ArrayList<Pipe> pipes = new ArrayList<Pipe>();
 
 		int[][] conjunctions = new int[2][];
@@ -30,39 +32,36 @@ public class TrainCRF {
 
 		Pipe pipe = new SerialPipes(pipes);
 
-		InstanceList instanceList = new InstanceList(pipe);
+		InstanceList trainingInstances = new InstanceList(pipe);
+		InstanceList testingInstances = new InstanceList(pipe);
 
-		instanceList.addThruPipe(
-				new LineGroupIterator(new BufferedReader(new InputStreamReader(new FileInputStream(datasetFilename))),
+		trainingInstances.addThruPipe(
+				new LineGroupIterator(new BufferedReader(new InputStreamReader(new FileInputStream(trainingFilename))),
 						Pattern.compile("^\\s*$"), true));
-		
-		InstanceList[] instanceLists = instanceList.split(new Randoms(), new double[] {0.9, 0.1, 0.0});
-		InstanceList trainingInstances = instanceLists[0];
-		InstanceList testingInstances = instanceLists[1];
+		testingInstances.addThruPipe(
+				new LineGroupIterator(new BufferedReader(new InputStreamReader(new FileInputStream(testingFilename))),
+						Pattern.compile("^\\s*$"), true));
 
-		CRF crf = new CRF(pipe, null);
-		// crf.addStatesForLabelsConnectedAsIn(trainingInstances);
-		crf.addStatesForThreeQuarterLabelsConnectedAsIn(trainingInstances);
-		crf.addStartState();
+		MEMM memm = new MEMM(pipe, null);
+		// memm.addStatesForLabelsConnectedAsIn(trainingInstances);
+		memm.addFullyConnectedStatesForLabels();
+		memm.setWeightsDimensionAsIn(trainingInstances);
+		memm.addStartState();
 
-		CRFTrainerByLabelLikelihood trainer = new CRFTrainerByLabelLikelihood(crf);
-		trainer.setGaussianPriorVariance(10.0);
-
-		/*FileOutputStream fos = new FileOutputStream("model/ner_hmm.model");
-		ObjectOutputStream oos = new ObjectOutputStream(fos);
-		oos.writeObject(hmm);
-		
-		oos.close();*/
+		MEMMTrainer trainer = new MEMMTrainer(memm);
 		
 		trainer.addEvaluator(new PerClassAccuracyEvaluator(testingInstances, "testing"));
 		trainer.addEvaluator(new PerClassAccuracyEvaluator(trainingInstances, "training"));
 		trainer.addEvaluator(new TokenAccuracyEvaluator(testingInstances, "testing"));
 		trainer.addEvaluator(new TokenAccuracyEvaluator(trainingInstances, "training"));
-		
 		trainer.train(trainingInstances);
+	}
+	
+	public static void testUsingModel(String s) {
+		
 	}
 
 	public static void main(String[] args) throws Exception {
-		TrainCRF.run("data/dataset.txt");
+		TrainMEMM trainer = new TrainMEMM("data/train.txt", "data/test.txt");
 	}
 }
