@@ -13,7 +13,7 @@ import cc.mallet.types.*;
 import cc.mallet.util.*;
 
 public class TrainHMM {
-	public TrainHMM(String trainingFilename, String testingFilename) throws IOException {
+	public static void run(String datasetFilename) throws IOException {
 		ArrayList<Pipe> pipes = new ArrayList<Pipe>();
 
 		pipes.add(new SimpleTaggerSentence2TokenSequence());
@@ -21,51 +21,41 @@ public class TrainHMM {
 
 		Pipe pipe = new SerialPipes(pipes);
 
-		InstanceList trainingInstances = new InstanceList(pipe);
-		InstanceList testingInstances = new InstanceList(pipe);
-		// InstanceList unlabeledInstances = new InstanceList(pipe);
+		InstanceList instanceList = new InstanceList(pipe);
 
-		trainingInstances.addThruPipe(
-				new LineGroupIterator(new BufferedReader(new InputStreamReader(new FileInputStream(trainingFilename))),
+		instanceList.addThruPipe(
+				new LineGroupIterator(new BufferedReader(new InputStreamReader(new FileInputStream(datasetFilename))),
 						Pattern.compile("^\\s*$"), true));
-		testingInstances.addThruPipe(
-				new LineGroupIterator(new BufferedReader(new InputStreamReader(new FileInputStream(testingFilename))),
-						Pattern.compile("^\\s*$"), true));
-		/*
-		 * unlabeledInstances.addThruPipe( new LineGroupIterator(new
-		 * BufferedReader(new InputStreamReader(new
-		 * FileInputStream("data/unlabeled.txt"))), Pattern.compile("^\\s*$"),
-		 * true));
-		 */
+		
+		InstanceList[] instanceLists = instanceList.split(new Randoms(), new double[] {0.9, 0.1, 0.0});
+		InstanceList trainingInstances = instanceLists[0];
+		InstanceList testingInstances = instanceLists[1];
 
 		HMM hmm = new HMM(pipe, null);
 		hmm.addStatesForLabelsConnectedAsIn(trainingInstances);
 		// hmm.addStatesForBiLabelsConnectedAsIn(trainingInstances);
 
 		HMMTrainerByLikelihood trainer = new HMMTrainerByLikelihood(hmm);
-		TransducerEvaluator trainingEvaluator = new PerClassAccuracyEvaluator(trainingInstances, "training");
-		TransducerEvaluator testingEvaluator = new PerClassAccuracyEvaluator(testingInstances, "testing");
+		/*TransducerEvaluator trainingEvaluator = new PerClassAccuracyEvaluator(trainingInstances, "training");
+		TransducerEvaluator testingEvaluator = new PerClassAccuracyEvaluator(testingInstances, "testing");*/
 
+		trainer.addEvaluator(new PerClassAccuracyEvaluator(trainingInstances, "training"));
+		trainer.addEvaluator(new TokenAccuracyEvaluator(trainingInstances, "training"));
+		
+		trainer.addEvaluator(new PerClassAccuracyEvaluator(testingInstances, "testing"));
+		trainer.addEvaluator(new TokenAccuracyEvaluator(testingInstances, "testing"));
+		
 		trainer.train(trainingInstances);
 
-		trainingEvaluator.evaluate(trainer);
-		testingEvaluator.evaluate(trainer);
-
-		trainingEvaluator = new TokenAccuracyEvaluator(trainingInstances, "training");
-		testingEvaluator = new TokenAccuracyEvaluator(testingInstances, "testing");
-
-		trainingEvaluator.evaluate(trainer);
-		testingEvaluator.evaluate(trainer);
-
-		FileOutputStream fos = new FileOutputStream("data/ner_hmm.model");
+		/*FileOutputStream fos = new FileOutputStream("model/ner_hmm.model");
 		ObjectOutputStream oos = new ObjectOutputStream(fos);
 		oos.writeObject(hmm);
 		
-		oos.close();
+		oos.close();*/
 	}
 
 	public static void main(String[] args) throws Exception {
-		TrainHMM trainer = new TrainHMM("data/train.txt", "data/test.txt");
+		TrainHMM.run("data/dataset.txt");
 		//SimpleTagger.main(args);
 	}
 }

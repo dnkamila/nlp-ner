@@ -17,9 +17,10 @@ import cc.mallet.pipe.SimpleTaggerSentence2TokenSequence;
 import cc.mallet.pipe.TokenSequence2FeatureVectorSequence;
 import cc.mallet.pipe.iterator.LineGroupIterator;
 import cc.mallet.types.InstanceList;
+import cc.mallet.util.Randoms;
 
 public class TrainCRF {
-	public TrainCRF(String trainingFilename, String testingFilename) throws IOException {
+	public static void run(String datasetFilename) throws IOException {
 		ArrayList<Pipe> pipes = new ArrayList<Pipe>();
 
 		int[][] conjunctions = new int[2][];
@@ -31,15 +32,15 @@ public class TrainCRF {
 
 		Pipe pipe = new SerialPipes(pipes);
 
-		InstanceList trainingInstances = new InstanceList(pipe);
-		InstanceList testingInstances = new InstanceList(pipe);
+		InstanceList instanceList = new InstanceList(pipe);
 
-		trainingInstances.addThruPipe(
-				new LineGroupIterator(new BufferedReader(new InputStreamReader(new FileInputStream(trainingFilename))),
+		instanceList.addThruPipe(
+				new LineGroupIterator(new BufferedReader(new InputStreamReader(new FileInputStream(datasetFilename))),
 						Pattern.compile("^\\s*$"), true));
-		testingInstances.addThruPipe(
-				new LineGroupIterator(new BufferedReader(new InputStreamReader(new FileInputStream(testingFilename))),
-						Pattern.compile("^\\s*$"), true));
+		
+		InstanceList[] instanceLists = instanceList.split(new Randoms(), new double[] {0.9, 0.1, 0.0});
+		InstanceList trainingInstances = instanceLists[0];
+		InstanceList testingInstances = instanceLists[1];
 
 		CRF crf = new CRF(pipe, null);
 		// crf.addStatesForLabelsConnectedAsIn(trainingInstances);
@@ -49,28 +50,24 @@ public class TrainCRF {
 		CRFTrainerByLabelLikelihood trainer = new CRFTrainerByLabelLikelihood(crf);
 		trainer.setGaussianPriorVariance(10.0);
 
-		CRFWriter crfWriter = new CRFWriter("model/ner_crf.model") {
-			@Override
-			public boolean precondition(TransducerTrainer tt) {
-				// save the trained model after training finishes
-				return tt.getIteration() % Integer.MAX_VALUE == 0;
-			}
-		};
-		trainer.addEvaluator(crfWriter);
+		/*FileOutputStream fos = new FileOutputStream("model/ner_hmm.model");
+		ObjectOutputStream oos = new ObjectOutputStream(fos);
+		oos.writeObject(hmm);
+		
+		oos.close();*/
+		
+		//trainer.addEvaluator(crfWriter);
 		trainer.addEvaluator(new PerClassAccuracyEvaluator(testingInstances, "testing"));
 		trainer.addEvaluator(new PerClassAccuracyEvaluator(trainingInstances, "training"));
 		trainer.addEvaluator(new TokenAccuracyEvaluator(testingInstances, "testing"));
 		trainer.addEvaluator(new TokenAccuracyEvaluator(trainingInstances, "training"));
-		trainer.train(trainingInstances);
-	}
-	
-	public static void testUsingModel(String s) {
 		
+		trainer.train(trainingInstances);
 	}
 
 	public static void main(String[] args) throws Exception {
-		Main.generateDatasetMaterial();
-		Main.generateDataset();
-		TrainCRF trainer = new TrainCRF("data/train.txt", "data/test.txt");
+		/*Main.generateDatasetMaterial();
+		Main.generateDataset();*/
+		TrainCRF.run("data/dataset.txt");
 	}
 }
