@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.StringTokenizer;
 
+import cc.mallet.fst.SimpleTagger;
 import edu.stanford.nlp.tagger.maxent.MaxentTagger;
 
 public class Main {
@@ -41,6 +42,14 @@ public class Main {
 		
 		/*generateDatasetMaterialUnlabeled("data/dummy.txt");
 		generateDataset("data/dummy_dataset.txt");*/
+		
+		args = new String[3];
+		
+		args[0] = "--model-file";
+		args[1] = "model/ner_crf.model";
+		args[2] = "data/dummy_dataset.txt";
+		
+		SimpleTagger.main(args);
 	}
 
 	public static void generateDatasetMaterial(String filename) throws Exception {
@@ -164,10 +173,10 @@ public class Main {
 				firstCapitalized = firstCapitalized(tokenRaw) ? " FIRSTCAPITALIZED" : "";
 				allCapitalized = allCapitalized(tokenRaw) ? " ALLCAPITALIZED" : "";
 
-				bw.write(tokenLower + firstCapitalized + allCapitalized + firstToken + " " + prevPOS + " "
+				bw.write((corpusLabel == null || corpusLabel.size() == 0? "" : tokenLower) + firstCapitalized + allCapitalized + firstToken + " " + prevPOS + " "
 						+ corpusPOS.get(ii) + " " + nextPOS + prefixPerson + prefixOrganization + prefixLocation
 						+ suffixPerson + suffixLocation + suffixOrganization + valPrefixOneChar + valPrefixTwoChar
-						+ valPrefixThreeChar + " " + (corpusLabel == null || corpusLabel.size() == 0? "" : corpusLabel.get(ii)) + "\n");
+						+ valPrefixThreeChar + " " + (corpusLabel == null || corpusLabel.size() == 0? tokenLower : corpusLabel.get(ii)) + "\n");
 
 				prefixPerson = setPrefixPerson.contains(tokenLower) ? " PREFIXPERSON" : "";
 				prefixOrganization = setPrefixOrganization.contains(tokenLower) ? " PREFIXORGANIZATION" : "";
