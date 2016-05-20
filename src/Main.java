@@ -84,8 +84,14 @@ public class Main {
 				String[] temps = s.split("\\t");
 
 				s = temps[0];
+                                s = s.replace("enamex", "ENAMEX");
+                                s = s.replace("type", "TYPE");
 				s = s.replace("ENAMEX TYPE=", "");
+				s = s.replace("/ENAMEX TYPE=", "");
+                                s = s.replace("ENAMEX ", "ENAMEX>");
 				s = s.replaceAll("(?<=\\S)(?:(?<=\\p{Punct})|(?=\\p{Punct}))(?=\\S)", " ");
+				s = s.replace("(<", "( <");
+				s = s.replace(">)", "> )");
 				s = s.replace("< \" ", "<\"");
 				s = s.replace("< / ", "</");
 				s = s.replace(" \" >", "\">");
@@ -100,13 +106,13 @@ public class Main {
 					String temp = st.nextToken();
 					String tag = "";
 
-					if ("</ENAMEX>".equals(temp))
+					if ("</ENAMEX>".equalsIgnoreCase(temp))
 						type = "NON";
-					else if ("<\"PERSON\">".equals(temp))
+					else if ("<\"PERSON\">".equalsIgnoreCase(temp))
 						type = "PERSON";
-					else if ("<\"LOCATION\">".equals(temp))
+					else if ("<\"LOCATION\">".equalsIgnoreCase(temp))
 						type = "LOCATION";
-					else if ("<\"ORGANIZATION\">".equals(temp))
+					else if ("<\"ORGANIZATION\">".equalsIgnoreCase(temp))
 						type = "ORGANIZATION";
 					else {
 						if (stTagged.hasMoreTokens())
