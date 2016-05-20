@@ -1,20 +1,24 @@
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.StringTokenizer;
 
+import cc.mallet.fst.SimpleTagger;
 import edu.stanford.nlp.tagger.maxent.MaxentTagger;
 
 public class Main {
 	private static String corpusFilename = "data/training_data.txt";
 	private static String datasetFilename = "data/dataset.txt";
-	private static String trainingDatasetFilename = "data/training_dataset_fold-%d.txt";
-	private static String testingDatasetFilename = "data/testing_dataset_fold-%d.txt";
-
+	private static String unlabeledFilename = "data/testing_data_unannotated.txt";
+	private static String unlabeledDatasetFilename = "data/unlabeled_dataset.txt";
+	private static String labeledFilename = "data/labeled.txt";
+	
 	private static ArrayList<String> corpusToken = new ArrayList<String>();
 	private static ArrayList<String> corpusLabel = new ArrayList<String>();
 	private static ArrayList<String> corpusPOS = new ArrayList<String>();
@@ -38,12 +42,43 @@ public class Main {
 	private static HashSet<String> setSuffixLocation = new HashSet<String>();
 
 	public static void main(String[] args) throws Exception {
-		generateDatasetMaterial();
-		generateDataset();
+		/*generateDatasetMaterial(corpusFilename);
+		generateDataset(datasetFilename);*/
+		
+		generateDatasetMaterialUnlabeled(unlabeledFilename);
+		generateDataset(unlabeledDatasetFilename);
+		
+		PrintStream psOutput = new PrintStream(new FileOutputStream("data/temp.txt"));
+		System.setOut(psOutput);
+		
+		args = new String[3];
+		
+		args[0] = "--model-file";
+		args[1] = "model/ner_crf.model";
+		args[2] = unlabeledDatasetFilename;
+		
+		SimpleTagger.main(args);
+		
+		psOutput.close();
+		
+		BufferedReader br = new BufferedReader(new FileReader("data/temp.txt"));
+		BufferedWriter bw = new BufferedWriter(new FileWriter(labeledFilename));
+		
+		for(int ii = 0; ii < corpusToken.size(); ii++) {
+			if(!corpusToken.get(ii).equals("\n")) {
+			    bw.write(corpusToken.get(ii).trim() + " " + br.readLine());
+                        }
+                        bw.write("\n");
+		}
+		
+		br.close();
+		bw.close();
 	}
 
-	public static void generateDatasetMaterial() throws Exception {
-		BufferedReader br = new BufferedReader(new FileReader(corpusFilename));
+	public static void generateDatasetMaterial(String filename) throws Exception {
+		clearCorpusData();
+		
+		BufferedReader br = new BufferedReader(new FileReader(filename));
 
 		try {
 			String s;
@@ -51,8 +86,14 @@ public class Main {
 				String[] temps = s.split("\\t");
 
 				s = temps[0];
+                                s = s.replace("enamex", "ENAMEX");
+                                s = s.replace("type", "TYPE");
 				s = s.replace("ENAMEX TYPE=", "");
+				s = s.replace("/ENAMEX TYPE=", "");
+                                s = s.replace("ENAMEX ", "ENAMEX>");
 				s = s.replaceAll("(?<=\\S)(?:(?<=\\p{Punct})|(?=\\p{Punct}))(?=\\S)", " ");
+				s = s.replace("(<", "( <");
+				s = s.replace(">)", "> )");
 				s = s.replace("< \" ", "<\"");
 				s = s.replace("< / ", "</");
 				s = s.replace(" \" >", "\">");
@@ -67,13 +108,13 @@ public class Main {
 					String temp = st.nextToken();
 					String tag = "";
 
-					if ("</ENAMEX>".equals(temp))
+					if ("</ENAMEX>".equalsIgnoreCase(temp))
 						type = "NON";
-					else if ("<\"PERSON\">".equals(temp))
+					else if ("<\"PERSON\">".equalsIgnoreCase(temp))
 						type = "PERSON";
-					else if ("<\"LOCATION\">".equals(temp))
+					else if ("<\"LOCATION\">".equalsIgnoreCase(temp))
 						type = "LOCATION";
-					else if ("<\"ORGANIZATION\">".equals(temp))
+					else if ("<\"ORGANIZATION\">".equalsIgnoreCase(temp))
 						type = "ORGANIZATION";
 					else {
 						if (stTagged.hasMoreTokens())
@@ -101,8 +142,8 @@ public class Main {
 		}
 	}
 
-	public static void generateDataset() throws IOException {
-		BufferedWriter bw = new BufferedWriter(new FileWriter(datasetFilename));
+	public static void generateDataset(String filename) throws IOException {
+		BufferedWriter bw = new BufferedWriter(new FileWriter(filename));
 		generateResources();
 
 		String firstToken = " FIRSTOKEN";
@@ -161,10 +202,13 @@ public class Main {
 				firstCapitalized = firstCapitalized(tokenRaw) ? " FIRSTCAPITALIZED" : "";
 				allCapitalized = allCapitalized(tokenRaw) ? " ALLCAPITALIZED" : "";
 
-				bw.write(tokenLower + firstCapitalized + allCapitalized + firstToken + " " + prevPOS + " "
+				String toWrite = ((corpusLabel == null || corpusLabel.size() == 0? "" : tokenLower) + firstCapitalized + allCapitalized + firstToken + " " + prevPOS + " "
 						+ corpusPOS.get(ii) + " " + nextPOS + prefixPerson + prefixOrganization + prefixLocation
 						+ suffixPerson + suffixLocation + suffixOrganization + valPrefixOneChar + valPrefixTwoChar
-						+ valPrefixThreeChar + " " + corpusLabel.get(ii) + "\n");
+						+ valPrefixThreeChar + " " + (corpusLabel == null || corpusLabel.size() == 0? tokenLower : corpusLabel.get(ii)) + "\n");
+
+                                toWrite = toWrite.trim();
+                                bw.write(toWrite);
 
 				prefixPerson = setPrefixPerson.contains(tokenLower) ? " PREFIXPERSON" : "";
 				prefixOrganization = setPrefixOrganization.contains(tokenLower) ? " PREFIXORGANIZATION" : "";
@@ -195,7 +239,7 @@ public class Main {
 		return true;
 	}
 
-	private static void generateResources() throws IOException {
+	public static void generateResources() throws IOException {
 		loadFileToSet(prefixPersonFilename, setPrefixPerson);
 		loadFileToSet(prefixOrganizationFilename, setPrefixOrganization);
 		loadFileToSet(prefixLocationFilename, setPrefixLocation);
@@ -214,16 +258,61 @@ public class Main {
 		br.close();
 	}
 
-	public static void splitTrainingTesting() throws Exception {
-		BufferedReader br = new BufferedReader(new FileReader(corpusFilename));
-		BufferedWriter bwTrain = new BufferedWriter(new FileWriter(trainingDatasetFilename));
-		BufferedWriter bwTest = new BufferedWriter(new FileWriter(testingDatasetFilename));
-		
-	}
-	
 	private static String tagString(String stringToBeTagged) throws Exception {
 		MaxentTagger tagger = new MaxentTagger(prefixModelFilename + ".tagger");
 		String tagged = tagger.tagString(stringToBeTagged);
 		return tagged.trim();
+	}
+
+	public static void generateDatasetMaterialUnlabeled(String filename) throws Exception {
+		clearCorpusData();
+		
+		BufferedReader br = new BufferedReader(new FileReader(filename));
+
+		try {
+			String s;
+			while ((s = br.readLine()) != null && !s.equals("")) {
+				String[] temps = s.split("\\t");
+
+				s = temps[0];
+				s = s.replaceAll("(?<=\\S)(?:(?<=\\p{Punct})|(?=\\p{Punct}))(?=\\S)", " ");
+
+				StringTokenizer stTagged = new StringTokenizer(tagString(s.replaceAll("<[^>]*>", "")));
+				StringTokenizer st = new StringTokenizer(s);
+
+				while (st.hasMoreTokens()) {
+					String temp = st.nextToken();
+					String tag = "";
+
+					if (stTagged.hasMoreTokens())
+						tag = stTagged.nextToken().split("_")[1];
+					
+					corpusToken.add(temp);
+					corpusPOS.add(tag);
+				}
+
+				corpusToken.add("\n");
+				corpusPOS.add("\n");
+			}
+			corpusToken.remove(corpusToken.size() - 1);
+			corpusPOS.remove(corpusPOS.size() - 1);
+
+			if (corpusToken.size() != corpusPOS.size())
+				throw new Exception();
+
+			limit = corpusToken.size();
+		} finally {
+			br.close();
+		}
+	}
+	
+	private static void clearCorpusData() {
+		corpusToken.clear();
+		corpusPOS.clear();
+		corpusLabel.clear();
+	}
+	
+	private static void clearCorpusData(ArrayList<String> arr) {
+		arr.clear();
 	}
 }

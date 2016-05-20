@@ -1,7 +1,9 @@
 import java.io.BufferedReader;
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 import java.util.regex.Pattern;
 
@@ -18,7 +20,7 @@ import cc.mallet.types.InstanceList;
 import cc.mallet.util.Randoms;
 
 public class TrainHMM {
-	public static void run(String datasetFilename) throws IOException {
+	public static void run(String datasetFilename, String modelFilename) throws IOException {
 		ArrayList<Pipe> pipes = new ArrayList<Pipe>();
 
 		pipes.add(new SimpleTaggerSentence2TokenSequence());
@@ -41,7 +43,6 @@ public class TrainHMM {
 		// hmm.addStatesForBiLabelsConnectedAsIn(trainingInstances);
 
 		HMMTrainerByLikelihood trainer = new HMMTrainerByLikelihood(hmm);
-		
 		trainer.addEvaluator(new PerClassAccuracyEvaluator(trainingInstances, "training"));
 		trainer.addEvaluator(new TokenAccuracyEvaluator(trainingInstances, "training"));
 		
@@ -50,14 +51,16 @@ public class TrainHMM {
 		
 		trainer.train(trainingInstances);
 
-		/*FileOutputStream fos = new FileOutputStream("model/ner_hmm.model");
+		FileOutputStream fos = new FileOutputStream(modelFilename);
 		ObjectOutputStream oos = new ObjectOutputStream(fos);
 		oos.writeObject(hmm);
 		
-		oos.close();*/
+		oos.close();
 	}
 
 	public static void main(String[] args) throws Exception {
-		TrainHMM.run("data/dataset.txt");
+		/*Main.generateDatasetMaterial();
+		Main.generateDataset();*/
+		TrainHMM.run("data/dataset.txt", "model/ner_hmm.model");
 	}
 }
