@@ -40,10 +40,10 @@ public class Main {
 	private static HashSet<String> setSuffixLocation = new HashSet<String>();
 
 	public static void main(String[] args) throws Exception {
-		generateDatasetMaterial(corpusFilename);
-		generateDataset(datasetFilename);
+		/*generateDatasetMaterial(corpusFilename);
+		generateDataset(datasetFilename);*/
 		
-		/*generateDatasetMaterialUnlabeled("data/dummy.txt");
+		generateDatasetMaterialUnlabeled("data/dummy.txt");
 		generateDataset("data/dummy_dataset.txt");
 		
 		PrintStream psOutput = new PrintStream(new FileOutputStream("data/dummy_temp.txt"));
@@ -62,15 +62,11 @@ public class Main {
 		BufferedReader br = new BufferedReader(new FileReader("data/dummy_temp.txt"));
 		BufferedWriter bw = new BufferedWriter(new FileWriter(labeledFilename));
 		
-		System.out.println("ayam");
-		System.out.println(corpusToken.size());
-		for(int ii = 0; ii < corpusToken.size(); ii++) {
-			System.out.println(corpusToken.get(ii) + " " + br.readLine() + "\n");
-			//bw.write(corpusToken.get(ii) + " " + br.readLine() + "\n");
-		}
+		for(int ii = 0; ii < corpusToken.size(); ii++)
+			bw.write(corpusToken.get(ii) + " " + br.readLine() + "\n");
 		
 		br.close();
-		bw.close();*/
+		bw.close();
 	}
 
 	public static void generateDatasetMaterial(String filename) throws Exception {
@@ -296,8 +292,6 @@ public class Main {
 				throw new Exception();
 
 			limit = corpusToken.size();
-			
-			System.out.println(corpusToken.get(corpusToken.size()-2) + " " + corpusPOS.get(corpusPOS.size()-2));
 		} finally {
 			br.close();
 		}
