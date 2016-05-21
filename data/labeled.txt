@@ -16,21 +16,21 @@ wilayah NON
 Filipina LOCATION 
 . NON 
 
- Menurut NON 
+Menurut 
 Luhut NON 
-, NON 
+, PERSON 
 selama NON 
 upaya NON 
 pembebasan NON 
 , NON 
-Pemerintah ORGANIZATION 
+Pemerintah NON 
 Indonesia ORGANIZATION 
-selalu NON 
+selalu ORGANIZATION 
 berkoordinasi NON 
 dengan NON 
 Pemerintah NON 
 Filipina NON 
-dengan NON 
+dengan LOCATION 
 bertukar NON 
 informasi NON 
 , NON 
@@ -41,14 +41,14 @@ dan NON
 asistensi NON 
 . NON 
 
- Jaksa NON 
-Agung NON 
+Jaksa NON 
+Agung 
 Prasetyo NON 
 dan NON 
-Menhub NON 
-Jonan PERSON 
+Menhub PERSON 
+Jonan NON 
 menandatangani NON 
-ini NON 
+ini PERSON 
 dihadapan NON 
 beberapa NON 
 staf NON 
@@ -56,9 +56,9 @@ kedua NON
 pihak NON 
 . NON 
 
- Saya NON 
+Saya NON 
 urut NON 
-dari NON 
+dari 
 paling NON 
 bawah NON 
 masalah NON 
@@ -76,17 +76,17 @@ nama NON
 Kemenhub NON 
 masih NON 
 banyak NON 
-yang NON 
+yang ORGANIZATION 
 tercecer NON 
 di NON 
 kiri NON 
 kanannya NON 
 . NON 
 
- Jadi NON 
+Jadi NON 
 ini NON 
 mohon NON 
-bantuan NON 
+bantuan 
 bapak NON 
 kerja NON 
 samanya NON 
@@ -101,20 +101,20 @@ negara NON
 , NON 
 " NON 
 kata NON 
-Jonan PERSON 
+Jonan NON 
 di NON 
-Kejagung LOCATION 
+Kejagung NON 
 , NON 
-Jl LOCATION 
-Sultan LOCATION 
-Hasanuddin LOCATION 
+Jl PERSON 
+Sultan NON 
+Hasanuddin ORGANIZATION 
 , NON 
 Jakarta LOCATION 
 Selatan LOCATION 
-, NON 
+, LOCATION 
 Kamis NON 
-( NON 
-24 NON 
+( LOCATION 
+24 LOCATION 
 / NON 
 3 NON 
 / NON 
@@ -122,29 +122,29 @@ Kamis NON
 ) NON 
 . NON 
 
- Misal NON 
+Misal NON 
 kalau NON 
-Kemenhub ORGANIZATION 
+Kemenhub NON 
 ingin NON 
-ingin NON 
+ingin 
 memperbaiki NON 
 bandara NON 
-, NON 
-Jonan PERSON 
+, ORGANIZATION 
+Jonan NON 
 bilang NON 
 ada NON 
 saja NON 
 pihak NON 
-yang NON 
+yang PERSON 
 menuntut NON 
 . NON 
 
- " NON 
+" NON 
 Ini NON 
 diklaim NON 
 bukan NON 
 aset NON 
-negara NON 
+negara 
 kalau NON 
 toh NON 
 sudah NON 
@@ -165,26 +165,26 @@ penguasaan NON
 di NON 
 orang NON 
 lain NON 
-dan NON 
+dan ORGANIZATION 
 sebagainya NON 
 , NON 
 " NON 
 kata NON 
-Jonan PERSON 
-. PERSON 
+Jonan NON 
+. NON 
 
- Selanjutnya NON 
-Jonan PERSON 
+Selanjutnya NON 
+Jonan NON 
 mengeluhkan NON 
 kalau NON 
-Kemenhub NON 
-sering NON 
-digugat NON 
+Kemenhub PERSON 
+sering PERSON 
+digugat 
 dalam NON 
-peradilan NON 
+peradilan PERSON 
 Tata NON 
 Usaha NON 
-Negara NON 
+Negara ORGANIZATION 
 ( NON 
 TUN NON 
 ) NON 
@@ -193,20 +193,20 @@ ada NON
 pihak NON 
 yang NON 
 meminta NON 
-izin NON 
+izin ORGANIZATION 
 operasi NON 
 tidak NON 
 diberi NON 
 . NON 
 
- Dengan NON 
+Dengan NON 
 begitu NON 
 , NON 
 dalam NON 
 nota NON 
 kesepakatan NON 
 ini NON 
-juga NON 
+juga 
 disepakati NON 
 bahwa NON 
 Jaksa NON 
@@ -214,22 +214,22 @@ Pengacara NON
 Negara NON 
 akan NON 
 membantu NON 
-Kemenhub ORGANIZATION 
+Kemenhub NON 
 bila NON 
 digugat NON 
 ke NON 
-TUN ORGANIZATION 
-. ORGANIZATION 
+TUN NON 
+. NON 
 
- Kalau NON 
+Kalau NON 
 UU NON 
-pelayaran NON 
+pelayaran ORGANIZATION 
 ada NON 
 di NON 
 dalamnya NON 
-kalau NON 
+kalau ORGANIZATION 
 kapal NON 
-asing NON 
+asing 
 mau NON 
 beroperasi NON 
 harus NON 
@@ -237,7 +237,7 @@ minta NON
 izin NON 
 . NON 
 
- Menteri NON 
+Menteri NON 
 digugat NON 
 ke NON 
 TUN NON 
@@ -246,70 +246,70 @@ sedangkan NON
 kalau NON 
 dikasih NON 
 izin NON 
-, NON 
+, 
 orang NON 
 lain NON 
 men NON 
-- NON 
+- ORGANIZATION 
 TUN NON 
 menteri NON 
 . NON 
 
- Jadi NON 
+Jadi NON 
 bedanya NON 
 cuma NON 
 kehilangan NON 
 tinta NON 
 pulpen NON 
 kalau NON 
-saya NON 
+saya ORGANIZATION 
 tapi NON 
 tetap NON 
-di NON 
+di 
 - NON 
 TUN NON 
 , NON 
 dituntut NON 
 . NON 
 
- Ini NON 
+Ini NON 
 harus NON 
 kita NON 
 selesaikan NON 
 secara NON 
 hukum NON 
 dan NON 
-sebagainya NON 
+sebagainya ORGANIZATION 
 , NON 
 " NON 
 ujar NON 
-Jonan PERSON 
+Jonan 
 di NON 
 depan NON 
 Jaksa NON 
 Agung NON 
 . NON 
 
- Menurut NON 
-Jonan PERSON 
-Jamintel PERSON 
-Kejagung PERSON 
+Menurut NON 
+Jonan NON 
+Jamintel NON 
+Kejagung NON 
 dan NON 
-Kemenhub ORGANIZATION 
-bisa NON 
+Kemenhub NON 
+bisa PERSON 
 saling NON 
 bertukar NON 
 informasi NON 
 penting NON 
 antar NON 
-instansi NON 
+instansi 
 kalau NON 
-dibutuhkan NON 
-. NON 
+dibutuhkan PERSON 
+. PERSON 
 
- " NON 
+" PERSON 
 Kadang NON 
-kami NON 
+kami ORGANIZATION 
 perlu NON 
 informasi NON 
 dari NON 
@@ -320,7 +320,7 @@ bapak NON
 Jaksa NON 
 Agung NON 
 Prasetyo NON 
-) NON 
+) 
 untuk NON 
 pengamanan NON 
 dan NON 
@@ -329,35 +329,35 @@ transportasi NON
 , NON 
 " NON 
 kata NON 
-Jonan PERSON 
-. PERSON 
+Jonan NON 
+. NON 
 
- Soal NON 
+Soal NON 
 penegakan NON 
-hukum NON 
+hukum PERSON 
 juga NON 
 disepakati NON 
 dalam NON 
 MoU NON 
 itu NON 
 , NON 
-Jonan PERSON 
+Jonan NON 
 secara NON 
 pribadi NON 
-mengatakan NON 
-mendukung NON 
-hal NON 
+mengatakan PERSON 
+mendukung PERSON 
+hal 
 itu NON 
 . NON 
 
- Menhub NON 
+Menhub NON 
 sebagai NON 
 regulator NON 
 dan NON 
 pengguna NON 
 anggaran NON 
 mengaku NON 
-memiliki NON 
+memiliki PERSON 
 hambatan NON 
 dan NON 
 kompleksitas NON 
@@ -365,18 +365,18 @@ akibat NON
 dikejar NON 
 - NON 
 kejar NON 
-deadline NON 
+deadline 
 proyek NON 
 . NON 
 
- " NON 
+" NON 
 Contohnya NON 
 misal NON 
 pembangunan NON 
 LRT NON 
 di NON 
 kota NON 
-Palembang LOCATION 
+Palembang NON 
 , NON 
 itu NON 
 targetnya NON 
@@ -385,7 +385,7 @@ untuk NON
 pesta NON 
 ASEAN NON 
 Games NON 
-Juni NON 
+Juni 
 2018 NON 
 , NON 
 ini NON 
@@ -393,7 +393,7 @@ harus NON
 diuber NON 
 , NON 
 makanya NON 
-kami NON 
+kami LOCATION 
 minta NON 
 payung NON 
 hukum NON 
@@ -405,7 +405,7 @@ tidak NON
 salah NON 
 . NON 
 
- Pasti NON 
+Pasti NON 
 akan NON 
 dikonsultasikan NON 
 dengan NON 
@@ -415,15 +415,15 @@ Kejari NON
 Sumsel NON 
 dan NON 
 Kejari NON 
-Palembang LOCATION 
+Palembang NON 
 supaya NON 
 nggak NON 
 salah NON 
 . NON 
 
- Kadang NON 
+Kadang NON 
 kita NON 
-di NON 
+di 
 kementerian NON 
 teknis NON 
 yang NON 
@@ -431,18 +431,18 @@ pentnig NON
 jadi NON 
 hanya NON 
 prosesnya NON 
-menurut NON 
+menurut LOCATION 
 saya NON 
 prosesnya NON 
-harus NON 
+harus LOCATION 
 betul NON 
 , NON 
 " NON 
 ujar NON 
-Jonan PERSON 
-. PERSON 
+Jonan 
+. NON 
 
- Menanggapi NON 
+Menanggapi NON 
 hal NON 
 itu NON 
 kemudian NON 
@@ -453,47 +453,47 @@ Prasetyo NON
 mengataskan NON 
 bersedia NON 
 mendampingi NON 
-Kemenhub ORGANIZATION 
-. ORGANIZATION 
+Kemenhub NON 
+. NON 
 
- Kejagung NON 
+Kejagung NON 
 meluncurkan NON 
 program NON 
 TP4 NON 
-( NON 
-Tim ORGANIZATION 
-Pengawal ORGANIZATION 
-dan ORGANIZATION 
-Pengaman ORGANIZATION 
-Pemerintahan ORGANIZATION 
-dan ORGANIZATION 
-Pembangunan ORGANIZATION 
-) ORGANIZATION 
-. ORGANIZATION 
+( PERSON 
+Tim NON 
+Pengawal 
+dan NON 
+Pengaman NON 
+Pemerintahan NON 
+dan NON 
+Pembangunan NON 
+) NON 
+. NON 
 
- Program NON 
+Program PERSON 
 ini NON 
 sudah NON 
 mulai NON 
-dilaksanakan NON 
+dilaksanakan ORGANIZATION 
 di NON 
-pusat NON 
+pusat 
 dan NON 
 daerah NON 
 dengan NON 
 bentuk NON 
 Kejari NON 
-dan NON 
-Kejati NON 
+dan ORGANIZATION 
+Kejati ORGANIZATION 
 sebagai NON 
 pendamping NON 
 di NON 
 daerah NON 
 . NON 
 
- Perhubungan NON 
+Perhubungan NON 
 saya NON 
-rasa NON 
+rasa 
 banyak NON 
 mengeluarkan NON 
 izin NON 
@@ -505,27 +505,27 @@ ini NON
 akan NON 
 membutuhkan NON 
 jasa NON 
-kita NON 
+kita ORGANIZATION 
 supaya NON 
-tidak NON 
+tidak ORGANIZATION 
 ada NON 
 penyimpangan NON 
 , NON 
 " NON 
 kata NON 
-Jaksa NON 
+Jaksa 
 Agung NON 
-Prasetyo PERSON 
-. PERSON 
+Prasetyo NON 
+. NON 
 
- Sebelumnya NON 
+Sebelumnya NON 
 , NON 
 Menteri NON 
 Luar NON 
 Negeri NON 
 RI NON 
-Retno PERSON 
-Marsudi PERSON 
+Retno NON 
+Marsudi NON 
 pun NON 
 menegaskan NON 
 hal NON 
@@ -536,21 +536,21 @@ mengadakan NON
 rapat NON 
 dengan NON 
 Menko NON 
-Polhukam ORGANIZATION 
-Luhut ORGANIZATION 
-Pandjaitan ORGANIZATION 
-dan ORGANIZATION 
-Panglima ORGANIZATION 
-Tentara ORGANIZATION 
-Nasional ORGANIZATION 
-Indonesia ORGANIZATION 
-Gatot ORGANIZATION 
-Nurmantyo ORGANIZATION 
-. ORGANIZATION 
+Polhukam NON 
+Luhut NON 
+Pandjaitan NON 
+dan PERSON 
+Panglima PERSON 
+Tentara 
+Nasional NON 
+Indonesia NON 
+Gatot NON 
+Nurmantyo NON 
+. NON 
 
- Saya NON 
-mengundang NON 
-teman NON 
+Saya LOCATION 
+mengundang LOCATION 
+teman LOCATION 
 - NON 
 teman NON 
 Kemenhub NON 
@@ -561,24 +561,24 @@ macam NON
 semua NON 
 instrumen NON 
 atau NON 
-hal NON 
-- NON 
-hal NON 
+hal ORGANIZATION 
+- ORGANIZATION 
+hal ORGANIZATION 
 yang NON 
 berkitan NON 
-dengan NON 
-penegakan NON 
-hukum NON 
-baik NON 
-pusat NON 
+dengan ORGANIZATION 
+penegakan ORGANIZATION 
+hukum ORGANIZATION 
+baik ORGANIZATION 
+pusat ORGANIZATION 
 maupun NON 
-daerah NON 
+daerah 
 karena NON 
 TP4 NON 
 ada NON 
 di NON 
 daerah NON 
-juga NON 
+juga ORGANIZATION 
 dan NON 
 terbuka NON 
 kami NON 
@@ -588,55 +588,55 @@ mendampingi NON
 , NON 
 " NON 
 tutup NON 
-Prasetyo PERSON 
-. PERSON 
+Prasetyo NON 
+. NON 
 
- Komisi ORGANIZATION 
-Pengawasan ORGANIZATION 
-dan ORGANIZATION 
-Persaingan ORGANIZATION 
-Usaha ORGANIZATION 
-( ORGANIZATION 
-KPPU ORGANIZATION 
+Komisi NON 
+Pengawasan NON 
+dan NON 
+Persaingan NON 
+Usaha NON 
+( NON 
+KPPU NON 
 ) NON 
 pernah NON 
 mengirimkan NON 
 masukan NON 
 ke NON 
 Menhub NON 
-Ignasius PERSON 
-Jonan PERSON 
-. PERSON 
+Ignasius NON 
+Jonan NON 
+. NON 
 
- " NON 
+" NON 
 KPPU NON 
 merekomendasikan NON 
 dihilangkan NON 
 , NON 
 karena NON 
 ini NON 
-menghambat NON 
-taksi NON 
-konvensional NON 
-bersaing NON 
-menerapkan NON 
+menghambat PERSON 
+taksi PERSON 
+konvensional 
+bersaing ORGANIZATION 
+menerapkan ORGANIZATION 
 tarif NON 
 rendah NON 
 , NON 
 " NON 
-jelas NON 
+jelas ORGANIZATION 
 Ketua NON 
-KPPU ORGANIZATION 
-M ORGANIZATION 
-. ORGANIZATION 
-Syarkawi ORGANIZATION 
-Rauf ORGANIZATION 
-saat NON 
-berbincang NON 
-dengan NON 
-detikcom ORGANIZATION 
+KPPU NON 
+M NON 
+. NON 
+Syarkawi NON 
+Rauf NON 
+saat PERSON 
+berbincang PERSON 
+dengan PERSON 
+detikcom 
 , NON 
-Kamis NON 
+Kamis ORGANIZATION 
 ( NON 
 24 NON 
 / NON 
@@ -646,7 +646,7 @@ Kamis NON
 ) NON 
 . NON 
 
- Tak NON 
+Tak NON 
 hanya NON 
 soal NON 
 tarif NON 
@@ -654,15 +654,15 @@ bawah NON
 saja NON 
 , NON 
 sejumlah NON 
-aturan NON 
+aturan ORGANIZATION 
 yang NON 
 menghambat NON 
-taksi NON 
-konvensional NON 
+taksi PERSON 
+konvensional PERSON 
 , NON 
 juga NON 
 disarankan NON 
-dihapuskan NON 
+dihapuskan ORGANIZATION 
 agar NON 
 persaingan NON 
 dengan NON 
@@ -670,14 +670,14 @@ layanan NON
 berbasis NON 
 aplikasi NON 
 seperti NON 
-Uber ORGANIZATION 
-dan ORGANIZATION 
-GrabCar ORGANIZATION 
-bisa NON 
+Uber NON 
+dan NON 
+GrabCar NON 
+bisa 
 dilakukan NON 
 . NON 
 
- " NON 
+" NON 
 Biaya NON 
 kir NON 
 yang NON 
@@ -699,14 +699,14 @@ ini NON
 membantu NON 
 transportasi NON 
 , NON 
-" NON 
+" ORGANIZATION 
 urai NON 
-dia NON 
+dia ORGANIZATION 
 . NON 
 
- Kendaraan NON 
+Kendaraan NON 
 operasional NON 
-juga NON 
+juga 
 sebaiknya NON 
 dibatasi NON 
 menjadi NON 
@@ -721,9 +721,9 @@ kendaraan NON
 pribadi NON 
 yang NON 
 nyaman NON 
-. NON 
+. ORGANIZATION 
 
- Sementara NON 
+Sementara NON 
 itu NON 
 soal NON 
 layanan NON 
@@ -734,7 +734,7 @@ aplikasi NON
 KPPU NON 
 melihat NON 
 tidak NON 
-ada NON 
+ada 
 Indonesia NON 
 lambat NON 
 dalam NON 
@@ -746,15 +746,15 @@ bidang NON
 transportasi NON 
 . NON 
 
- Syarkawi NON 
+Syarkawi ORGANIZATION 
 membandingkan NON 
-dengan NON 
+dengan ORGANIZATION 
 Singapura NON 
 yang NON 
 bahkan NON 
 pada NON 
 2015 NON 
-malah NON 
+malah 
 mengundang NON 
 Uber NON 
 dan NON 
@@ -763,12 +763,12 @@ berusaha NON
 di NON 
 negara NON 
 mereka NON 
-. NON 
+. ORGANIZATION 
 
- Di NON 
+Di NON 
 Singapura NON 
 semua NON 
-kendaraan NON 
+kendaraan LOCATION 
 layanan NON 
 aplikasi NON 
 terdata NON 
@@ -778,46 +778,46 @@ taksi NON
 sehingga NON 
 keamanan NON 
 dan NON 
-kenyamanan NON 
+kenyamanan 
 penumpang NON 
 terjamin NON 
 . NON 
 
- Gara NON 
+Gara LOCATION 
 - NON 
 gara NON 
 jaketnya NON 
 , NON 
 vokalis NON 
-Joe PERSON 
-Jonas PERSON 
+Joe NON 
+Jonas ORGANIZATION 
 ( NON 
-26 NON 
+26 ORGANIZATION 
 ) NON 
 , NON 
 mantan NON 
 personel NON 
 band NON 
-Jonas PERSON 
-Brothers PERSON 
-dari NON 
-AS LOCATION 
+Jonas 
+Brothers NON 
+dari LOCATION 
+AS NON 
 , NON 
 membuat NON 
 heboh NON 
 sejumlah NON 
 netizen NON 
-Indonesia LOCATION 
+Indonesia NON 
 . NON 
 
- Menko NON 
-Polhukam ORGANIZATION 
-Luhut ORGANIZATION 
-Pandjaitan ORGANIZATION 
+Menko NON 
+Polhukam NON 
+Luhut NON 
+Pandjaitan NON 
 menjamin NON 
 Uber NON 
 dan NON 
-GrabCar NON 
+GrabCar 
 akan NON 
 mudah NON 
 dalam NON 
@@ -825,8 +825,8 @@ mengurus NON
 perizinan NON 
 . NON 
 
- Dengan NON 
-jaminan NON 
+Dengan PERSON 
+jaminan PERSON 
 dua NON 
 menteri NON 
 yang NON 
@@ -837,55 +837,55 @@ Menhub NON
 Ignasius PERSON 
 Jonan PERSON 
 dan NON 
-Menkominfo NON 
+Menkominfo LOCATION 
 Rudiantara NON 
 , NON 
 proses NON 
 akan NON 
 mudah NON 
-. NON 
+. LOCATION 
 
- Penyanyi NON 
-Demi NON 
+Penyanyi NON 
+Demi 
 Lovato NON 
-( NON 
-22 NON 
-) NON 
+( PERSON 
+22 PERSON 
+) PERSON 
 bertekad NON 
-mulai NON 
+mulai ORGANIZATION 
 mencintai NON 
-tubuhnya NON 
+tubuhnya ORGANIZATION 
 sendiri NON 
 dan NON 
 akan NON 
 memperlakukan NON 
 tubuhnya NON 
 dengan NON 
-baik NON 
+baik 
 melalui NON 
 gaya NON 
 hidup NON 
 sehat NON 
 . NON 
 
- Tapi NON 
+Tapi NON 
 saya NON 
 katakan NON 
 tadi NON 
-sama NON 
-Grab NON 
+sama PERSON 
+Grab PERSON 
 , NON 
 Organda NON 
-, NON 
+, PERSON 
 dan NON 
 Uber NON 
 , NON 
 dua NON 
 menteri NON 
-yang NON 
+yang 
 terlibat NON 
 ini NON 
-memiliki NON 
+memiliki ORGANIZATION 
 integritas NON 
 yang NON 
 baik NON 
@@ -897,83 +897,83 @@ dalam NON
 jumpa NON 
 pers NON 
 di NON 
-Kemenko ORGANIZATION 
-Polhukam ORGANIZATION 
-, ORGANIZATION 
-Jl ORGANIZATION 
-Medan ORGANIZATION 
-Merdeka ORGANIZATION 
-Barat ORGANIZATION 
-, ORGANIZATION 
-Jakarta ORGANIZATION 
+Kemenko NON 
+Polhukam NON 
+, NON 
+Jl NON 
+Medan NON 
+Merdeka NON 
+Barat NON 
+, NON 
+Jakarta 
 , NON 
 Kamis NON 
 ( NON 
 24 NON 
 / NON 
-3 NON 
+3 ORGANIZATION 
 / NON 
-2016 NON 
+2016 ORGANIZATION 
 ) NON 
 . NON 
 
- Zuckerberg PERSON 
+Zuckerberg ORGANIZATION 
 juga NON 
 bernostalgia NON 
 tentang NON 
 kunjungannya NON 
 ke NON 
-Indonesia LOCATION 
+Indonesia NON 
 beberapa NON 
 tahun NON 
 lalu NON 
 . NON 
 
- Sebelumnya NON 
+Sebelumnya NON 
 , NON 
-Jokowi PERSON 
-menyatakan NON 
+Jokowi NON 
+menyatakan PERSON 
 harapannya NON 
 agar NON 
 Facebook NON 
 bisa NON 
-membantu NON 
-mewujudkan NON 
+membantu ORGANIZATION 
+mewujudkan ORGANIZATION 
 visi NON 
-mengembangkan NON 
-Indonesia NON 
-menjadi NON 
-ekonomi NON 
+mengembangkan LOCATION 
+Indonesia LOCATION 
+menjadi LOCATION 
+ekonomi LOCATION 
 digital NON 
-terbesar NON 
+terbesar LOCATION 
 di NON 
-Asia LOCATION 
-Tenggara LOCATION 
+Asia NON 
+Tenggara NON 
 pada NON 
 2020 NON 
 . NON 
 
- Bila NON 
+Bila NON 
 kemudian NON 
 muncul NON 
 keluhan NON 
-adanya NON 
-kesulitan NON 
+adanya 
+kesulitan PERSON 
 , NON 
 bisa NON 
 disampaikan NON 
 ke NON 
 kantor NON 
-Menko NON 
+Menko LOCATION 
 Polhukam NON 
 . NON 
 
- Menhub NON 
-Ignasius PERSON 
-Jonan PERSON 
+Menhub NON 
+Ignasius NON 
+Jonan 
 menyampaikan NON 
 serangkaian NON 
-aturan NON 
+aturan PERSON 
 yang NON 
 mesti NON 
 dipenuhi NON 
@@ -983,77 +983,77 @@ GrabCar NON
 hingga NON 
 31 NON 
 Mei NON 
-mendatang NON 
+mendatang LOCATION 
 . NON 
 
- " NON 
+" NON 
 Nggak NON 
 boleh NON 
 keliling NON 
-kayak NON 
-taksi NON 
+kayak LOCATION 
+taksi LOCATION 
 , NON 
 nggak NON 
 boleh NON 
-mangkal NON 
+mangkal 
 , NON 
 " NON 
 jelas NON 
-Jonan PERSON 
+Jonan NON 
 dalam NON 
 jumpa NON 
 pers NON 
 di NON 
-Kemenko ORGANIZATION 
-Polhukam ORGANIZATION 
-, ORGANIZATION 
-Jakarta ORGANIZATION 
-, NON 
+Kemenko NON 
+Polhukam NON 
+, LOCATION 
+Jakarta LOCATION 
+, LOCATION 
 Kamis NON 
-( NON 
+( 
 24 NON 
-/ NON 
-3 NON 
+/ PERSON 
+3 PERSON 
 / NON 
 2016 NON 
 ) NON 
 . NON 
 
- Dia NON 
+Dia NON 
 menyarankan NON 
-agar NON 
-Uber ORGANIZATION 
+agar ORGANIZATION 
+Uber NON 
 atau ORGANIZATION 
-GrabCar ORGANIZATION 
+GrabCar NON 
 membuat NON 
 tempat NON 
 untuk NON 
 kendaraannya NON 
-armadanya NON 
+armadanya 
 . NON 
 
- Dalam NON 
+Dalam NON 
 jumpa NON 
 pers NON 
 di NON 
-Kemenko ORGANIZATION 
-Polhukam ORGANIZATION 
+Kemenko NON 
+Polhukam NON 
 , NON 
 Kamis NON 
 ( NON 
 24 NON 
 / NON 
 3 NON 
-/ NON 
+/ PERSON 
 2016 NON 
 ) NON 
 sejumlah NON 
 persyaratan NON 
-harus NON 
-dilakukan NON 
+harus ORGANIZATION 
+dilakukan ORGANIZATION 
 . NON 
 
- " NON 
+" LOCATION 
 Hari NON 
 ini NON 
 , NON 
@@ -1064,43 +1064,43 @@ kelanjutan NON
 kerja NON 
 sama NON 
 meningkatkan NON 
-konektivitas NON 
+konektivitas 
 dan NON 
 kesempatan NON 
 akses NON 
-internet NON 
+internet ORGANIZATION 
 bagi NON 
-seluruh NON 
+seluruh ORGANIZATION 
 warga NON 
-Indonesia LOCATION 
+Indonesia NON 
 , NON 
 " NON 
 kata NON 
 dia NON 
-. NON 
+. 
 
- Kemudian NON 
+Kemudian NON 
 juga NON 
 , NON 
 para NON 
-sopir NON 
-yang NON 
+sopir ORGANIZATION 
+yang ORGANIZATION 
 mengemudikan NON 
 mobil NON 
 yang NON 
 tergabung NON 
 dalam NON 
-Uber ORGANIZATION 
-dan ORGANIZATION 
-GrabCar ORGANIZATION 
+Uber NON 
+dan NON 
+GrabCar NON 
 mesti NON 
 SIM NON 
 A NON 
 Umum NON 
 . NON 
 
- Sebuah NON 
-bom NON 
+Sebuah NON 
+bom 
 yang NON 
 diletakkan NON 
 di NON 
@@ -1120,17 +1120,17 @@ Kamis NON
 1 NON 
 / NON 
 2016 NON 
-) NON 
+) LOCATION 
 sekitar NON 
 pukul NON 
 19 NON 
 . NON 
 30 NON 
-waktu NON 
+waktu 
 setempat NON 
 . NON 
 
- Ledakan NON 
+Ledakan NON 
 terjadi NON 
 di NON 
 sebuah NON 
@@ -1139,37 +1139,37 @@ pinggir NON
 pantai NON 
 yang NON 
 cukup NON 
-terkenal NON 
+terkenal ORGANIZATION 
 , NON 
-Pantai LOCATION 
-Lido LOCATION 
+Pantai ORGANIZATION 
+Lido NON 
 . NON 
 
- Pemerintah NON 
+Pemerintah NON 
 sudah NON 
 memberikan NON 
-solusi NON 
+solusi 
 final NON 
 untuk NON 
-Uber ORGANIZATION 
-dan ORGANIZATION 
-GrabCar ORGANIZATION 
-. ORGANIZATION 
+Uber NON 
+dan NON 
+GrabCar NON 
+. NON 
 
- Disampaikan ORGANIZATION 
-Menhub ORGANIZATION 
-Ignasius ORGANIZATION 
-Jonan ORGANIZATION 
-di NON 
-Kemenko ORGANIZATION 
-Polhukam ORGANIZATION 
-, ORGANIZATION 
-Jl ORGANIZATION 
-Medan ORGANIZATION 
-Merdeka ORGANIZATION 
-Barat ORGANIZATION 
-, ORGANIZATION 
-Jakarta ORGANIZATION 
+Disampaikan NON 
+Menhub NON 
+Ignasius NON 
+Jonan NON 
+di LOCATION 
+Kemenko NON 
+Polhukam LOCATION 
+, NON 
+Jl NON 
+Medan NON 
+Merdeka NON 
+Barat NON 
+, NON 
+Jakarta NON 
 , NON 
 Kamis NON 
 ( NON 
@@ -1180,9 +1180,9 @@ Kamis NON
 2016 NON 
 ) NON 
 , NON 
-Uber ORGANIZATION 
-dan ORGANIZATION 
-GrabCar ORGANIZATION 
+Uber 
+dan PERSON 
+GrabCar NON 
 harus NON 
 menjalin NON 
 kerjasama NON 
@@ -1192,36 +1192,36 @@ usaha NON
 apapun NON 
 dalam NON 
 bentuk NON 
-yayasan NON 
-, NON 
+yayasan LOCATION 
+, LOCATION 
 koperasi NON 
-, NON 
+, 
 atau NON 
 PT NON 
 yang NON 
 memiliki NON 
 izin NON 
 perusahaan NON 
-transportasi NON 
+transportasi ORGANIZATION 
 . NON 
 
- Menteri NON 
+Menteri ORGANIZATION 
 Perhubungan NON 
-Ignasius PERSON 
-Jonan PERSON 
+Ignasius 
+Jonan NON 
 tak NON 
-ingin NON 
-menanggapi NON 
+ingin PERSON 
+menanggapi PERSON 
 wacana NON 
-perubahan NON 
+perubahan ORGANIZATION 
 Undang ORGANIZATION 
-- ORGANIZATION 
-Undang ORGANIZATION 
-Nomor ORGANIZATION 
-22 NON 
-Tahun NON 
+- NON 
+Undang LOCATION 
+Nomor LOCATION 
+22 LOCATION 
+Tahun LOCATION 
 2009 NON 
-tentang NON 
+tentang LOCATION 
 Lalu NON 
 Lintas NON 
 dan NON 
@@ -1232,12 +1232,12 @@ menyusul NON
 kisruh NON 
 taksi NON 
 konvensional NON 
-vs NON 
+vs ORGANIZATION 
 berbasis NON 
-aplikasi NON 
+aplikasi ORGANIZATION 
 . NON 
 
- Jonan PERSON 
+Jonan NON 
 mengatakan NON 
 apabila NON 
 dirasa NON 
@@ -1250,38 +1250,38 @@ untuk NON
 melakukan NON 
 perubahan NON 
 atau NON 
-revisi NON 
+revisi ORGANIZATION 
 adalah NON 
-DPR ORGANIZATION 
-. ORGANIZATION 
+DPR NON 
+. NON 
 
- Kalau NON 
+Kalau NON 
 DPR NON 
 mau NON 
-mengubah NON 
+mengubah 
 silakan NON 
 , NON 
-saya NON 
-enggak NON 
+saya PERSON 
+enggak PERSON 
 mau NON 
 . NON 
 
- Presiden NON 
-Amerika ORGANIZATION 
-Serikat ORGANIZATION 
+Presiden NON 
+Amerika NON 
+Serikat NON 
 ( ORGANIZATION 
 AS ORGANIZATION 
 ) ORGANIZATION 
 Barack ORGANIZATION 
-Obama ORGANIZATION 
+Obama NON 
 mengaku NON 
 sudah NON 
 mengenal NON 
-masyarakat NON 
-dan NON 
+masyarakat PERSON 
+dan PERSON 
 keindahan NON 
-Asia LOCATION 
-Tenggara LOCATION 
+Asia PERSON 
+Tenggara PERSON 
 sejak NON 
 masih NON 
 kecil NON 
@@ -1289,13 +1289,13 @@ kecil NON
 ketika NON 
 tinggal NON 
 di NON 
-Indonesia LOCATION 
+Indonesia NON 
 selama NON 
-beberapa NON 
-tahun NON 
+beberapa 
+tahun PERSON 
 . NON 
 
- Dalam NON 
+Dalam NON 
 jumpa NON 
 pers NON 
 yang NON 
@@ -1305,14 +1305,14 @@ Polhukam NON
 Luhut NON 
 Pandjaitan NON 
 di NON 
-Kemenko ORGANIZATION 
-Polhukam ORGANIZATION 
-, ORGANIZATION 
+Kemenko NON 
+Polhukam NON 
+, NON 
 Jakarta ORGANIZATION 
 , NON 
-Kamis NON 
+Kamis 
 ( NON 
-24 NON 
+24 ORGANIZATION 
 / NON 
 3 NON 
 / NON 
@@ -1321,53 +1321,53 @@ Kamis NON
 , NON 
 hadir NON 
 antara NON 
-lain NON 
+lain 
 Menhub NON 
-Ignasius PERSON 
-Jonan PERSON 
+Ignasius LOCATION 
+Jonan LOCATION 
 , NON 
-Menkominfo NON 
+Menkominfo ORGANIZATION 
 Rudiantara NON 
+, PERSON 
+CEO PERSON 
+Go NON 
+- NON 
+Jek NON 
+Nadiem NON 
+Makarim NON 
 , NON 
-CEO ORGANIZATION 
-Go ORGANIZATION 
-- ORGANIZATION 
-Jek ORGANIZATION 
-Nadiem ORGANIZATION 
-Makarim ORGANIZATION 
-, ORGANIZATION 
-Direktur ORGANIZATION 
-Blue ORGANIZATION 
-Bird ORGANIZATION 
-Adrianto ORGANIZATION 
-Djoko ORGANIZATION 
-Soetono ORGANIZATION 
+Direktur LOCATION 
+Blue LOCATION 
+Bird NON 
+Adrianto NON 
+Djoko NON 
+Soetono NON 
 yang NON 
 juga NON 
 Ketum NON 
-DPP NON 
-Organda ORGANIZATION 
-. ORGANIZATION 
+DPP LOCATION 
+Organda NON 
+. NON 
 
- " NON 
+" NON 
 Saya NON 
-pertama NON 
+pertama 
 kali NON 
 mengenal NON 
 masyarakat NON 
 dan NON 
 keindahan NON 
-Asia LOCATION 
-Tenggara LOCATION 
-sebagai NON 
-anak NON 
+Asia NON 
+Tenggara PERSON 
+sebagai PERSON 
+anak PERSON 
 kecil NON 
-, NON 
-waktu NON 
+, ORGANIZATION 
+waktu ORGANIZATION 
 saya NON 
-tinggal NON 
+tinggal LOCATION 
 di NON 
-Indonesia LOCATION 
+Indonesia NON 
 beberapa NON 
 tahun NON 
 dengan NON 
@@ -1380,45 +1380,45 @@ Presiden NON
 Obama NON 
 . NON 
 
- Sudah NON 
-ketemu NON 
-jalan NON 
+Sudah NON 
+ketemu PERSON 
+jalan PERSON 
 keluar NON 
 terbaik NON 
-, NON 
+, PERSON 
 dan NON 
-sudah NON 
-disepakati NON 
-oleh NON 
-semua NON 
-pihak NON 
-, NON 
+sudah ORGANIZATION 
+disepakati ORGANIZATION 
+oleh ORGANIZATION 
+semua ORGANIZATION 
+pihak ORGANIZATION 
+, ORGANIZATION 
 " NON 
 jelas NON 
-Luhut PERSON 
-. PERSON 
+Luhut ORGANIZATION 
+. ORGANIZATION 
 
- Hal NON 
-itu NON 
-disampaikan NON 
+Hal PERSON 
+itu PERSON 
+disampaikan PERSON 
 Obama NON 
 ketika NON 
 memberikan NON 
 sambutan NON 
-dalam NON 
-Konferensi ORGANIZATION 
-Tingkat ORGANIZATION 
-Tinggi ORGANIZATION 
-( ORGANIZATION 
-KTT ORGANIZATION 
-) ORGANIZATION 
-AS ORGANIZATION 
-- ORGANIZATION 
-ASEAN ORGANIZATION 
+dalam ORGANIZATION 
+Konferensi NON 
+Tingkat 
+Tinggi NON 
+( NON 
+KTT NON 
+) NON 
+AS NON 
+- NON 
+ASEAN NON 
 di NON 
 Sunnylands LOCATION 
-, NON 
-California LOCATION 
+, LOCATION 
+California NON 
 , NON 
 Selasa NON 
 ( NON 
@@ -1426,20 +1426,20 @@ Selasa NON
 / NON 
 2 NON 
 / NON 
-2016 NON 
+2016 LOCATION 
 ) NON 
 pagi NON 
 WIB NON 
 . NON 
 
- Saya NON 
+Saya NON 
 sebagai NON 
 Menko NON 
 Polhukam NON 
 mengimbau NON 
 kita NON 
 kalau NON 
-ada NON 
+ada 
 masalah NON 
 gunakan NON 
 hak NON 
@@ -1456,9 +1456,9 @@ atau NON
 rusuh NON 
 . NON 
 
- Menurut NON 
+Menurut PERSON 
 Jonan PERSON 
-, NON 
+, 
 pemerintah NON 
 mendorong NON 
 pelayanan NON 
@@ -1468,20 +1468,20 @@ yang NON
 lebih NON 
 baik NON 
 dan NON 
-lebih NON 
-efisien NON 
+lebih ORGANIZATION 
+efisien ORGANIZATION 
 . NON 
 
- " NON 
+" ORGANIZATION 
 Ini NON 
-pertama NON 
+pertama LOCATION 
 kali NON 
-AS NON 
+AS ORGANIZATION 
 menjadi NON 
-tuan NON 
+tuan LOCATION 
 rumah NON 
-untuk NON 
-AS LOCATION 
+untuk LOCATION 
+AS NON 
 - NON 
 ASEAN NON 
 dan NON 
@@ -1492,8 +1492,8 @@ pribadi NON
 saya NON 
 , NON 
 komitmen NON 
-AS LOCATION 
-terhadap NON 
+AS NON 
+terhadap 
 masing NON 
 - NON 
 masing NON 
@@ -1501,14 +1501,14 @@ negara NON
 dan NON 
 kepada NON 
 masyarakat NON 
-ASEAN ORGANIZATION 
+ASEAN NON 
 , NON 
 " NON 
 kata NON 
 Obama NON 
 . NON 
 
- Tak NON 
+Tak NON 
 lupa NON 
 Obama NON 
 pun NON 
@@ -1518,16 +1518,16 @@ kasih NON
 kepada NON 
 Sekretaris NON 
 Jenderal NON 
-ASEAN ORGANIZATION 
-dari ORGANIZATION 
-Laos ORGANIZATION 
-, ORGANIZATION 
-Le ORGANIZATION 
-Luong ORGANIZATION 
-Minh ORGANIZATION 
-. ORGANIZATION 
+ASEAN 
+dari NON 
+Laos PERSON 
+, NON 
+Le NON 
+Luong NON 
+Minh NON 
+. NON 
 
- Ketiga NON 
+Ketiga NON 
 , NON 
 sarana NON 
 transportasinya NON 
@@ -1535,20 +1535,20 @@ harus NON
 mengikuti NON 
 ketentuan NON 
 UU NON 
-Lalu NON 
+Lalu 
 Lintas NON 
 Angkutan NON 
 Jalan NON 
 , NON 
-" NON 
+" ORGANIZATION 
 jelas NON 
-Jonan PERSON 
-. PERSON 
+Jonan NON 
+. NON 
 
- Kemudian NON 
-perusahaan NON 
+Kemudian NON 
+perusahaan LOCATION 
 aplikasi NON 
-mesti NON 
+mesti ORGANIZATION 
 berbadan NON 
 hukum NON 
 , NON 
@@ -1557,43 +1557,43 @@ yayasan NON
 , NON 
 koperasi NON 
 , NON 
-atau NON 
+atau LOCATION 
 perseroan NON 
 terbatas NON 
 , NON 
-BUMD ORGANIZATION 
-, ORGANIZATION 
-BUMN ORGANIZATION 
+BUMD NON 
+, NON 
+BUMN NON 
 , NON 
 dan NON 
-yang NON 
+yang ORGANIZATION 
 lainnya NON 
 . NON 
 
- " NON 
+" NON 
 Harus NON 
 terdaftar NON 
-, NON 
+, 
 ini NON 
 bukan NON 
 terdaftar NON 
 di NON 
-Kemenhub ORGANIZATION 
+Kemenhub NON 
 karena NON 
 karena NON 
 telah NON 
 dilimpahkan NON 
 ke NON 
-masing NON 
+masing ORGANIZATION 
 - NON 
 masing NON 
 daerah NON 
-. NON 
+. PERSON 
 
- Kalau NON 
-ada NON 
-Grab NON 
-dan NON 
+Kalau PERSON 
+ada PERSON 
+Grab PERSON 
+dan 
 Uber NON 
 ini NON 
 perusahaan NON 
@@ -1602,45 +1602,45 @@ aplikasi NON
 ini NON 
 tidak NON 
 masalah NON 
-, NON 
-bagus NON 
-- NON 
-bagus NON 
+, PERSON 
+bagus PERSON 
+- PERSON 
+bagus PERSON 
 saja NON 
 , NON 
 " NON 
-tutup NON 
+tutup PERSON 
 Jonan PERSON 
-. PERSON 
+. 
 
- Menteri NON 
+Menteri NON 
 Perhubungan NON 
-Ignasius PERSON 
-Jonan PERSON 
+Ignasius NON 
+Jonan NON 
 dan NON 
 Menkominfo NON 
 Rudiantara NON 
 mendatangi NON 
 kantor NON 
 Menko NON 
-Polhukam ORGANIZATION 
-Luhut ORGANIZATION 
-B ORGANIZATION 
-Pandjaitan ORGANIZATION 
-. ORGANIZATION 
+Polhukam NON 
+Luhut NON 
+B NON 
+Pandjaitan NON 
+. NON 
 
- Maksud NON 
-kedatangan NON 
+Maksud NON 
+kedatangan ORGANIZATION 
 kedua NON 
-menteri NON 
+menteri ORGANIZATION 
 tersebut NON 
 untuk NON 
 melanjutkan NON 
 rapat NON 
 terkait NON 
-taksi NON 
+taksi 
 aplikasi NON 
-yang NON 
+yang PERSON 
 telah NON 
 digelar NON 
 dua NON 
@@ -1648,26 +1648,26 @@ hari NON
 belakangan NON 
 . NON 
 
- Mengenakan NON 
+Mengenakan ORGANIZATION 
 mobil NON 
 dinas NON 
-Toyota ORGANIZATION 
-Crown ORGANIZATION 
-RI36 ORGANIZATION 
+Toyota NON 
+Crown NON 
+RI36 NON 
 , NON 
-Jonan PERSON 
+Jonan NON 
 tiba NON 
 di NON 
 kantor NON 
-Kemenkopolhukam ORGANIZATION 
-, ORGANIZATION 
-Jl ORGANIZATION 
+Kemenkopolhukam 
+, NON 
+Jl NON 
 Medan ORGANIZATION 
-Merdeka ORGANIZATION 
+Merdeka NON 
 Barat ORGANIZATION 
-, ORGANIZATION 
-Jakarta ORGANIZATION 
-Pusat ORGANIZATION 
+, NON 
+Jakarta NON 
+Pusat NON 
 , NON 
 sekitar NON 
 pukul NON 
@@ -1677,22 +1677,22 @@ pukul NON
 WIB NON 
 . NON 
 
- Hampir NON 
+Hampir NON 
 bersamaan NON 
 dengan NON 
-Jonan PERSON 
-, NON 
+Jonan NON 
+, PERSON 
 Rudiantara NON 
-datang NON 
+datang 
 dengan NON 
 mobil NON 
-dinas NON 
-B NON 
+dinas PERSON 
+B PERSON 
 1252 NON 
 RFS NON 
-. NON 
+. PERSON 
 
- Selain NON 
+Selain NON 
 kedua NON 
 menteri NON 
 tersebut NON 
@@ -1700,16 +1700,16 @@ tersebut NON
 ada NON 
 pula NON 
 perwakilan NON 
-Uber ORGANIZATION 
-, ORGANIZATION 
-Grab ORGANIZATION 
-Car ORGANIZATION 
-, ORGANIZATION 
-dan ORGANIZATION 
-Gojek ORGANIZATION 
-. ORGANIZATION 
+Uber 
+, NON 
+Grab NON 
+Car NON 
+, NON 
+dan NON 
+Gojek NON 
+. NON 
 
- Kehadiran NON 
+Kehadiran NON 
 taksi NON 
 berbasis NON 
 aplikasi NON 
@@ -1720,30 +1720,30 @@ dianggap NON
 illegal NON 
 , NON 
 hingga NON 
-terjadi NON 
+terjadi 
 demonstrasi NON 
 besar NON 
 di NON 
-Jakarta LOCATION 
-. NON 
+Jakarta ORGANIZATION 
+. ORGANIZATION 
 
- Juru NON 
+Juru ORGANIZATION 
 bicara NON 
-Presiden NON 
+Presiden PERSON 
 , NON 
-Johan PERSON 
-Budi PERSON 
-menegaskan NON 
+Johan NON 
+Budi NON 
+menegaskan ORGANIZATION 
 bahwa NON 
-Presiden NON 
-Joko PERSON 
-Widodo PERSON 
-menginginkan NON 
+Presiden LOCATION 
+Joko LOCATION 
+Widodo LOCATION 
+menginginkan LOCATION 
 keduanya NON 
-diakomodir NON 
-. NON 
+diakomodir LOCATION 
+. LOCATION 
 
- Indonesia ORGANIZATION 
+Indonesia NON 
 mengubah NON 
 skuat NON 
 menuju NON 
@@ -1751,23 +1751,23 @@ Piala NON
 Uber NON 
 2016 NON 
 di NON 
-Kunshan NON 
+Kunshan 
 , NON 
-China LOCATION 
+China NON 
 pada NON 
-15 NON 
+15 PERSON 
 - NON 
-2 NON 
+2 PERSON 
 Mei NON 
 ini NON 
 . NON 
 
- Johan PERSON 
+Johan NON 
 menyebut NON 
 , NON 
 salah NON 
 satu NON 
-upaya NON 
+upaya 
 mengakomdir NON 
 itu NON 
 misal NON 
@@ -1776,63 +1776,63 @@ meminta NON
 taksi NON 
 online NON 
 yaitu NON 
-Grab NON 
+Grab ORGANIZATION 
 Taksi NON 
-dan NON 
-Uber NON 
+dan ORGANIZATION 
+Uber ORGANIZATION 
 untuk NON 
 memenuhi NON 
-sejumlah NON 
+sejumlah ORGANIZATION 
 syarat NON 
-yang NON 
+yang 
 diharuskan NON 
 Undang NON 
 - NON 
 undang NON 
 . NON 
 
- Sebelumnya NON 
+Sebelumnya NON 
 , NON 
 Menhub NON 
-Ignasius PERSON 
-Jonan PERSON 
+Ignasius NON 
+Jonan NON 
 juga NON 
 menerangkan NON 
 persoalan NON 
 sebenarnya NON 
 bukan NON 
-pada NON 
+pada LOCATION 
 penenerapan NON 
-aplikasi NON 
+aplikasi 
 atau NON 
 tidak NON 
 , NON 
 tapi NON 
-sarana NON 
-transportasi NON 
+sarana PERSON 
+transportasi PERSON 
 yang NON 
 digunakan NON 
 . NON 
 
- Jonan PERSON 
-menyebut NON 
+Jonan PERSON 
+menyebut PERSON 
 Uber NON 
 dan NON 
 Grab NON 
 illegal NON 
-karena NON 
-angkutannya NON 
+karena 
+angkutannya ORGANIZATION 
 tidak NON 
 terdaftar NON 
 . NON 
 
- Nitya NON 
+Nitya NON 
 dibekap NON 
 cedera NON 
 lutut NON 
-usai NON 
+usai LOCATION 
 laga NON 
-fantastis NON 
+fantastis LOCATION 
 berdurasi NON 
 161 NON 
 menit NON 
@@ -1840,8 +1840,8 @@ pada NON
 babak NON 
 semifinal NON 
 Kejuaraan NON 
-Bulutangkis NON 
-Asia NON 
+Bulutangkis 
+Asia PERSON 
 2016 NON 
 yang NON 
 ditutup NON 
@@ -1850,16 +1850,16 @@ pekan NON
 lalu NON 
 . NON 
 
- Kabar NON 
+Kabar NON 
 bahwa NON 
 Presiden NON 
-Joko PERSON 
-Widodo PERSON 
+Joko NON 
+Widodo NON 
 ( NON 
-Jokowi PERSON 
-) NON 
+Jokowi ORGANIZATION 
+) ORGANIZATION 
 bakal NON 
-kembali NON 
+kembali ORGANIZATION 
 merombak NON 
 susunan NON 
 kabinetnya NON 
@@ -1867,16 +1867,16 @@ kembali NON
 berhembus NON 
 . NON 
 
- Sejumlah NON 
+Sejumlah NON 
 partai NON 
 politik NON 
 dan NON 
-politisi NON 
+politisi 
 di NON 
 Dewan NON 
 Perwakilan NON 
-Rakyat NON 
-, NON 
+Rakyat PERSON 
+, PERSON 
 misalnya NON 
 , NON 
 memberikan NON 
@@ -1887,18 +1887,18 @@ menteri NON
 digeser NON 
 . NON 
 
- Politisi ORGANIZATION 
-Partai ORGANIZATION 
-Golongan ORGANIZATION 
-Karya ORGANIZATION 
+Politisi NON 
+Partai NON 
+Golongan NON 
+Karya NON 
 yang NON 
 juga NON 
 Ketua NON 
-DPR ORGANIZATION 
-Ade ORGANIZATION 
-Komarudin ORGANIZATION 
+DPR NON 
+Ade 
+Komarudin PERSON 
 mengatakan NON 
-bahwa NON 
+bahwa ORGANIZATION 
 reshuffle NON 
 kabinet NON 
 adalah NON 
@@ -1907,8 +1907,8 @@ prerogatif NON
 Presiden NON 
 . NON 
 
- " NON 
-Sekali NON 
+" NON 
+Sekali 
 lagi NON 
 persoalan NON 
 reshuffle NON 
@@ -1924,7 +1924,7 @@ buat NON
 apa NON 
 kita NON 
 turut NON 
-campur NON 
+campur LOCATION 
 , NON 
 " NON 
 kata NON 
@@ -1932,16 +1932,16 @@ pria NON
 yang NON 
 akrab NON 
 disapa NON 
-Akom NON 
+Akom 
 itu NON 
 di NON 
-Kompleks LOCATION 
-Parlemen LOCATION 
-, NON 
+Kompleks NON 
+Parlemen PERSON 
+, PERSON 
 Senayan NON 
-, NON 
-Jakarta LOCATION 
-Pusat LOCATION 
+, PERSON 
+Jakarta NON 
+Pusat NON 
 , NON 
 Kamis NON 
 ( NON 
@@ -1949,14 +1949,14 @@ Kamis NON
 / NON 
 3 NON 
 / NON 
-2016 NON 
+2016 
 ) NON 
 . NON 
 
- Presiden NON 
+Presiden NON 
 , NON 
 kata NON 
-Akom PERSON 
+Akom NON 
 , NON 
 tentu NON 
 memiliki NON 
@@ -1969,19 +1969,19 @@ susunan NON
 kabinet NON 
 . NON 
 
- Akom NON 
+Akom NON 
 yang NON 
-akan NON 
-maju NON 
-sebagai NON 
-calon NON 
-ketua NON 
+akan 
+maju ORGANIZATION 
+sebagai ORGANIZATION 
+calon ORGANIZATION 
+ketua ORGANIZATION 
 umum NON 
-Golkar ORGANIZATION 
+Golkar NON 
 itu NON 
-juga NON 
-tak NON 
-mau NON 
+juga ORGANIZATION 
+tak PERSON 
+mau PERSON 
 berspekulasi NON 
 bahwa NON 
 Presiden NON 
@@ -1991,15 +1991,15 @@ susunan NON
 kabinetnya NON 
 usai NON 
 munas NON 
-partai NON 
+partai 
 berlambang NON 
 pohon NON 
 beringin NON 
 itu NON 
 . NON 
 
- Munas ORGANIZATION 
-Golkar ORGANIZATION 
+Munas NON 
+Golkar NON 
 nantinya ORGANIZATION 
 tak NON 
 hanya NON 
@@ -2018,17 +2018,17 @@ Ical NON
 namun NON 
 juga NON 
 menyatakan NON 
-sikap NON 
+sikap PERSON 
 mendukung NON 
 pemerintahan NON 
-Jokowi PERSON 
-- PERSON 
-Jusuf PERSON 
-Kalla PERSON 
-. PERSON 
+Jokowi LOCATION 
+- LOCATION 
+Jusuf NON 
+Kalla LOCATION 
+. NON 
 
- " NON 
-Presiden NON 
+" LOCATION 
+Presiden LOCATION 
 tentu NON 
 punya NON 
 pertimbangan NON 
@@ -2039,11 +2039,11 @@ mereshuffle NON
 , NON 
 beliau NON 
 punya NON 
-kewenangan NON 
+kewenangan 
 jadi NON 
 semuanya NON 
 kita NON 
-serahkan NON 
+serahkan PERSON 
 kepada NON 
 beliau NON 
 yang NON 
@@ -2053,24 +2053,24 @@ prerogatif NON
 , NON 
 " NON 
 kata NON 
-Akom PERSON 
-. PERSON 
+Akom NON 
+. NON 
 
- Saat NON 
+Saat 
 ini NON 
-Golkar ORGANIZATION 
+Golkar NON 
 sedang NON 
 menuntaskan NON 
 merger NON 
 kepengurusan NON 
-Munas ORGANIZATION 
-Ancol ORGANIZATION 
+Munas NON 
+Ancol NON 
 dan ORGANIZATION 
-Munas ORGANIZATION 
-Bali ORGANIZATION 
-. ORGANIZATION 
+Munas NON 
+Bali NON 
+. NON 
 
- " NON 
+" NON 
 Lutut NON 
 Nitya NON 
 agak NON 
@@ -2086,9 +2086,9 @@ kondisi NON
 , NON 
 " NON 
 ujar NON 
-Rexy NON 
-Mainaky NON 
-, NON 
+Rexy 
+Mainaky LOCATION 
+, LOCATION 
 kepala NON 
 bidang NON 
 Pembinaan NON 
@@ -2098,73 +2098,73 @@ PBSI NON
 yang NON 
 juga NON 
 menjadi NON 
-manajer NON 
-Indonesia LOCATION 
+manajer PERSON 
+Indonesia PERSON 
 ke NON 
 Kunshan NON 
 . NON 
 
- PDIP ORGANIZATION 
+PDIP NON 
 sebelumnya NON 
 mengirim NON 
 sinyal NON 
 kuat NON 
 menginginkan NON 
 sejumlah NON 
-kursi NON 
+kursi PERSON 
 menteri NON 
-digeser NON 
-. NON 
+digeser PERSON 
+. PERSON 
 
- Ketua NON 
-DPP NON 
-PDIP ORGANIZATION 
-Hendrawan ORGANIZATION 
-Supratikno ORGANIZATION 
+Ketua PERSON 
+DPP 
+PDIP NON 
+Hendrawan NON 
+Supratikno NON 
 dengan NON 
 gamblang NON 
 menyoroti NON 
 kinerja NON 
 Menteri NON 
-BUMN ORGANIZATION 
-Rini ORGANIZATION 
-Soemarno ORGANIZATION 
-. ORGANIZATION 
+BUMN NON 
+Rini NON 
+Soemarno NON 
+. NON 
 
- Dalam NON 
+Dalam NON 
 kunjungan NON 
 ke NON 
-Amerika LOCATION 
-Serikat LOCATION 
+Amerika NON 
+Serikat NON 
 , NON 
 Presiden NON 
 RI NON 
-Joko PERSON 
-Widodo PERSON 
+Joko NON 
+Widodo NON 
 menyempatkan NON 
 diri NON 
 bertandang NON 
 ke NON 
-markas NON 
-Facebook NON 
-di NON 
+markas PERSON 
+Facebook PERSON 
+di 
 kawasan NON 
 Silicon NON 
-Valley NON 
+Valley ORGANIZATION 
 . NON 
 
- Menteri NON 
+Menteri NON 
 Rini NON 
 ini NON 
 menimbulkan NON 
-pro NON 
+pro LOCATION 
 dan NON 
 kontra NON 
-yang NON 
+yang LOCATION 
 luas NON 
-, NON 
+, 
 " NON 
-kata NON 
+kata PERSON 
 Hendrawan PERSON 
 saat NON 
 dihubungi NON 
@@ -2180,91 +2180,91 @@ Senin NON
 kemarin NON 
 . NON 
 
- PDIP ORGANIZATION 
-ternyata NON 
+PDIP PERSON 
+ternyata PERSON 
 juga NON 
 sudah NON 
 punya NON 
 catatan NON 
 evaluasi NON 
 menyeluruh NON 
-soal NON 
+soal ORGANIZATION 
 kinerja NON 
 menteri NON 
 . NON 
 
- Hendrawan NON 
-kemudian NON 
+Hendrawan NON 
+kemudian LOCATION 
 menyebut NON 
-empat NON 
-nama NON 
-menteri NON 
-yang NON 
+empat PERSON 
+nama PERSON 
+menteri 
+yang ORGANIZATION 
 posisinya NON 
 dirasa NON 
 kurang NON 
 tepat NON 
 . NON 
 
- Agenda NON 
+Agenda NON 
 utamanya NON 
 ialah NON 
 mendiskusikan NON 
 kerja NON 
-sama NON 
+sama 
 antara NON 
-Indonesia LOCATION 
-dan NON 
-perusahaan NON 
-jejaring NON 
+Indonesia NON 
+dan ORGANIZATION 
+perusahaan PERSON 
+jejaring PERSON 
 sosial NON 
 tersebut NON 
 di NON 
 sektor NON 
 konektivitas NON 
-internet NON 
-. NON 
+internet ORGANIZATION 
+. PERSON 
 
- Ya NON 
-, NON 
-kami NON 
+Ya PERSON 
+, PERSON 
+kami 
 hargai NON 
 karena NON 
 itu NON 
-prerogatif NON 
-Jokowi PERSON 
+prerogatif LOCATION 
+Jokowi LOCATION 
 sebagai NON 
 Presiden NON 
-, NON 
-" NON 
-sebutnya NON 
+, LOCATION 
+" PERSON 
+sebutnya PERSON 
 . NON 
 
- Sejumlah NON 
+Sejumlah NON 
 anggota NON 
 Fraksi NON 
-PDIP ORGANIZATION 
+PDIP NON 
 dari NON 
 lintas NON 
 komisi NON 
-ikut NON 
-memberikan NON 
+ikut LOCATION 
+memberikan LOCATION 
 pandangan NON 
-terkait NON 
+terkait 
 persoalan NON 
-transportasi NON 
+transportasi PERSON 
 berbasis NON 
 aplikasi NON 
 online NON 
 . NON 
 
- Menteri NON 
+Menteri NON 
 Perhubungan NON 
-Ignasius PERSON 
-Jonan PERSON 
+Ignasius NON 
+Jonan NON 
 dituding NON 
 sebagai NON 
-sosok NON 
+sosok PERSON 
 yang NON 
 bertanggung NON 
 jawab NON 
@@ -2278,13 +2278,13 @@ berujung NON
 ricuh NON 
 . NON 
 
- Kritikan NON 
-diawali NON 
-Adian PERSON 
-Napitupulu PERSON 
+Kritikan NON 
+diawali 
+Adian ORGANIZATION 
+Napitupulu NON 
 yang NON 
 menyebut NON 
-Jonan PERSON 
+Jonan NON 
 tak NON 
 konsisten NON 
 dan NON 
@@ -2292,22 +2292,22 @@ tak NON
 bisa NON 
 menciptakan NON 
 keteduhan NON 
-. NON 
+. 
 
- " NON 
+" PERSON 
 Peristiwa NON 
 kemarin NON 
 itu NON 
 jadi NON 
 rangkaian NON 
 pernyataan NON 
-Jonan PERSON 
+Jonan NON 
 yang NON 
 tidak NON 
 konsisten NON 
 . NON 
 
- Kalau NON 
+Kalau 
 dia NON 
 tak NON 
 bisa NON 
@@ -2315,7 +2315,7 @@ bisa NON
 harus NON 
 dievaluasi NON 
 , NON 
-mundur NON 
+mundur LOCATION 
 saja NON 
 dari NON 
 menteri NON 
@@ -2326,7 +2326,7 @@ mampu NON
 menciptakan NON 
 keteduhan NON 
 , NON 
-" NON 
+" 
 ujar NON 
 Adian NON 
 dalam NON 
@@ -2334,18 +2334,18 @@ konferensi NON
 pers NON 
 di NON 
 ruang NON 
-Fraksi NON 
-PDIP ORGANIZATION 
-, ORGANIZATION 
-Nusantara ORGANIZATION 
-I ORGANIZATION 
-, ORGANIZATION 
-gedung ORGANIZATION 
-DPR ORGANIZATION 
+Fraksi PERSON 
+PDIP NON 
+, NON 
+Nusantara NON 
+I NON 
+, NON 
+gedung NON 
+DPR 
 , NON 
 Senayan NON 
 , NON 
-Jakarta LOCATION 
+Jakarta ORGANIZATION 
 , NON 
 Rabu NON 
 ( NON 
@@ -2357,47 +2357,47 @@ Rabu NON
 ) NON 
 . NON 
 
- Konferensi NON 
+Konferensi NON 
 pers NON 
 ini NON 
-juga NON 
+juga 
 dihadiri NON 
 oleh NON 
-anggota NON 
-Komisi NON 
+anggota PERSON 
+Komisi PERSON 
 VII NON 
 DPR NON 
 dari NON 
-PDIP ORGANIZATION 
-Nazaarudin ORGANIZATION 
-Kiemas ORGANIZATION 
+PDIP NON 
+Nazaarudin NON 
+Kiemas NON 
 , NON 
 anggota NON 
 Komisi NON 
 II NON 
 DPR NON 
 dari NON 
-PDIP ORGANIZATION 
-Diah ORGANIZATION 
-Pitaloka ORGANIZATION 
-, NON 
+PDIP NON 
+Diah NON 
+Pitaloka NON 
+, 
 dan NON 
 anggota NON 
-Komisi NON 
-V NON 
+Komisi PERSON 
+V PERSON 
 DPR NON 
 dari NON 
-PDIP ORGANIZATION 
-Sadarestuwati ORGANIZATION 
-. ORGANIZATION 
+PDIP PERSON 
+Sadarestuwati NON 
+. NON 
 
- Terkait NON 
+Terkait NON 
 persoalan NON 
 ini NON 
 , NON 
 ia NON 
 meminta NON 
-agar NON 
+agar 
 Jonan NON 
 lebih NON 
 tanggap NON 
@@ -2405,20 +2405,20 @@ melihat NON
 pilihan NON 
 masyarakat NON 
 akan NON 
-transportasi NON 
+transportasi PERSON 
 aplikasi NON 
 online NON 
 . NON 
 
- Bila NON 
-ada NON 
+Bila NON 
+ada 
 usulan NON 
 atau NON 
 saran NON 
 , NON 
 maka NON 
 sebaiknya NON 
-Jonan PERSON 
+Jonan NON 
 membicarakan NON 
 di NON 
 forum NON 
@@ -2426,7 +2426,7 @@ rapat NON
 kabinet NON 
 . NON 
 
- Saya NON 
+Saya NON 
 rasa NON 
 masih NON 
 banyak NON 
@@ -2434,36 +2434,36 @@ putra NON
 bangsa NON 
 yang NON 
 bisa NON 
-gantikan NON 
+gantikan PERSON 
 dia NON 
 , NON 
 " NON 
 tutur NON 
 anggota NON 
 Komisi NON 
-VII NON 
+VII ORGANIZATION 
 DPR ORGANIZATION 
 itu ORGANIZATION 
 . ORGANIZATION 
 
- Anggota NON 
+Anggota NON 
 Fraksi NON 
 PDIP ORGANIZATION 
-lain ORGANIZATION 
-, ORGANIZATION 
-Sadar ORGANIZATION 
-Restuwati ORGANIZATION 
+lain NON 
+, LOCATION 
+Sadar NON 
+Restuwati LOCATION 
 , NON 
 menekankan NON 
 pemerintah NON 
 harus NON 
 mendorong NON 
 revisi NON 
-Undang ORGANIZATION 
-- ORGANIZATION 
-Undang ORGANIZATION 
-Nomor ORGANIZATION 
-22 NON 
+Undang NON 
+- NON 
+Undang NON 
+Nomor NON 
+22 
 Tahun NON 
 2009 NON 
 tentang NON 
@@ -2473,70 +2473,70 @@ dan NON
 Angkutan NON 
 Jalan NON 
 ( NON 
-LLAJ NON 
+LLAJ ORGANIZATION 
 ) NON 
-. NON 
+. ORGANIZATION 
 
- Kebutuhan NON 
-masyarakat NON 
+Kebutuhan PERSON 
+masyarakat PERSON 
 akan NON 
 transportasi NON 
 online NON 
 harus NON 
-diakomodasi NON 
+diakomodasi ORGANIZATION 
 dalam NON 
-revisi NON 
-undang NON 
-- NON 
+revisi ORGANIZATION 
+undang PERSON 
+- PERSON 
 undang NON 
 ini NON 
 . NON 
 
- Presiden NON 
-Joko PERSON 
-Widodo PERSON 
+Presiden NON 
+Joko NON 
+Widodo ORGANIZATION 
 meresmikan NON 
 Bandar ORGANIZATION 
 Udara ORGANIZATION 
-Internasional ORGANIZATION 
-Juwata ORGANIZATION 
-, ORGANIZATION 
-Tarakan ORGANIZATION 
-, ORGANIZATION 
-Kalimantan ORGANIZATION 
-Utara ORGANIZATION 
-. ORGANIZATION 
+Internasional NON 
+Juwata 
+, NON 
+Tarakan NON 
+, NON 
+Kalimantan NON 
+Utara NON 
+. NON 
 
- Bandara NON 
-yang NON 
+Bandara NON 
+yang PERSON 
 sudah NON 
 ada NON 
 sejak NON 
 zaman NON 
 penjajahan NON 
-Belanda LOCATION 
+Belanda NON 
 kini NON 
 dijadikan NON 
 sebagai NON 
 bandara NON 
-internasional NON 
+internasional 
 . NON 
 
- Jokowi PERSON 
+Jokowi NON 
 tiba NON 
 di NON 
-Bandara LOCATION 
-Internasional LOCATION 
-Juwata LOCATION 
+Bandara NON 
+Internasional NON 
+Juwata NON 
 , NON 
-Tarakan NON 
+Tarakan PERSON 
 , NON 
-Kalimantan LOCATION 
-Utara LOCATION 
+Kalimantan NON 
+Utara NON 
 sekitar NON 
 pukul NON 
 16 NON 
-. NON 
+. 
 00 NON 
 WITA NON 
 , NON 
@@ -2552,46 +2552,46 @@ Rabu NON
 setelah NON 
 bertolak NON 
 dari NON 
-Bandara LOCATION 
-Soepadio LOCATION 
+Bandara NON 
+Soepadio ORGANIZATION 
 , NON 
-Pontianak ORGANIZATION 
-, ORGANIZATION 
-Kalimantan ORGANIZATION 
-Barat ORGANIZATION 
+Pontianak NON 
+, 
+Kalimantan NON 
+Barat NON 
 . ORGANIZATION 
 
- Kehadiran NON 
-Jokowi PERSON 
-disambut NON 
-langsung NON 
+Kehadiran NON 
+Jokowi NON 
+disambut PERSON 
+langsung PERSON 
 oleh NON 
 Menteri NON 
-Perhubungan ORGANIZATION 
-Ignasius ORGANIZATION 
-Jonan ORGANIZATION 
-dan ORGANIZATION 
+Perhubungan NON 
+Ignasius NON 
+Jonan NON 
+dan NON 
 Gubernur ORGANIZATION 
 Kalimantan ORGANIZATION 
 Utara ORGANIZATION 
 Irianto ORGANIZATION 
-Lambrie ORGANIZATION 
-. ORGANIZATION 
+Lambrie NON 
+. NON 
 
- Begitu NON 
+Begitu NON 
 tiba NON 
-, NON 
+, PERSON 
 Jokowi PERSON 
 langsung NON 
 melihat NON 
 maket NON 
 pembangunan NON 
 Bandara ORGANIZATION 
-Internasional ORGANIZATION 
-Juwata ORGANIZATION 
-. ORGANIZATION 
+Internasional NON 
+Juwata NON 
+. 
 
- Untuk NON 
+Untuk NON 
 diketahui NON 
 , NON 
 Kota NON 
@@ -2602,26 +2602,26 @@ masih NON
 tergabung NON 
 dengan NON 
 Provinsi NON 
-Kalimantan LOCATION 
-Timur LOCATION 
+Kalimantan NON 
+Timur NON 
 , NON 
-dari NON 
+dari 
 baru NON 
-mekar NON 
-menjadi NON 
+mekar PERSON 
+menjadi PERSON 
 Ibu NON 
-Kota NON 
-Provinsi NON 
-Kalimantan LOCATION 
-Utara LOCATION 
+Kota ORGANIZATION 
+Provinsi ORGANIZATION 
+Kalimantan ORGANIZATION 
+Utara ORGANIZATION 
 pada NON 
-25 NON 
+25 LOCATION 
 Oktober NON 
-2012 NON 
-. NON 
+2012 LOCATION 
+. LOCATION 
 
- " NON 
-Pembangunan NON 
+" NON 
+Pembangunan 
 Bandara NON 
 Juwata NON 
 sebenarnya NON 
@@ -2629,32 +2629,32 @@ sudah NON
 dibangun NON 
 sejak NON 
 zaman NON 
-penjajahan NON 
-Belanda LOCATION 
+penjajahan LOCATION 
+Belanda NON 
 dan NON 
 memiliki NON 
 arti NON 
 penting NON 
 bagi NON 
-masyarakat NON 
-Kalimantan ORGANIZATION 
-Timur ORGANIZATION 
-. ORGANIZATION 
+masyarakat 
+Kalimantan PERSON 
+Timur NON 
+. NON 
 
- Seiring NON 
-waktu NON 
-, NON 
+Seiring LOCATION 
+waktu LOCATION 
+, LOCATION 
 bandara NON 
-ini NON 
+ini LOCATION 
 berperan NON 
-penting NON 
-bagi NON 
+penting LOCATION 
+bagi LOCATION 
 pembangunan NON 
 dan NON 
 perekonomian NON 
 di NON 
-Kalimantan LOCATION 
-Timur LOCATION 
+Kalimantan NON 
+Timur NON 
 , NON 
 " NON 
 ujar NON 
@@ -2664,160 +2664,160 @@ dalam NON
 sambutannya NON 
 . NON 
 
- Sementara NON 
+Sementara NON 
 itu NON 
 , NON 
 Menteri NON 
 Perhubungan NON 
-Ignasius PERSON 
-Jonan PERSON 
+Ignasius LOCATION 
+Jonan LOCATION 
 mengatakan NON 
 , NON 
 Bandara NON 
-Juwata NON 
-ini NON 
+Juwata LOCATION 
+ini LOCATION 
 merupakan NON 
-bandara NON 
+bandara 
 pertama NON 
-di NON 
-Indonesia LOCATION 
+di PERSON 
+Indonesia NON 
 yang NON 
 menerapkan NON 
 teknologi NON 
 ramah NON 
-lingkungan NON 
-. NON 
+lingkungan PERSON 
+. PERSON 
 
- Bandara NON 
+Bandara NON 
 ini NON 
-juga NON 
-menerapkan NON 
-sistem NON 
-ramah NON 
+juga LOCATION 
+menerapkan LOCATION 
+sistem LOCATION 
+ramah LOCATION 
 lingkungannya NON 
-di NON 
+di 
 apron NON 
 saat NON 
 pengisian NON 
-bahan NON 
+bahan PERSON 
 Bakar NON 
 avtur NON 
 . NON 
 
- Berbeda NON 
-dengan NON 
+Berbeda NON 
+dengan LOCATION 
 Bandara LOCATION 
 Soekarno LOCATION 
-Hatta LOCATION 
-yang NON 
+Hatta NON 
+yang 
 di NON 
 terminalnya NON 
 siang NON 
 hari NON 
-saja NON 
+saja LOCATION 
 harus NON 
 pakai NON 
 lampu NON 
 , NON 
 " NON 
-kata NON 
-Jonan PERSON 
-. PERSON 
+kata LOCATION 
+Jonan LOCATION 
+. LOCATION 
 
- " NON 
+" NON 
 Bandara NON 
 ini NON 
 bisa NON 
 didatangi NON 
 pesawat NON 
 berbadan NON 
-besar NON 
-, NON 
-seperti NON 
+besar LOCATION 
+, LOCATION 
+seperti LOCATION 
 pesawat NON 
 kepresidenan NON 
 Bapak NON 
 yang NON 
 mendarat NON 
-dengan NON 
+dengan 
 mulus NON 
 , NON 
-" NON 
-kata NON 
-Jonan PERSON 
-. PERSON 
+" LOCATION 
+kata LOCATION 
+Jonan NON 
+. NON 
 
- Jonan PERSON 
+Jonan NON 
 mengatakan NON 
 Bandara NON 
 Juwata NON 
-ini NON 
+ini LOCATION 
 menjadi NON 
 bandara NON 
 internasional NON 
 pertama NON 
 yang NON 
 dibangun NON 
-sejak NON 
-20 NON 
+sejak LOCATION 
+20 LOCATION 
 tahun NON 
-lalu NON 
+lalu 
 . NON 
 
- Tanpa NON 
+Tanpa NON 
 Nitya NON 
 , NON 
 tim NON 
-Uber ORGANIZATION 
-Cup ORGANIZATION 
-Indonesia ORGANIZATION 
+Uber NON 
+Cup NON 
+Indonesia NON 
 pada NON 
 sektor NON 
 ganda NON 
 akan NON 
-diperkuat NON 
-Ni ORGANIZATION 
-Ketut ORGANIZATION 
-Mahadewi ORGANIZATION 
-Istarani ORGANIZATION 
-/ ORGANIZATION 
-Anggia ORGANIZATION 
-Shitta ORGANIZATION 
-Awanda ORGANIZATION 
-, ORGANIZATION 
-Della ORGANIZATION 
-Destiara ORGANIZATION 
-Haris ORGANIZATION 
-/ ORGANIZATION 
-Rosyita ORGANIZATION 
-Eka ORGANIZATION 
-Putri ORGANIZATION 
-Sari ORGANIZATION 
-serta ORGANIZATION 
-Greysia ORGANIZATION 
-dan ORGANIZATION 
-Tiara ORGANIZATION 
-. ORGANIZATION 
+diperkuat LOCATION 
+Ni LOCATION 
+Ketut NON 
+Mahadewi NON 
+Istarani NON 
+/ PERSON 
+Anggia PERSON 
+Shitta NON 
+Awanda NON 
+, NON 
+Della 
+Destiara NON 
+Haris NON 
+/ NON 
+Rosyita NON 
+Eka NON 
+Putri PERSON 
+Sari PERSON 
+serta NON 
+Greysia NON 
+dan LOCATION 
+Tiara LOCATION 
+. NON 
 
- Kita NON 
+Kita NON 
 sudah NON 
 tidak NON 
 punya NON 
-lagi NON 
+lagi LOCATION 
 bandara NON 
 transit NON 
 internasional NON 
 sejak NON 
 20 NON 
 tahun NON 
-lebih NON 
+lebih 
 , NON 
 " NON 
 kata NON 
-Jonan PERSON 
-. PERSON 
+Jonan NON 
+. NON 
 
- Ini NON 
+Ini NON 
 menjadi NON 
 bandara NON 
 di NON 
@@ -2827,18 +2827,18 @@ yang NON
 akan NON 
 menghubungkan NON 
 dengan NON 
-Brunei NON 
+Brunei 
 , NON 
-Malaysia LOCATION 
-, NON 
+Malaysia NON 
+, LOCATION 
 Filipina LOCATION 
-, NON 
+, LOCATION 
 " NON 
 kata NON 
-Jokowi PERSON 
-. PERSON 
+Jokowi NON 
+. NON 
 
- " NON 
+" NON 
 Dengan NON 
 mengucap NON 
 Bismillahirrahmanirrahim NON 
@@ -2846,17 +2846,17 @@ Bismillahirrahmanirrahim NON
 saya NON 
 nyatakan NON 
 Bandara NON 
-Internasional NON 
-Juwata NON 
-resmi NON 
+Internasional PERSON 
+Juwata PERSON 
+resmi 
 dioperasikan NON 
 , NON 
 " NON 
 tambah NON 
-Jokowi PERSON 
-. PERSON 
+Jokowi NON 
+. NON 
 
- PDIP ORGANIZATION 
+PDIP NON 
 mengirim NON 
 isyarat NON 
 4 NON 
@@ -2870,63 +2870,63 @@ kabinet NON
 yang NON 
 kabarnya NON 
 akan NON 
-segera NON 
-diumumkan NON 
-. NON 
+segera PERSON 
+diumumkan PERSON 
+. 
 
- Malia NON 
+Malia PERSON 
 Obama NON 
-, NON 
-putri NON 
+, LOCATION 
+putri LOCATION 
 tertua NON 
 Presiden NON 
-Amerika ORGANIZATION 
-Serikat ORGANIZATION 
-Barack ORGANIZATION 
-Obama ORGANIZATION 
-dan ORGANIZATION 
-Michelle ORGANIZATION 
-Obama ORGANIZATION 
+Amerika NON 
+Serikat NON 
+Barack NON 
+Obama NON 
+dan NON 
+Michelle NON 
+Obama NON 
 dipastikan NON 
 akan NON 
 mengikuti NON 
-jejak NON 
+jejak 
 orangtuanya NON 
-untuk NON 
+untuk ORGANIZATION 
 menempuh NON 
 pendidikan NON 
-tinggi NON 
-di NON 
+tinggi ORGANIZATION 
+di ORGANIZATION 
 Universitas ORGANIZATION 
-Harvard ORGANIZATION 
-. ORGANIZATION 
+Harvard NON 
+. NON 
 
- Jadi NON 
+Jadi NON 
 partai NON 
 yang NON 
-ikut NON 
-arahan NON 
-dan NON 
-aturan NON 
+ikut PERSON 
+arahan PERSON 
+dan PERSON 
+aturan PERSON 
 main NON 
-presiden NON 
-, NON 
-" NON 
+presiden PERSON 
+, PERSON 
+" PERSON 
 kata NON 
-Chief NON 
-Executive NON 
-Officer NON 
+Chief PERSON 
+Executive PERSON 
+Officer PERSON 
 ( NON 
-CEO ORGANIZATION 
-) ORGANIZATION 
-Cyrus ORGANIZATION 
-Network ORGANIZATION 
-Hasan ORGANIZATION 
-Nasbi ORGANIZATION 
-kepada ORGANIZATION 
-detikcom ORGANIZATION 
+CEO PERSON 
+) PERSON 
+Cyrus PERSON 
+Network PERSON 
+Hasan NON 
+Nasbi NON 
+kepada NON 
+detikcom NON 
 , NON 
-Rabu NON 
+Rabu 
 ( NON 
 23 NON 
 / NON 
@@ -2936,16 +2936,16 @@ Rabu NON
 ) NON 
 . NON 
 
- Hasan NON 
+Hasan NON 
 menilai NON 
 tak NON 
 ada NON 
 salahnya NON 
-Jokowi PERSON 
+Jokowi NON 
 memasukkan NON 
-menteri NON 
-dari NON 
-parpol NON 
+menteri PERSON 
+dari PERSON 
+parpol 
 - NON 
 parpol NON 
 lain NON 
@@ -2956,18 +2956,18 @@ akan NON
 datang NON 
 . NON 
 
- " NON 
-Kalau NON 
+" NON 
+Kalau LOCATION 
 memang NON 
-Jokowi PERSON 
+Jokowi LOCATION 
 mau NON 
-memperkuat NON 
+memperkuat LOCATION 
 soliditas NON 
 parpol NON 
 pendukung NON 
-di NON 
-parlemen NON 
-supaya NON 
+di PERSON 
+parlemen PERSON 
+supaya 
 lebih NON 
 seimbang NON 
 kekuatannya NON 
@@ -2975,19 +2975,19 @@ kekuatannya NON
 supaya NON 
 parpol NON 
 pendukung NON 
-utama NON 
-tidak NON 
-bersikap NON 
+utama LOCATION 
+tidak LOCATION 
+bersikap PERSON 
 seperti NON 
 oposisi NON 
 . NON 
 
- Memang NON 
-Jokowi PERSON 
-sebaiknya NON 
-memberikan NON 
-parpol NON 
-baru NON 
+Memang NON 
+Jokowi NON 
+sebaiknya PERSON 
+memberikan PERSON 
+parpol 
+baru ORGANIZATION 
 untuk NON 
 masuk NON 
 ke NON 
@@ -3004,82 +3004,82 @@ sudah NON
 ada NON 
 , NON 
 " NON 
-katanya NON 
+katanya 
 . NON 
 
- PDIP ORGANIZATION 
+PDIP NON 
 sebelumnya NON 
 mengirim NON 
 sinyal NON 
 kuat NON 
-menginginkan NON 
-sejumlah NON 
-kursi NON 
-menteri NON 
+menginginkan LOCATION 
+sejumlah LOCATION 
+kursi LOCATION 
+menteri LOCATION 
 digeser NON 
-. NON 
+. PERSON 
 
- Di NON 
+Di PERSON 
 samping NON 
 itu NON 
 , NON 
-Jokowi PERSON 
+Jokowi NON 
 juga NON 
 sempat NON 
 bermain NON 
 pingpong NON 
 secara NON 
 virtual NON 
-dengan NON 
-menggunakan NON 
+dengan ORGANIZATION 
+menggunakan ORGANIZATION 
 kacamata NON 
-pintar NON 
+pintar 
 Facebook NON 
 Oculus NON 
-Rift PERSON 
-. PERSON 
+Rift NON 
+. NON 
 
- " NON 
+" NON 
 Karena NON 
 sudah NON 
 ada NON 
 rekomendasi NON 
-Pansus ORGANIZATION 
-Pelindo ORGANIZATION 
-II ORGANIZATION 
+Pansus NON 
+Pelindo NON 
+II NON 
 yang NON 
 disahkan NON 
 paripurna NON 
 . NON 
 
- Menteri NON 
+Menteri NON 
 Rini NON 
-ini NON 
-menimbulkan NON 
-pro NON 
-dan NON 
+ini PERSON 
+menimbulkan PERSON 
+pro PERSON 
+dan PERSON 
 kontra NON 
-yang NON 
+yang ORGANIZATION 
 luas NON 
 , NON 
 " NON 
 kata NON 
-Hendrawan PERSON 
+Hendrawan NON 
 saat NON 
 dihubungi NON 
 , NON 
 Senin NON 
 ( NON 
-21 NON 
-/ NON 
+21 
+/ PERSON 
 3 NON 
 / NON 
 2016 NON 
 ) NON 
-kemarin NON 
+kemarin PERSON 
 . NON 
 
- PDIP ORGANIZATION 
+PDIP NON 
 ternyata NON 
 juga NON 
 sudah NON 
@@ -3092,11 +3092,11 @@ kinerja NON
 menteri NON 
 . NON 
 
- Hendrawan NON 
+Hendrawan 
 kemudian NON 
 menyebut NON 
 empat NON 
-nama NON 
+nama PERSON 
 menteri NON 
 yang NON 
 posisinya NON 
@@ -3105,7 +3105,7 @@ kurang NON
 tepat NON 
 . NON 
 
- " NON 
+" NON 
 Misalnya NON 
 Menteri NON 
 Yuddy NON 
@@ -3119,22 +3119,22 @@ Menristek NON
 Dikti NON 
 , NON 
 terus NON 
-Siti NON 
+Siti 
 Nurbaya NON 
-lebih NON 
+lebih PERSON 
 tepat NON 
 di NON 
 MenPANRB NON 
 . NON 
 
- Ya NON 
+Ya NON 
 , NON 
 kami NON 
 hargai NON 
 karena NON 
 itu NON 
 prerogatif NON 
-Jokowi PERSON 
+Jokowi NON 
 sebagai NON 
 Presiden NON 
 , NON 
@@ -3142,12 +3142,12 @@ Presiden NON
 sebutnya NON 
 . NON 
 
- Apakah NON 
+Apakah NON 
 Presiden NON 
-Jokowi PERSON 
+Jokowi NON 
 akan NON 
-menunjukkan NON 
-kemandirian NON 
+menunjukkan 
+kemandirian ORGANIZATION 
 dalam NON 
 pengambilan NON 
 keputusan NON 
@@ -3155,16 +3155,16 @@ atau NON
 mendengarkan NON 
 suara NON 
 elite NON 
-PDIP ORGANIZATION 
-ini ORGANIZATION 
+PDIP NON 
+ini NON 
 ? NON 
 
- Hari NON 
+Hari 
 ini NON 
 , NON 
 tanggal NON 
 9 NON 
-September NON 
+September PERSON 
 2015 NON 
 , NON 
 Ratu NON 
@@ -3177,25 +3177,25 @@ resmi NON
 menjadi NON 
 pemegang NON 
 tahta NON 
-terlama NON 
-dalam NON 
-sejarah NON 
+terlama PERSON 
+dalam PERSON 
+sejarah 
 monarki NON 
-Inggris LOCATION 
+Inggris NON 
 . NON 
 
- Menteri NON 
+Menteri NON 
 Sekretaris NON 
-Negara NON 
-Pratikno NON 
-meminta NON 
+Negara ORGANIZATION 
+Pratikno ORGANIZATION 
+meminta ORGANIZATION 
 kepada NON 
 semua NON 
 pihak NON 
 untuk NON 
-menahan NON 
+menahan 
 diri NON 
-tidak NON 
+tidak PERSON 
 bertindak NON 
 kasar NON 
 dan NON 
@@ -3206,8 +3206,8 @@ masalah NON
 ini NON 
 . NON 
 
- Kita NON 
-cari NON 
+Kita NON 
+cari PERSON 
 jalan NON 
 tengah NON 
 , NON 
@@ -3221,91 +3221,91 @@ perkembangan NON
 teknologi NON 
 , NON 
 " NON 
-ujar NON 
-Pratikno NON 
+ujar 
+Pratikno ORGANIZATION 
 yang NON 
 ditemui NON 
 wartawan NON 
 di NON 
-Pontianak ORGANIZATION 
-, ORGANIZATION 
-Kalimantan ORGANIZATION 
-Barat ORGANIZATION 
+Pontianak NON 
+, NON 
+Kalimantan NON 
+Barat NON 
 , NON 
 Rabu NON 
 ( NON 
-23 NON 
-/ NON 
+23 
+/ PERSON 
 3 NON 
 / NON 
 2016 NON 
 ) NON 
 . NON 
 
- Kehadiran NON 
+Kehadiran NON 
 Pratikno NON 
 di NON 
 Pontianak NON 
 untuk NON 
 mendampingi NON 
-Presiden NON 
-Jokowi PERSON 
+Presiden 
+Jokowi NON 
 melakukan NON 
 kunjungan NON 
-kerja NON 
-di NON 
-Kalimantan LOCATION 
+kerja PERSON 
+di PERSON 
+Kalimantan NON 
 . NON 
 
- Pratikno PERSON 
+Pratikno NON 
 mengatakan NON 
 , NON 
 dia NON 
-sudah NON 
+sudah ORGANIZATION 
 pernah NON 
 menerima NON 
-perwakilan NON 
-sopir NON 
+perwakilan LOCATION 
+sopir LOCATION 
 taksi NON 
 yang NON 
 berunjuk NON 
 rasa NON 
 sebelumnya NON 
-. NON 
+. 
 
- Jadi NON 
+Jadi NON 
 tuntutan NON 
 mereka NON 
 yang NON 
 paling NON 
 utama NON 
 playing NON 
-field NON 
+field PERSON 
 yang NON 
 setara NON 
 kalau NON 
 ada NON 
 regulasi NON 
 , NON 
-ya NON 
+ya 
 kena NON 
 regulasi NON 
-harus NON 
+harus PERSON 
 disetarakan NON 
 , NON 
 " NON 
 kata NON 
-Pratikno PERSON 
-. PERSON 
+Pratikno NON 
+. NON 
 
- Mantan NON 
+Mantan NON 
 Rektor NON 
 UGM NON 
 ini NON 
-mengatakan NON 
+mengatakan ORGANIZATION 
 , NON 
 Wakil NON 
-Presiden NON 
+Presiden 
 Jusuf NON 
 Kalla NON 
 ( NON 
@@ -3319,8 +3319,8 @@ masalah NON
 ini NON 
 . NON 
 
- Ratu NON 
-Elizabeth NON 
+Ratu NON 
+Elizabeth LOCATION 
 II NON 
 telah NON 
 mencapai NON 
@@ -3329,14 +3329,14 @@ pemerintahan NON
 selama NON 
 63 NON 
 tahun NON 
-dan NON 
+dan LOCATION 
 216 NON 
-hari NON 
+hari 
 . NON 
 
- Lalu NON 
+Lalu NON 
 , NON 
-apa NON 
+apa PERSON 
 sebenarnya NON 
 rahasia NON 
 kesehatan NON 
@@ -3348,14 +3348,14 @@ William NON
 ini NON 
 ? NON 
 
- Dalam NON 
+Dalam NON 
 waktu NON 
 tidak NON 
 terlalu NON 
 lama NON 
 mereka NON 
 akan NON 
-capai NON 
+capai 
 rumusan NON 
 bersama NON 
 dalam NON 
@@ -3365,71 +3365,71 @@ pelayanan NON
 , NON 
 " NON 
 kata NON 
-Pratikno PERSON 
-. PERSON 
+Pratikno NON 
+. NON 
 
- Yang NON 
+Yang NON 
 penting NON 
 pelayanan NON 
 masyarakat NON 
 bisa NON 
-terjaga NON 
+terjaga PERSON 
 dan NON 
 masyarakat NON 
 jangan NON 
 justru NON 
-kecewa NON 
+kecewa LOCATION 
 , NON 
-masyarakat NON 
-harus NON 
+masyarakat LOCATION 
+harus LOCATION 
 dijaga NON 
 , NON 
 " NON 
 tambah NON 
-Pratikno PERSON 
-. PERSON 
+Pratikno NON 
+. NON 
 
- PDIP NON 
+PDIP NON 
 yang NON 
 sejak NON 
 awal NON 
-mendorong NON 
+mendorong 
 reshuffle NON 
-kabinet NON 
+kabinet PERSON 
 pun NON 
 mulai NON 
 ' NON 
 menata NON 
 ' NON 
-kabinet ORGANIZATION 
-kerja ORGANIZATION 
-. ORGANIZATION 
+kabinet PERSON 
+kerja NON 
+. NON 
 
- Saat NON 
+Saat NON 
 ditanya NON 
-soal NON 
+soal LOCATION 
 isu NON 
-reshuffle NON 
-kabinet NON 
+reshuffle 
+kabinet PERSON 
 yang NON 
 semakin NON 
 dekat NON 
 , NON 
 Ketua NON 
 DPP NON 
-PDIP ORGANIZATION 
-Hendrawan ORGANIZATION 
-Supratikno PERSON 
+PDIP NON 
+Hendrawan NON 
+Supratikno NON 
 langsung NON 
 menyoroti NON 
 kinerja NON 
 Menteri NON 
-BUMN ORGANIZATION 
-Rini ORGANIZATION 
-Soemarno ORGANIZATION 
-. ORGANIZATION 
+BUMN NON 
+Rini 
+Soemarno NON 
+. NON 
 
- Sebenarnya NON 
+Sebenarnya NON 
 selama NON 
 ini NON 
 memang NON 
@@ -3439,31 +3439,31 @@ keras NON
 mengkritik NON 
 kinerja NON 
 menteri NON 
-BUMN ORGANIZATION 
-itu ORGANIZATION 
-. ORGANIZATION 
+BUMN NON 
+itu NON 
+. NON 
 
- Sejumlah NON 
+Sejumlah NON 
 persoalan NON 
 diungkapkan NON 
 sejumlah NON 
 kantor NON 
 Imigrasi NON 
 saat NON 
-telekonferensi NON 
-dengan NON 
-Menteri NON 
+telekonferensi PERSON 
+dengan PERSON 
+Menteri 
 Hukum NON 
 dan NON 
-HAM NON 
-Yasonna PERSON 
-H PERSON 
-Laoly PERSON 
+HAM ORGANIZATION 
+Yasonna NON 
+H NON 
+Laoly NON 
 
- Menteri NON 
+Menteri NON 
 Rini NON 
-ini NON 
-menimbulkan NON 
+ini PERSON 
+menimbulkan PERSON 
 pro NON 
 dan NON 
 kontra NON 
@@ -3472,9 +3472,9 @@ luas NON
 , NON 
 " NON 
 kata NON 
-Hendrawan PERSON 
+Hendrawan NON 
 saat NON 
-dihubungi NON 
+dihubungi 
 , NON 
 Senin NON 
 ( NON 
@@ -3487,10 +3487,10 @@ Senin NON
 kemarin NON 
 . NON 
 
- Alasan NON 
+Alasan NON 
 lain NON 
 , NON 
-yaitu NON 
+yaitu 
 kebijakan NON 
 Penyertaan NON 
 Modal NON 
@@ -3500,17 +3500,17 @@ PMN NON
 ) NON 
 untuk NON 
 < NON 
-2 NON 
-> NON 
-BUMN ORGANIZATION 
+2 PERSON 
+> PERSON 
+BUMN NON 
 yang NON 
-menjadi NON 
+menjadi 
 kritikan NON 
 untuk NON 
-Rini PERSON 
-. PERSON 
+Rini NON 
+. NON 
 
- Kebijakan NON 
+Kebijakan NON 
 ini NON 
 menurutnya NON 
 justru NON 
@@ -3522,11 +3522,11 @@ untuk NON
 negara NON 
 . NON 
 
- Tak NON 
+Tak NON 
 akrabnya NON 
-Menteri NON 
+Menteri PERSON 
 Rini PERSON 
-dengan NON 
+dengan 
 DPR NON 
 sering NON 
 membuat NON 
@@ -3538,34 +3538,34 @@ menolak NON
 kehadirannya NON 
 . NON 
 
- Setelah NON 
+Setelah NON 
 mengkritik NON 
 keras NON 
-Rini PERSON 
+Rini NON 
 , NON 
-Hendrawan PERSON 
+Hendrawan NON 
 kemudian NON 
 menyebut NON 
-menteri NON 
-yang NON 
-bikin NON 
-gaduh NON 
+menteri PERSON 
+yang PERSON 
+bikin 
+gaduh ORGANIZATION 
 layak NON 
 direshuffle NON 
 . NON 
 
- Senior NON 
-PDIP ORGANIZATION 
+Senior NON 
+PDIP NON 
 ini NON 
 memberikan NON 
 wejangan NON 
 kepada NON 
 Presiden NON 
-Jokowi PERSON 
-agar NON 
-dalam NON 
+Jokowi NON 
+agar ORGANIZATION 
+dalam ORGANIZATION 
 mereshuffle NON 
-kabinet NON 
+kabinet 
 menempatkan NON 
 orang NON 
 terbaik NON 
@@ -3576,37 +3576,37 @@ terbaik NON
 pula NON 
 . NON 
 
- PDIP ORGANIZATION 
+PDIP NON 
 sendiri NON 
 , NON 
-menurut NON 
+menurut ORGANIZATION 
 Hendrawan PERSON 
-, NON 
+, PERSON 
 sudah NON 
 punya NON 
 catatan NON 
 evaluasi NON 
-menyeluruh NON 
-soal NON 
-kinerja NON 
-menteri NON 
-. NON 
+menyeluruh ORGANIZATION 
+soal PERSON 
+kinerja PERSON 
+menteri PERSON 
+. 
 
- Hendrawan NON 
+Hendrawan NON 
 kemudian NON 
 menyebut NON 
 empat NON 
-nama NON 
+nama ORGANIZATION 
 menteri NON 
 yang NON 
 posisinya NON 
 dirasa NON 
 kurang NON 
-tepat NON 
+tepat ORGANIZATION 
 . NON 
 
- Di NON 
-antara NON 
+Di NON 
+antara 
 sekian NON 
 persoalan NON 
 yang NON 
@@ -3620,31 +3620,31 @@ satu NON
 yang NON 
 akan NON 
 dilakukan NON 
-untuk NON 
-memperbaiki NON 
-kualitas NON 
-layanan NON 
+untuk PERSON 
+memperbaiki PERSON 
+kualitas PERSON 
+layanan 
 adalah NON 
-penggantian NON 
+penggantian PERSON 
 server NON 
 . NON 
 
- Ya NON 
+Ya NON 
 , NON 
 kami NON 
 hargai NON 
 karena NON 
 itu NON 
 prerogatif NON 
-Jokowi PERSON 
-sebagai NON 
+Jokowi NON 
+sebagai PERSON 
 Presiden NON 
 , NON 
 " NON 
 sebutnya NON 
 . NON 
 
- Ambillah NON 
+Ambillah NON 
 contoh NON 
 taksi NON 
 reguler NON 
@@ -3652,32 +3652,32 @@ yang NON
 cukup NON 
 punya NON 
 nama NON 
-, NON 
-Blue ORGANIZATION 
-Bird ORGANIZATION 
-. ORGANIZATION 
+, 
+Blue NON 
+Bird NON 
+. NON 
 
- Pada NON 
+Pada NON 
 awal NON 
 kemunculannya NON 
 dulu NON 
 , NON 
-Blue ORGANIZATION 
-Bird ORGANIZATION 
+Blue NON 
+Bird NON 
 juga NON 
 mengoperasikan NON 
 armada NON 
 gelap NON 
 . NON 
 
- Bayu NON 
+Bayu ORGANIZATION 
 merupakan NON 
 cucu NON 
 dari NON 
 sang NON 
-sang NON 
+sang PERSON 
 pendiri NON 
-, NON 
+, 
 Mutiara NON 
 Djokosoetono NON 
 saat NON 
@@ -3685,18 +3685,18 @@ diwawancara NON
 detikFinance NON 
 pada NON 
 Jumat NON 
-, NON 
+, ORGANIZATION 
 18 NON 
 Juli NON 
 2014 NON 
-lalu NON 
+lalu 
 . NON 
 
- " NON 
-Blue ORGANIZATION 
-Bird ORGANIZATION 
+" NON 
+Blue NON 
+Bird PERSON 
 sebenarnya NON 
-dimulai NON 
+dimulai ORGANIZATION 
 secara NON 
 resmi NON 
 tahun NON 
@@ -3706,33 +3706,33 @@ didirikan NON
 oleh NON 
 nenek NON 
 kami NON 
-beserta NON 
+beserta 
 ayah NON 
 saya NON 
 beserta NON 
-adiknya NON 
+adiknya PERSON 
 . NON 
 
- Tetapi NON 
+Tetapi PERSON 
 sebelum NON 
-Blue ORGANIZATION 
-Bird ORGANIZATION 
+Blue NON 
+Bird NON 
 berdiri NON 
 sebenarnya NON 
 sudah NON 
 ada NON 
 industri NON 
 jasa NON 
-transportasi NON 
+transportasi 
 yang NON 
-dijalankan NON 
+dijalankan ORGANIZATION 
 . NON 
 
- Blue ORGANIZATION 
-Bird ORGANIZATION 
+Blue NON 
+Bird NON 
 saat NON 
 itu NON 
-juga NON 
+juga PERSON 
 menggunakan NON 
 ' NON 
 senjata NON 
@@ -3743,29 +3743,29 @@ penetrasi NON
 pasar NON 
 . NON 
 
- " NON 
+" NON 
 Kami NON 
 adalah NON 
 perusahaan NON 
-taksi NON 
-pertama NON 
+taksi 
+pertama ORGANIZATION 
 yang NON 
 menggunakan NON 
 argometer NON 
-, NON 
+, PERSON 
 " NON 
 jelas NON 
 Bayu NON 
 . NON 
 
- Dalam NON 
+Dalam NON 
 perjalanannya NON 
 , NON 
 diakui NON 
 Bayu NON 
 , NON 
-memang NON 
-tidak NON 
+memang 
+tidak PERSON 
 mudah NON 
 untuk NON 
 bisa NON 
@@ -3774,10 +3774,10 @@ izin NON
 taksi NON 
 sehingga NON 
 founder NON 
-Blue ORGANIZATION 
-Bird ORGANIZATION 
+Blue NON 
+Bird NON 
 meminta NON 
-pemerintah NON 
+pemerintah 
 sampai NON 
 pada NON 
 akhirnya NON 
@@ -3786,15 +3786,15 @@ izin NON
 taksi NON 
 . NON 
 
- Hanya NON 
+Hanya PERSON 
 ada NON 
 satu NON 
 hal NON 
 yang NON 
 menjadi NON 
 motto NON 
-Blue ORGANIZATION 
-Bird ORGANIZATION 
+Blue NON 
+Bird NON 
 saat NON 
 itu NON 
 , NON 
@@ -3802,7 +3802,7 @@ kita NON
 harus NON 
 menjadi NON 
 perusahaan NON 
-yang NON 
+yang 
 inovatif NON 
 dan NON 
 harus NON 
@@ -3810,17 +3810,17 @@ menjadi NON
 market NON 
 leader NON 
 , NON 
-" NON 
+" PERSON 
 jelas NON 
 dia NON 
 . NON 
 
- Ini NON 
+Ini NON 
 terobosan NON 
 yang NON 
-kita NON 
-lakukan NON 
-untuk NON 
+kita 
+lakukan ORGANIZATION 
+untuk ORGANIZATION 
 memberikan NON 
 pelayanan NON 
 maksimal NON 
@@ -3828,13 +3828,13 @@ kepada NON
 masyarakat NON 
 , NON 
 " NON 
-ujar NON 
-Bayu NON 
+ujar ORGANIZATION 
+Bayu ORGANIZATION 
 kala NON 
-itu NON 
+itu 
 . NON 
 
- Dia NON 
+Dia NON 
 menambahkan NON 
 , NON 
 awalnya NON 
@@ -3845,33 +3845,33 @@ dan NON
 mengadopsi NON 
 teknologi NON 
 dari NON 
-beberapa NON 
+beberapa 
 negara NON 
 maju NON 
 . NON 
 
- Siapa NON 
+Siapa NON 
 nyana NON 
 di NON 
 sudut NON 
 - NON 
-sudut NON 
-dunia NON 
+sudut PERSON 
+dunia PERSON 
 ada NON 
 nama NON 
-seperti NON 
-Travis ORGANIZATION 
-Kalanick ORGANIZATION 
-dan ORGANIZATION 
-Garret ORGANIZATION 
-Camp ORGANIZATION 
+seperti ORGANIZATION 
+Travis NON 
+Kalanick NON 
+dan NON 
+Garret NON 
+Camp NON 
 , NON 
 yang NON 
 tahun NON 
-2008 NON 
+2008 
 lalu NON 
-di NON 
-malam NON 
+di ORGANIZATION 
+malam ORGANIZATION 
 bersalju NON 
 kota NON 
 Paris NON 
@@ -3884,17 +3884,17 @@ menghadiri NON
 konferensi NON 
 . NON 
 
- Menteri NON 
+Menteri NON 
 Koordinasi NON 
 Politik NON 
 , NON 
 Hukum NON 
 dan NON 
-Keamanan NON 
+Keamanan 
 Luhut NON 
 Binsar NON 
-Pandjaitan NON 
-mengatakan NON 
+Pandjaitan ORGANIZATION 
+mengatakan ORGANIZATION 
 pemerintah NON 
 akan NON 
 mempelajari NON 
@@ -3905,11 +3905,11 @@ taksi NON
 reguler NON 
 dan NON 
 online NON 
-. NON 
+. 
 
- Kominfo NON 
+Kominfo NON 
 dan NON 
-Kemenhub ORGANIZATION 
+Kemenhub NON 
 akan NON 
 duduk NON 
 bersama NON 
@@ -3921,7 +3921,7 @@ dalam NON
 jumpa NON 
 pers NON 
 di NON 
-kantornya NON 
+kantornya 
 , NON 
 Selasa NON 
 , NON 
@@ -3930,52 +3930,52 @@ Maret NON
 2016 NON 
 . NON 
 
- Dalam NON 
+Dalam NON 
 UU NON 
 Nomor NON 
 22 NON 
 Tahun NON 
-2009 NON 
+2009 ORGANIZATION 
 tentang NON 
-Lalu NON 
+Lalu 
 Lintas NON 
 dan NON 
 Angkutan NON 
 Jalan NON 
-tidak NON 
+tidak ORGANIZATION 
 diatur NON 
 tentang NON 
 adanya NON 
 ojek NON 
 online NON 
 seperti NON 
-Go ORGANIZATION 
-- ORGANIZATION 
-Jek ORGANIZATION 
-. ORGANIZATION 
+Go NON 
+- NON 
+Jek NON 
+. NON 
 
- Untuk NON 
-segera NON 
-mengatasi NON 
+Untuk NON 
+segera ORGANIZATION 
+mengatasi ORGANIZATION 
 hal NON 
 tersebut NON 
 , NON 
-Luhut PERSON 
+Luhut NON 
 pun NON 
 menyebut NON 
 nantinya NON 
 Menteri NON 
 Perhubungan NON 
-Ignasius PERSON 
-Jonan PERSON 
+Ignasius 
+Jonan NON 
 bersama NON 
 Menteri NON 
 Komunikasi NON 
 dan NON 
 Informatika NON 
 Rudiantara NON 
-akan NON 
-duduk NON 
+akan ORGANIZATION 
+duduk ORGANIZATION 
 bersama NON 
 membahas NON 
 konflik NON 
@@ -3988,7 +3988,7 @@ online NON
 tersebut NON 
 . NON 
 
- Luhut NON 
+Luhut NON 
 meminta NON 
 kepada NON 
 semua NON 
@@ -3996,7 +3996,7 @@ pihak NON
 untuk NON 
 memberikan NON 
 waktu NON 
-kepada NON 
+kepada 
 pemerintah NON 
 untuk NON 
 menyelesaikan NON 
@@ -4007,20 +4007,20 @@ online NON
 ini NON 
 . NON 
 
- Dia NON 
+Dia NON 
 juga NON 
 meminta NON 
 pihak NON 
-Blue ORGANIZATION 
-Bird ORGANIZATION 
-, ORGANIZATION 
-Express ORGANIZATION 
-, ORGANIZATION 
-Go ORGANIZATION 
-- ORGANIZATION 
-Jek ORGANIZATION 
-, ORGANIZATION 
-GrabCar ORGANIZATION 
+Blue NON 
+Bird NON 
+, NON 
+Express NON 
+, NON 
+Go 
+- NON 
+Jek NON 
+, NON 
+GrabCar NON 
 dan ORGANIZATION 
 Uber ORGANIZATION 
 menahan NON 
@@ -4031,35 +4031,35 @@ mencari NON
 solusi NON 
 . NON 
 
- Kepada NON 
+Kepada NON 
 taksi NON 
-baik NON 
-Blue ORGANIZATION 
-Bird ORGANIZATION 
-maupun ORGANIZATION 
-Exspress ORGANIZATION 
-, ORGANIZATION 
-Go ORGANIZATION 
-- ORGANIZATION 
-Jek ORGANIZATION 
+baik 
+Blue NON 
+Bird NON 
+maupun NON 
+Exspress NON 
+, NON 
+Go NON 
+- NON 
+Jek NON 
 untuk NON 
 mehanan NON 
-diri NON 
-tidak NON 
+diri PERSON 
+tidak PERSON 
 melakukan NON 
-sweeping NON 
-seperti NON 
+sweeping PERSON 
+seperti PERSON 
 tadi NON 
 , NON 
 " NON 
 kata NON 
-Luhut PERSON 
-. PERSON 
+Luhut NON 
+. NON 
 
- Jadi NON 
+Jadi NON 
 enggak NON 
 sesederhana NON 
-itu NON 
+itu LOCATION 
 , NON 
 karena NON 
 tidak NON 
@@ -4068,18 +4068,18 @@ seperti NON
 membalikkan NON 
 telapak NON 
 tangan NON 
-, NON 
+, 
 " NON 
 kata NON 
-Luhut PERSON 
-. PERSON 
+Luhut NON 
+. NON 
 
- " NON 
+" NON 
 Kita NON 
 lihat NON 
-revisi NON 
-UU NON 
-bisa NON 
+revisi PERSON 
+UU PERSON 
+bisa PERSON 
 setahun NON 
 dua NON 
 tahun NON 
@@ -4092,31 +4092,31 @@ atau NON
 tidak NON 
 cari NON 
 format NON 
-yang NON 
+yang 
 pas NON 
 , NON 
-kita NON 
+kita ORGANIZATION 
 lihat NON 
 apa NON 
 yang NON 
 terbaik NON 
 , NON 
 " NON 
-jelas NON 
-Luhut PERSON 
-. PERSON 
+jelas PERSON 
+Luhut NON 
+. NON 
 
- Sementara NON 
+Sementara NON 
 itu NON 
 , NON 
 Menteri NON 
 Perhubungan NON 
-Ignasius PERSON 
-Jonan PERSON 
+Ignasius NON 
+Jonan NON 
 mengatakan NON 
 tidak NON 
 perlu NON 
-dilakukan NON 
+dilakukan 
 perubahan NON 
 regulasi NON 
 atau NON 
@@ -4124,11 +4124,11 @@ undang NON
 - NON 
 undang NON 
 terkait NON 
-hal NON 
-itu NON 
+hal PERSON 
+itu PERSON 
 . NON 
 
- Jonan PERSON 
+Jonan NON 
 mengatakan NON 
 bahwa NON 
 asas NON 
@@ -4136,33 +4136,33 @@ keadilan NON
 yang NON 
 dimaksud NON 
 Presiden NON 
-Jokowi PERSON 
+Jokowi NON 
 yaitu NON 
 semua NON 
-angkutan NON 
+angkutan LOCATION 
 umum NON 
-diperlakukan NON 
+diperlakukan 
 sama NON 
 . NON 
 
- Asas NON 
+Asas NON 
 keadilan NON 
 itu NON 
 semua NON 
-platform NON 
+platform PERSON 
 sama NON 
 , NON 
 urus NON 
 izin NON 
 , NON 
-badan NON 
-usaha NON 
+badan PERSON 
+usaha PERSON 
 , NON 
 gitu NON 
 loh NON 
 , NON 
 kalo NON 
-sopir NON 
+sopir PERSON 
 SIM NON 
 A NON 
 umum NON 
@@ -4176,12 +4176,12 @@ itu NON
 asas NON 
 keadilan NON 
 , NON 
-" NON 
-kata NON 
-Jonan PERSON 
-. PERSON 
+" 
+kata PERSON 
+Jonan NON 
+. NON 
 
- < NON 
+< NON 
 iframe NON 
 allowfullscreen NON 
 = NON 
@@ -4196,42 +4196,42 @@ frameborder NON
 height NON 
 = NON 
 " NON 
-236 NON 
+236 
 " NON 
 scrolling NON 
 = NON 
 " NON 
-no NON 
-" NON 
+no ORGANIZATION 
+" ORGANIZATION 
 src NON 
 = NON 
 " NON 
 http NON 
 : NON 
+/ LOCATION 
 / NON 
-/ NON 
-tv NON 
+tv ORGANIZATION 
 . NON 
 detik ORGANIZATION 
-. ORGANIZATION 
-com ORGANIZATION 
+. NON 
+com NON 
 / NON 
 20detik NON 
 / NON 
 embed NON 
 / NON 
-160322042 NON 
+160322042 
 / NON 
 " NON 
 width NON 
-= NON 
-" NON 
+= ORGANIZATION 
+" ORGANIZATION 
 420 NON 
-" NON 
+" ORGANIZATION 
 > NON 
 < NON 
 / NON 
-iframe NON 
+iframe LOCATION 
 > NON 
 Kemudian NON 
 , NON 
@@ -4243,12 +4243,12 @@ izin NON
 tersebut NON 
 masih NON 
 diproses NON 
-di NON 
-pemerintah NON 
-DKI NON 
+di PERSON 
+pemerintah PERSON 
+DKI 
 . NON 
 
- Rudi NON 
+Rudi NON 
 menyebut NON 
 ketetapan NON 
 suatu NON 
@@ -4262,10 +4262,10 @@ penting NON
 untuk NON 
 mengetahui NON 
 penanggungjawabnya NON 
-. NON 
+. PERSON 
 
- Itu NON 
-dibawa NON 
+Itu PERSON 
+dibawa 
 penerima NON 
 izin NON 
 BTSP NON 
@@ -4281,7 +4281,7 @@ dan NON
 BTSP NON 
 - NON 
 nya NON 
-DKI LOCATION 
+DKI NON 
 , NON 
 sudah NON 
 koordinasi NON 
@@ -4291,21 +4291,21 @@ gubernur NON
 , NON 
 " NON 
 kata NON 
-Rudiantara PERSON 
-. PERSON 
+Rudiantara NON 
+. NON 
 
- Menteri NON 
+Menteri NON 
 Perhubungan NON 
 Ignasius PERSON 
 Jonan PERSON 
-menyatakan NON 
+menyatakan 
 masalah NON 
 yang NON 
 dihadapi NON 
 taksi NON 
 berbasis NON 
-aplikasi NON 
-bukan NON 
+aplikasi PERSON 
+bukan PERSON 
 pada NON 
 aplikasinya NON 
 , NON 
@@ -4317,12 +4317,12 @@ belum NON
 terdaftar NON 
 . NON 
 
- " NON 
+" NON 
 Dari NON 
 setahun NON 
 lalu NON 
-saya NON 
-sudah NON 
+saya 
+sudah PERSON 
 ingatkan NON 
 Grab NON 
 dan NON 
@@ -4330,16 +4330,16 @@ Uber NON
 sudah NON 
 ke NON 
 sini NON 
-. NON 
+. PERSON 
 
- Saya NON 
+Saya NON 
 katakan NON 
 daftarkan NON 
 saja NON 
 , NON 
 atau NON 
 Anda NON 
-kerja NON 
+kerja 
 sama NON 
 dengan NON 
 perusahaan NON 
@@ -4350,18 +4350,18 @@ terdaftar NON
 , NON 
 " NON 
 kata NON 
-Jonan PERSON 
+Jonan NON 
 dalam NON 
 jumpa NON 
 pers NON 
 di NON 
-Kemenhub ORGANIZATION 
-Jl ORGANIZATION 
-Medan ORGANIZATION 
-Merdeka ORGANIZATION 
-Barat ORGANIZATION 
-, ORGANIZATION 
-Jakpus ORGANIZATION 
+Kemenhub NON 
+Jl NON 
+Medan NON 
+Merdeka NON 
+Barat NON 
+, NON 
+Jakpus NON 
 , NON 
 Selasa NON 
 ( NON 
@@ -4374,9 +4374,9 @@ Selasa NON
 malam NON 
 . NON 
 
- Bahkan NON 
-menurut NON 
-Jonan PERSON 
+Bahkan PERSON 
+menurut PERSON 
+Jonan 
 , NON 
 jika NON 
 ingin NON 
@@ -4396,7 +4396,7 @@ badan NON
 usaha NON 
 . NON 
 
- Ratu NON 
+Ratu NON 
 Elizabeth NON 
 sudah NON 
 melihat NON 
@@ -4409,21 +4409,21 @@ Diana NON
 untuk NON 
 pertama NON 
 kalinya NON 
-di NON 
-Istana NON 
-Kensington NON 
+di ORGANIZATION 
+Istana ORGANIZATION 
+Kensington ORGANIZATION 
 . NON 
 
- Begitu NON 
+Begitu NON 
 juga NON 
 dengan NON 
-Blue ORGANIZATION 
-Bird ORGANIZATION 
-, ORGANIZATION 
-Express ORGANIZATION 
-, ORGANIZATION 
-Silver ORGANIZATION 
-Bird ORGANIZATION 
+Blue NON 
+Bird NON 
+, NON 
+Express NON 
+, NON 
+Silver NON 
+Bird NON 
 atau NON 
 taksi NON 
 apapun NON 
@@ -4431,10 +4431,10 @@ jika NON
 ingin NON 
 pelat NON 
 hitam NON 
-boleh NON 
+boleh ORGANIZATION 
 - NON 
 boleh NON 
-saja NON 
+saja PERSON 
 , NON 
 tapi NON 
 terdaftar NON 
@@ -4444,9 +4444,9 @@ rental NON
 resmi NON 
 . NON 
 
- Menteri NON 
-Perhubungan NON 
-Ignasius PERSON 
+Menteri LOCATION 
+Perhubungan LOCATION 
+Ignasius 
 Jonan PERSON 
 mengatakan NON 
 tidak NON 
@@ -4463,8 +4463,8 @@ hal NON
 itu NON 
 . NON 
 
- Kata NON 
-Jonan PERSON 
+Kata 
+Jonan NON 
 saat NON 
 menggelar NON 
 jumpa NON 
@@ -4472,16 +4472,16 @@ pers NON
 di NON 
 kantornya NON 
 , NON 
-Jalan LOCATION 
-Medan LOCATION 
-Merdeka LOCATION 
-Barat LOCATION 
+Jalan NON 
+Medan NON 
+Merdeka NON 
+Barat NON 
 , NON 
-Jakarta LOCATION 
-Pusat LOCATION 
+Jakarta NON 
+Pusat NON 
 , NON 
 Selasa NON 
-( NON 
+( LOCATION 
 22 NON 
 / NON 
 3 NON 
@@ -4490,15 +4490,15 @@ Selasa NON
 ) NON 
 . NON 
 
- Namun NON 
+Namun NON 
 menurut NON 
 Jonan PERSON 
-, NON 
-angkutan NON 
+, PERSON 
+angkutan 
 online NON 
 berbasis NON 
-aplikasi NON 
-harus NON 
+aplikasi PERSON 
+harus PERSON 
 didaftarkan NON 
 seperti NON 
 angkutan NON 
@@ -4506,7 +4506,7 @@ umum NON
 lainnya NON 
 . NON 
 
- " NON 
+" NON 
 Ya NON 
 boleh NON 
 , NON 
@@ -4518,27 +4518,27 @@ rental NON
 bukan NON 
 yang NON 
 keliling NON 
-di NON 
+di 
 jalan NON 
 , NON 
 " NON 
 ujar NON 
 Menteri NON 
 Perhubungan NON 
-Ignasius PERSON 
-Jonan PERSON 
+Ignasius NON 
+Jonan ORGANIZATION 
 di NON 
-kantor NON 
-Kementrian ORGANIZATION 
-Perhubungan ORGANIZATION 
-, ORGANIZATION 
-Jalan ORGANIZATION 
-Medan ORGANIZATION 
-Merdeka ORGANIZATION 
-Barat ORGANIZATION 
-, ORGANIZATION 
-Jakarta ORGANIZATION 
-Pusat ORGANIZATION 
+kantor ORGANIZATION 
+Kementrian NON 
+Perhubungan NON 
+, NON 
+Jalan NON 
+Medan 
+Merdeka NON 
+Barat NON 
+, NON 
+Jakarta NON 
+Pusat NON 
 , NON 
 Selasa NON 
 ( NON 
@@ -4550,21 +4550,21 @@ Selasa NON
 ) NON 
 . NON 
 
- " NON 
+" NON 
 Aplikasi NON 
 berdasarkan NON 
-reservasi NON 
+reservasi PERSON 
 boleh NON 
 saja NON 
 pelat NON 
 hitam NON 
 , NON 
-tapi NON 
-di NON 
-- NON 
-kir NON 
+tapi LOCATION 
+di LOCATION 
+- LOCATION 
+kir LOCATION 
 harus NON 
-ada NON 
+ada LOCATION 
 izin NON 
 operasi NON 
 dan NON 
@@ -4574,13 +4574,13 @@ sebagainya NON
 sambungnya NON 
 . NON 
 
- Jonan PERSON 
+Jonan NON 
 mengatakan NON 
 tidak NON 
-ada NON 
+ada 
 masalah NON 
 jika NON 
-perusahaan NON 
+perusahaan PERSON 
 transportasi NON 
 menggunakan NON 
 sistem NON 
@@ -4590,47 +4590,47 @@ menjalankan NON
 usahanya NON 
 . NON 
 
- Soal NON 
+Soal NON 
 legalitas NON 
 perusahaan NON 
 terebut NON 
 , NON 
-Jonan PERSON 
+Jonan NON 
 meminta NON 
 agar NON 
 semua NON 
 persyaratan NON 
-harus NON 
-diikuti NON 
-seperti NON 
+harus 
+diikuti PERSON 
+seperti PERSON 
 telah NON 
 memiliki NON 
 badan NON 
 hukum NON 
-. NON 
+. PERSON 
 
- Putri NON 
-Pangeran NON 
+Putri PERSON 
+Pangeran PERSON 
 William NON 
 dan NON 
 Putri NON 
 Kate NON 
 tersebut NON 
-merupakan NON 
-ahli NON 
+merupakan LOCATION 
+ahli LOCATION 
 waris NON 
-takhta NON 
+takhta 
 urutan NON 
 keempat NON 
 Kerajaan NON 
-Inggris LOCATION 
-. NON 
+Inggris ORGANIZATION 
+. ORGANIZATION 
 
- Pihak NON 
-Kemenhub ORGANIZATION 
+Pihak NON 
+Kemenhub NON 
 juga NON 
-tidak NON 
-mempermasalahkan NON 
+tidak ORGANIZATION 
+mempermasalahkan ORGANIZATION 
 kendaraan NON 
 pribadi NON 
 dijadikan NON 
@@ -4649,13 +4649,13 @@ kepada NON
 pemerintah NON 
 . NON 
 
- " NON 
+" NON 
 Yang NON 
-saya NON 
+saya 
 minta NON 
 ikuti NON 
-aturan NON 
-, NON 
+aturan PERSON 
+, PERSON 
 ikut NON 
 Undang NON 
 - NON 
@@ -4670,53 +4670,53 @@ bukan NON
 sistem NON 
 aplikasinya NON 
 , NON 
-" NON 
+" 
 kata NON 
 Jonan PERSON 
-. PERSON 
+. NON 
 
- Menteri NON 
+Menteri NON 
 Perhubungan NON 
-Ignasius PERSON 
-Jonan PERSON 
+Ignasius NON 
+Jonan NON 
 menggelar NON 
 jumpa NON 
-pers NON 
-menanggapi NON 
-demo NON 
-lanjutan NON 
+pers LOCATION 
+menanggapi LOCATION 
+demo LOCATION 
+lanjutan LOCATION 
 penolakan NON 
-taksi NON 
-berbasis NON 
+taksi LOCATION 
+berbasis LOCATION 
 aplikasi NON 
 siang NON 
 tadi NON 
 . NON 
 
- Jonan PERSON 
+Jonan NON 
 menegaskan NON 
 bahwa NON 
 Kemenhub NON 
 pro NON 
 terhadap NON 
-sistem NON 
+sistem 
 aplikasi NON 
 , NON 
-tapi NON 
+tapi PERSON 
 harus NON 
 didaftarkan NON 
 . NON 
 
- Menteri ORGANIZATION 
-Riset ORGANIZATION 
-Teknologi ORGANIZATION 
-dan ORGANIZATION 
-Pendidikan ORGANIZATION 
-Tinggi ORGANIZATION 
-M ORGANIZATION 
-Nasir ORGANIZATION 
+Menteri NON 
+Riset NON 
+Teknologi NON 
+dan NON 
+Pendidikan NON 
+Tinggi NON 
+M NON 
+Nasir NON 
 mengatakan NON 
-bahwa NON 
+bahwa 
 Thailand NON 
 sudah NON 
 memesan NON 
@@ -4726,45 +4726,45 @@ yang NON
 risetnya NON 
 tengah NON 
 dikembangkan NON 
-Lembaga ORGANIZATION 
-Penerbangan ORGANIZATION 
-dan ORGANIZATION 
-Antariksa ORGANIZATION 
-Nasional ORGANIZATION 
-( ORGANIZATION 
-Lapan ORGANIZATION 
-) ORGANIZATION 
-. ORGANIZATION 
+Lembaga NON 
+Penerbangan NON 
+dan NON 
+Antariksa NON 
+Nasional NON 
+( NON 
+Lapan NON 
+) NON 
+. NON 
 
- Kalau NON 
-menurut NON 
-saya NON 
+Kalau NON 
+menurut PERSON 
+saya PERSON 
 menggunakan NON 
-sistem NON 
-aplikasi NON 
-yang NON 
+sistem LOCATION 
+aplikasi LOCATION 
+yang LOCATION 
 canggih NON 
-, NON 
-bagus NON 
-, NON 
-sangat NON 
+, LOCATION 
+bagus LOCATION 
+, LOCATION 
+sangat LOCATION 
 membuat NON 
-transportasi NON 
-publik NON 
+transportasi LOCATION 
+publik LOCATION 
 lebih NON 
 efisien NON 
 , NON 
 " NON 
 kata NON 
 Menhub NON 
-Ignasius PERSON 
-Jonan PERSON 
-. PERSON 
+Ignasius NON 
+Jonan NON 
+. NON 
 
- Hal NON 
-itu NON 
+Hal NON 
+itu 
 disampaikan NON 
-Jonan PERSON 
+Jonan NON 
 dalam NON 
 jumpa NON 
 pers NON 
@@ -4776,18 +4776,18 @@ pukul NON
 27 NON 
 WIB NON 
 di NON 
-Kemenhub ORGANIZATION 
-, ORGANIZATION 
-Jalan ORGANIZATION 
-Medan ORGANIZATION 
-Merdeka ORGANIZATION 
-Barat ORGANIZATION 
-, ORGANIZATION 
-Jakarta ORGANIZATION 
-Pusat ORGANIZATION 
+Kemenhub NON 
 , NON 
-Selasa NON 
-( NON 
+Jalan NON 
+Medan NON 
+Merdeka NON 
+Barat NON 
+, NON 
+Jakarta NON 
+Pusat NON 
+, NON 
+Selasa 
+( PERSON 
 22 NON 
 / NON 
 3 NON 
@@ -4796,20 +4796,20 @@ Selasa NON
 ) NON 
 . NON 
 
- Harapannya NON 
+Harapannya NON 
 , NON 
 pada NON 
 pertengahan NON 
 tahun NON 
 ini NON 
 sudah NON 
-bisa NON 
+bisa 
 digelindingkan NON 
 keluar NON 
 hanggar NON 
 , NON 
 sudah NON 
-bentuk NON 
+bentuk PERSON 
 bodi NON 
 pesawat NON 
 , NON 
@@ -4822,14 +4822,14 @@ Jumat NON
 ( NON 
 30 NON 
 / NON 
-1 NON 
-/ NON 
-2015 NON 
-) NON 
+1 
+/ PERSON 
+2015 PERSON 
+) PERSON 
 malam NON 
-. NON 
+. PERSON 
 
- Jonan PERSON 
+Jonan PERSON 
 menduga NON 
 ada NON 
 pihak NON 
@@ -4838,16 +4838,16 @@ pihak NON
 yang NON 
 menggeser NON 
 seolah NON 
-Kemenhub NON 
+Kemenhub LOCATION 
 tidak NON 
-pro NON 
+pro 
 terhadap NON 
-aplikasi NON 
+aplikasi ORGANIZATION 
 online NON 
 . NON 
 
- Padahal NON 
-Jonan PERSON 
+Padahal NON 
+Jonan NON 
 sejak NON 
 3 NON 
 tahun NON 
@@ -4860,15 +4860,15 @@ kereta NON
 saat NON 
 menjabat NON 
 Dirut NON 
-PT ORGANIZATION 
-KAI ORGANIZATION 
-. ORGANIZATION 
+PT NON 
+KAI NON 
+. NON 
 
- Menko NON 
-Polhukam ORGANIZATION 
-Luhut ORGANIZATION 
-Binsar ORGANIZATION 
-Pandjaitan ORGANIZATION 
+Menko NON 
+Polhukam 
+Luhut NON 
+Binsar NON 
+Pandjaitan NON 
 mengatakan NON 
 pemerintah NON 
 belum NON 
@@ -4882,7 +4882,7 @@ aplikasi NON
 online NON 
 . NON 
 
- Enggak NON 
+Enggak NON 
 selesaikan NON 
 masalah NON 
 , NON 
@@ -4890,73 +4890,73 @@ nanti NON
 ada NON 
 yang NON 
 ribut NON 
-lagi NON 
-, NON 
-" NON 
+lagi PERSON 
+, PERSON 
+" 
 kata NON 
 Luhut NON 
-dalam NON 
-konferensi NON 
+dalam PERSON 
+konferensi PERSON 
 pers NON 
 di NON 
 kantornya NON 
 , NON 
-Jl LOCATION 
-Medan LOCATION 
-Merdeka LOCATION 
-Selatan LOCATION 
+Jl NON 
+Medan NON 
+Merdeka NON 
+Selatan NON 
 , NON 
-Jakarta LOCATION 
+Jakarta NON 
 , NON 
 Selasa NON 
 ( NON 
-22 NON 
-/ NON 
+22 
+/ PERSON 
 3 NON 
 / NON 
-2016 NON 
+2016 ORGANIZATION 
 ) NON 
 . NON 
 
- Luhut PERSON 
+Luhut NON 
 menekankan NON 
 penyelesaian NON 
 ini NON 
 tak NON 
 bisa NON 
 secepat NON 
-seperti NON 
+seperti 
 membalikkan NON 
-telapak NON 
-tangan NON 
+telapak PERSON 
+tangan PERSON 
 . NON 
 
- Maka NON 
-menurutnya NON 
-diperlukan NON 
-komunikasi NON 
+Maka NON 
+menurutnya PERSON 
+diperlukan PERSON 
+komunikasi PERSON 
 pemerintah NON 
 terutama NON 
-Menteri NON 
-Perhubungan ORGANIZATION 
-Ignasius ORGANIZATION 
-Jonan ORGANIZATION 
-dan ORGANIZATION 
 Menteri ORGANIZATION 
-Komunikasi ORGANIZATION 
-dan ORGANIZATION 
-Informatika ORGANIZATION 
+Perhubungan NON 
+Ignasius NON 
+Jonan NON 
+dan PERSON 
+Menteri NON 
+Komunikasi NON 
+dan NON 
+Informatika NON 
 Rudiantara ORGANIZATION 
 . ORGANIZATION 
 
- " NON 
-Kami NON 
-sedang NON 
+" NON 
+Kami PERSON 
+sedang PERSON 
 pelajari NON 
 Pak NON 
 Rudi NON 
 ( NON 
-Menkoninfo NON 
+Menkoninfo 
 ) NON 
 barusan NON 
 bisikin NON 
@@ -4978,15 +4978,15 @@ bersama NON
 sebutnya NON 
 . NON 
 
- Presiden NON 
+Presiden NON 
 Joko PERSON 
 Widodo PERSON 
-( NON 
-Jokowi PERSON 
+( PERSON 
+Jokowi 
 ) NON 
 memerintahkan NON 
 Menteri NON 
-Koordinator NON 
+Koordinator PERSON 
 Politik NON 
 Hukum NON 
 dan NON 
@@ -4998,27 +4998,27 @@ untuk NON
 mengambil NON 
 langkah NON 
 - NON 
-langkah NON 
+langkah ORGANIZATION 
 terkait NON 
-aksi NON 
-unjuk NON 
-rasa NON 
-ribuan NON 
+aksi LOCATION 
+unjuk LOCATION 
+rasa LOCATION 
+ribuan LOCATION 
 sopir NON 
-taksi NON 
-dan NON 
+taksi LOCATION 
+dan LOCATION 
 bajaj NON 
 siang NON 
 tadi NON 
 . NON 
 
- Menko NON 
+Menko NON 
 Luhut NON 
 diperintahkan NON 
 untuk NON 
 mempelajari NON 
 perseteruan NON 
-antara NON 
+antara 
 pengemudi NON 
 taksi NON 
 dan NON 
@@ -5031,16 +5031,16 @@ transportasi NON
 online NON 
 Uber NON 
 dan NON 
-GrabCar ORGANIZATION 
-. ORGANIZATION 
+GrabCar NON 
+. NON 
 
- " NON 
+" NON 
 Presiden NON 
 lima NON 
 belas NON 
 menit NON 
 yang NON 
-lalu NON 
+lalu ORGANIZATION 
 memerintah NON 
 kan NON 
 kepada NON 
@@ -5052,8 +5052,8 @@ kasus NON
 demo NON 
 taksi NON 
 ) NON 
-, NON 
-" NON 
+, 
+" PERSON 
 kata NON 
 Luhut NON 
 saat NON 
@@ -5063,15 +5063,15 @@ pers NON
 di NON 
 kantor NON 
 Kemenko ORGANIZATION 
-Polhukam ORGANIZATION 
-, ORGANIZATION 
-jalan ORGANIZATION 
-Medan ORGANIZATION 
-Merdeka ORGANIZATION 
-Barat ORGANIZATION 
-, ORGANIZATION 
-Jakarta ORGANIZATION 
+Polhukam NON 
 , NON 
+jalan NON 
+Medan NON 
+Merdeka NON 
+Barat NON 
+, 
+Jakarta NON 
+, PERSON 
 Selasa NON 
 ( NON 
 22 NON 
@@ -5082,18 +5082,18 @@ Selasa NON
 ) NON 
 . NON 
 
- Menurut NON 
+Menurut NON 
 Luhut NON 
 , NON 
-nantinya NON 
-Menteri NON 
+nantinya ORGANIZATION 
+Menteri ORGANIZATION 
 Perhubungan NON 
-Ignasius PERSON 
-Jonan PERSON 
-bersama NON 
-Menteri NON 
-Komunikasi NON 
-dan NON 
+Ignasius 
+Jonan NON 
+bersama PERSON 
+Menteri PERSON 
+Komunikasi PERSON 
+dan PERSON 
 Informatika NON 
 Rudiantara NON 
 akan NON 
@@ -5106,11 +5106,11 @@ konvensional NON
 dengan NON 
 layanan NON 
 transportasi NON 
-online NON 
-tersebut NON 
+online 
+tersebut PERSON 
 . NON 
 
- " NON 
+" NON 
 Menkominfo NON 
 dan NON 
 Menhub NON 
@@ -5120,20 +5120,20 @@ secara NON
 bersama NON 
 membahas NON 
 ini NON 
-, NON 
+, PERSON 
 " NON 
 kata NON 
-Luhut PERSON 
-. PERSON 
+Luhut NON 
+. NON 
 
- Luhut NON 
+Luhut NON 
 meminta NON 
-kepada NON 
-semua NON 
-pihak NON 
-untuk NON 
+kepada LOCATION 
+semua LOCATION 
+pihak LOCATION 
+untuk LOCATION 
 memberikan NON 
-waktu NON 
+waktu LOCATION 
 kepada NON 
 pemerintah NON 
 untuk NON 
@@ -5145,45 +5145,45 @@ online NON
 ini NON 
 . NON 
 
- Dia NON 
-juga NON 
+Dia 
+juga PERSON 
 meminta NON 
 pihak NON 
-Blue ORGANIZATION 
-Bird ORGANIZATION 
-, ORGANIZATION 
-Express ORGANIZATION 
-, ORGANIZATION 
-Go ORGANIZATION 
-- ORGANIZATION 
-Jek ORGANIZATION 
-, ORGANIZATION 
-GrabCar ORGANIZATION 
-dan ORGANIZATION 
-Uber ORGANIZATION 
+Blue NON 
+Bird NON 
+, NON 
+Express NON 
+, NON 
+Go NON 
+- NON 
+Jek NON 
+, NON 
+GrabCar 
+dan NON 
+Uber NON 
 menahan NON 
 diri NON 
 selama NON 
 pemerintah NON 
 mencari NON 
 solusi NON 
-. NON 
+. PERSON 
 
- Kepada NON 
+Kepada PERSON 
 taksi NON 
 baik NON 
-Blue ORGANIZATION 
-Bird ORGANIZATION 
-maupun ORGANIZATION 
-Exspress ORGANIZATION 
-, ORGANIZATION 
-Go ORGANIZATION 
-- ORGANIZATION 
-Jek ORGANIZATION 
+Blue NON 
+Bird NON 
+maupun NON 
+Exspress PERSON 
+, PERSON 
+Go 
+- NON 
+Jek NON 
 untuk NON 
 mehanan NON 
 diri NON 
-tidak NON 
+tidak PERSON 
 melakukan NON 
 sweeping NON 
 seperti NON 
@@ -5191,39 +5191,39 @@ tadi NON
 , NON 
 " NON 
 kata NON 
-Luhut PERSON 
-. PERSON 
+Luhut NON 
+. NON 
 
- Kapolri NON 
+Kapolri NON 
 Jenderal NON 
-Badrodin PERSON 
-Haiti PERSON 
+Badrodin NON 
+Haiti NON 
 menyesalkan NON 
 aksi NON 
-demo NON 
+demo PERSON 
 anarkis NON 
 yang NON 
 dilakukan NON 
 pengemudi NON 
 sopir NON 
 taksi NON 
-terkait NON 
+terkait 
 protes NON 
-transportasi NON 
-aplikasi NON 
+transportasi PERSON 
+aplikasi PERSON 
 online NON 
-. NON 
+. PERSON 
 
- Badrodin ORGANIZATION 
-menginstruksikan ORGANIZATION 
-Kapolda ORGANIZATION 
-Metro ORGANIZATION 
-Jaya ORGANIZATION 
-Irjen ORGANIZATION 
-Pol ORGANIZATION 
-Irjen ORGANIZATION 
-Pol ORGANIZATION 
-Moechgiyarto ORGANIZATION 
+Badrodin NON 
+menginstruksikan NON 
+Kapolda NON 
+Metro NON 
+Jaya NON 
+Irjen NON 
+Pol NON 
+Irjen NON 
+Pol NON 
+Moechgiyarto NON 
 untuk NON 
 menindak NON 
 tegas NON 
@@ -5231,23 +5231,23 @@ pendemo NON
 anarkis NON 
 . NON 
 
- N ORGANIZATION 
-- ORGANIZATION 
-219 ORGANIZATION 
-rancangan ORGANIZATION 
-PT ORGANIZATION 
-Dirgantara ORGANIZATION 
-Indonesia ORGANIZATION 
-berbasiskan ORGANIZATION 
-CASA ORGANIZATION 
-C ORGANIZATION 
-- ORGANIZATION 
-212 ORGANIZATION 
-/ ORGANIZATION 
-NC ORGANIZATION 
-- ORGANIZATION 
-212 ORGANIZATION 
-Aviocar ORGANIZATION 
+N NON 
+- NON 
+219 NON 
+rancangan NON 
+PT NON 
+Dirgantara NON 
+Indonesia NON 
+berbasiskan NON 
+CASA NON 
+C NON 
+- NON 
+212 NON 
+/ 
+NC NON 
+- PERSON 
+212 NON 
+Aviocar NON 
 yang NON 
 produksinya NON 
 lebih NON 
@@ -5258,27 +5258,27 @@ hanggar NON
 produksinya NON 
 , NON 
 di NON 
-Bandung LOCATION 
+Bandung NON 
 . NON 
 
- Kalau NON 
-ada NON 
+Kalau NON 
+ada ORGANIZATION 
 usut NON 
-tuntas NON 
+tuntas ORGANIZATION 
 bawa NON 
-pengadilan NON 
+pengadilan 
 , NON 
 " NON 
 kata NON 
 Kapolri NON 
 di NON 
-Taman ORGANIZATION 
-Makam ORGANIZATION 
-Pahlawan ORGANIZATION 
-Kalibata ORGANIZATION 
-, ORGANIZATION 
-Jakarta ORGANIZATION 
-Selatan ORGANIZATION 
+Taman NON 
+Makam NON 
+Pahlawan NON 
+Kalibata NON 
+, NON 
+Jakarta NON 
+Selatan NON 
 , NON 
 Selasa NON 
 ( NON 
@@ -5288,51 +5288,51 @@ Selasa NON
 / NON 
 2016 NON 
 ) NON 
-. NON 
+. PERSON 
 
- Jenderal PERSON 
-Badrodin PERSON 
+Jenderal NON 
+Badrodin NON 
 menghadiri NON 
 pemakaman NON 
 13 NON 
-prajurit NON 
-TNI ORGANIZATION 
-yang NON 
+prajurit LOCATION 
+TNI LOCATION 
+yang LOCATION 
 gugur NON 
 dalam NON 
-kecelakaan NON 
-jatuhnya NON 
-helikopter NON 
+kecelakaan LOCATION 
+jatuhnya LOCATION 
+helikopter LOCATION 
 di NON 
-Poso ORGANIZATION 
-, ORGANIZATION 
-Sulawesi ORGANIZATION 
-Tengah ORGANIZATION 
-. ORGANIZATION 
+Poso LOCATION 
+, NON 
+Sulawesi NON 
+Tengah NON 
+. NON 
 
- Presiden NON 
-Joko PERSON 
-Widodo PERSON 
+Presiden NON 
+Joko NON 
+Widodo NON 
 menyampaikan NON 
 bahwa NON 
 10 NON 
-orang NON 
+orang 
 warga NON 
-negara NON 
-Indonesia LOCATION 
+negara PERSON 
+Indonesia NON 
 yang NON 
 disandera NON 
 kelompok NON 
 Abu PERSON 
 Sayyaf PERSON 
 di NON 
-Filipina LOCATION 
+Filipina NON 
 , NON 
 telah NON 
 dibebaskan NON 
-. NON 
+. PERSON 
 
- Badrodin NON 
+Badrodin NON 
 menambahkan NON 
 kepolisian NON 
 tak NON 
@@ -5345,9 +5345,9 @@ sopir NON
 pendemo NON 
 yang NON 
 anarkis NON 
-. NON 
+. 
 
- Terkait NON 
+Terkait NON 
 ketegasan NON 
 pemerintah NON 
 soal NON 
@@ -5356,20 +5356,20 @@ angkutan NON
 umum NON 
 ini NON 
 , NON 
-Badrodin PERSON 
+Badrodin NON 
 mengatakan NON 
 hal NON 
 tersebut NON 
-wewenang NON 
-Menteri NON 
-Perhubungan NON 
+wewenang PERSON 
+Menteri PERSON 
+Perhubungan 
 Ignasius PERSON 
-Jonan PERSON 
-. PERSON 
+Jonan NON 
+. NON 
 
- Menhub NON 
-Ignasius PERSON 
-Jonan PERSON 
+Menhub NON 
+Ignasius NON 
+Jonan NON 
 mempersilakan NON 
 bila NON 
 para NON 
@@ -5378,28 +5378,28 @@ taksi NON
 berdemonstrasi NON 
 . NON 
 
- Saya NON 
+Saya NON 
 justru NON 
 minta NON 
 yang NON 
 anarkis NON 
-itu NON 
+itu 
 untuk NON 
 diusut NON 
 dan NON 
 ditindak NON 
-secara NON 
-pidana NON 
+secara ORGANIZATION 
+pidana ORGANIZATION 
 , NON 
 " NON 
 demikian NON 
 tegas NON 
 Menhub NON 
-Ignasius PERSON 
-Jonan PERSON 
-saat NON 
+Ignasius LOCATION 
+Jonan NON 
+saat ORGANIZATION 
 ditanya NON 
-mengenai NON 
+mengenai ORGANIZATION 
 demo NON 
 sopir NON 
 taksi NON 
@@ -5407,21 +5407,21 @@ hari NON
 ini NON 
 . NON 
 
- Sebelumnya NON 
-karena NON 
+Sebelumnya NON 
+karena 
 demo NON 
 sopir NON 
 taksi NON 
-ini NON 
-, NON 
+ini ORGANIZATION 
+, ORGANIZATION 
 Wapres NON 
-JK NON 
+JK ORGANIZATION 
 juga NON 
 terkena NON 
 imbasnya NON 
-. NON 
+. LOCATION 
 
- Kendaraan NON 
+Kendaraan NON 
 yang NON 
 dinaiki NON 
 JK NON 
@@ -5432,17 +5432,17 @@ demo NON
 dan NON 
 sempat NON 
 terlambat NON 
-datang NON 
-ke NON 
-lokasi NON 
+datang PERSON 
+ke PERSON 
+lokasi 
 rapat NON 
 di NON 
-Kementerian ORGANIZATION 
-PU ORGANIZATION 
-Pera ORGANIZATION 
-. ORGANIZATION 
+Kementerian PERSON 
+PU PERSON 
+Pera NON 
+. NON 
 
- Dari NON 
+Dari NON 
 acara NON 
 yang NON 
 dimulai NON 
@@ -5455,7 +5455,7 @@ WIB NON
 Wapres NON 
 JK NON 
 Tiba NON 
-lebih NON 
+lebih 
 dulu NON 
 sekitar NON 
 pukul NON 
@@ -5464,23 +5464,23 @@ pukul NON
 15 NON 
 WIB NON 
 , NON 
-sementara NON 
-Presiden NON 
-Jokowi PERSON 
+sementara ORGANIZATION 
+Presiden ORGANIZATION 
+Jokowi NON 
 datang NON 
 setelahnya NON 
 sekitar NON 
 pukul NON 
 09 NON 
-. NON 
-30 NON 
+. 
+30 ORGANIZATION 
 WIB NON 
 . NON 
 
- " NON 
-Selama NON 
-1 NON 
-, NON 
+" NON 
+Selama ORGANIZATION 
+1 ORGANIZATION 
+, ORGANIZATION 
 5 NON 
 tahun NON 
 jadi NON 
@@ -5501,12 +5501,12 @@ taksi NON
 , NON 
 " NON 
 kata NON 
-JK PERSON 
-. PERSON 
+JK LOCATION 
+. NON 
 
- Organisasi ORGANIZATION 
-Angkutan ORGANIZATION 
-Darat ORGANIZATION 
+Organisasi 
+Angkutan NON 
+Darat NON 
 ( NON 
 Organda NON 
 ) NON 
@@ -5516,14 +5516,14 @@ mewadahi NON
 taksi NON 
 online NON 
 karena NON 
-teknologi NON 
-tak NON 
-bisa NON 
-dicegah NON 
+teknologi LOCATION 
+tak LOCATION 
+bisa LOCATION 
+dicegah LOCATION 
 . NON 
 
- Model NON 
-bisnisnya NON 
+Model LOCATION 
+bisnisnya LOCATION 
 seperti NON 
 apa NON 
 supaya NON 
@@ -5534,56 +5534,56 @@ kepentingan NON
 transportasi NON 
 yang NON 
 lain NON 
-, NON 
-" NON 
-demikian NON 
+, 
+" PERSON 
+demikian PERSON 
 saran NON 
 Menteri NON 
 Perhubungan NON 
-Ignasius PERSON 
-Jonan PERSON 
-. PERSON 
+Ignasius NON 
+Jonan ORGANIZATION 
+. NON 
 
- Jonan PERSON 
+Jonan NON 
 mengatakan NON 
 bahwa NON 
 sistem NON 
 transportasi NON 
 online NON 
-adalah NON 
+adalah ORGANIZATION 
 hasil NON 
-kemajuan NON 
-teknologi NON 
+kemajuan LOCATION 
+teknologi LOCATION 
 yang NON 
-tak NON 
+tak 
 bisa NON 
-dihalangi NON 
-. NON 
+dihalangi PERSON 
+. PERSON 
 
- Saat NON 
+Saat NON 
 menyampaikan NON 
 pernyataan NON 
 ini NON 
 , NON 
 kata NON 
-Presiden NON 
+Presiden LOCATION 
 , NON 
 kesepuluh NON 
 WNI NON 
-sudah NON 
-berada NON 
+sudah PERSON 
+berada PERSON 
 di NON 
-Bandar ORGANIZATION 
-Udara ORGANIZATION 
-Sambuanga ORGANIZATION 
-, ORGANIZATION 
-Filipina ORGANIZATION 
-. ORGANIZATION 
+Bandar LOCATION 
+Udara NON 
+Sambuanga NON 
+, NON 
+Filipina NON 
+. 
 
- " ORGANIZATION 
-Dulu ORGANIZATION 
-Blue ORGANIZATION 
-Bird ORGANIZATION 
+" PERSON 
+Dulu NON 
+Blue NON 
+Bird NON 
 itu NON 
 waktu NON 
 muncul NON 
@@ -5594,9 +5594,9 @@ di NON
 mana NON 
 - NON 
 mana NON 
-, NON 
+, 
 di NON 
-Makassar LOCATION 
+Makassar NON 
 dan NON 
 di NON 
 kota NON 
@@ -5604,20 +5604,20 @@ kota NON
 kota NON 
 lain NON 
 , NON 
-sekarang NON 
+sekarang PERSON 
 gantian NON 
-Blue ORGANIZATION 
-Bird ORGANIZATION 
+Blue NON 
+Bird NON 
 jadi NON 
 pendemo NON 
 saingannya NON 
-yang NON 
-baru NON 
-, NON 
-teknologi NON 
+yang PERSON 
+baru PERSON 
+, PERSON 
+teknologi 
 itu NON 
-tidak NON 
-bisa NON 
+tidak PERSON 
+bisa PERSON 
 dicegah NON 
 , NON 
 " NON 
@@ -5625,13 +5625,13 @@ tutur NON
 Wakil NON 
 Presiden NON 
 Jusuf NON 
-Kalla NON 
+Kalla 
 ( NON 
 JK NON 
 ) NON 
 . NON 
 
- Sebelumnya NON 
+Sebelumnya NON 
 , NON 
 Wapres NON 
 JK NON 
@@ -5644,19 +5644,19 @@ hari NON
 ini NON 
 membuat NON 
 dirinya NON 
-terjebak NON 
-macet NON 
+terjebak PERSON 
+macet PERSON 
 hingga NON 
 terlambat NON 
 tiba NON 
 di NON 
-Kementerian ORGANIZATION 
-PU ORGANIZATION 
-Pera ORGANIZATION 
-. ORGANIZATION 
+Kementerian NON 
+PU NON 
+Pera NON 
+. NON 
 
- Dari NON 
-acara NON 
+Dari NON 
+acara 
 yang NON 
 dimulai NON 
 pukul NON 
@@ -5665,21 +5665,21 @@ pukul NON
 00 NON 
 WIB NON 
 , NON 
-Wapres NON 
+Wapres PERSON 
 JK NON 
 Tiba NON 
 lebih NON 
 dulu NON 
-sekitar NON 
+sekitar 
 pukul NON 
 09 NON 
 . NON 
-15 NON 
+15 PERSON 
 WIB NON 
 , NON 
 sementara NON 
 Presiden NON 
-Jokowi PERSON 
+Jokowi NON 
 datang NON 
 setelahnya NON 
 sekitar NON 
@@ -5687,12 +5687,12 @@ pukul NON
 09 NON 
 . NON 
 30 NON 
-WIB NON 
-. NON 
+WIB ORGANIZATION 
+. ORGANIZATION 
 
- " NON 
+" ORGANIZATION 
 Selama NON 
-1 NON 
+1 
 , NON 
 5 NON 
 tahun NON 
@@ -5714,12 +5714,12 @@ taksi NON
 , NON 
 " NON 
 kata NON 
-JK PERSON 
-. PERSON 
+JK NON 
+. NON 
 
- Menhub NON 
+Menhub NON 
 Ignasius PERSON 
-Jonan PERSON 
+Jonan NON 
 menyampaikan NON 
 sikapnya NON 
 terkait NON 
@@ -5728,12 +5728,12 @@ angkutan NON
 berbasis NON 
 aplikasi NON 
 yakni NON 
-Uber ORGANIZATION 
-dan ORGANIZATION 
-GrabCar ORGANIZATION 
-. ORGANIZATION 
+Uber 
+dan NON 
+GrabCar NON 
+. NON 
 
- Hanya NON 
+Hanya NON 
 yang NON 
 saya NON 
 tekankan NON 
@@ -5746,7 +5746,7 @@ didaftarkan NON
 , NON 
 " NON 
 jelas NON 
-Jonan PERSON 
+Jonan NON 
 , NON 
 Selasa NON 
 ( NON 
@@ -5754,15 +5754,15 @@ Selasa NON
 / NON 
 3 NON 
 / NON 
-2016 NON 
-) NON 
-. NON 
+2016 PERSON 
+) PERSON 
+. 
 
- Jonan PERSON 
-menekankan NON 
-agar NON 
+Jonan ORGANIZATION 
+menekankan ORGANIZATION 
+agar ORGANIZATION 
 pelaku NON 
-usaha NON 
+usaha ORGANIZATION 
 Uber NON 
 dan NON 
 GrabCar NON 
@@ -5775,14 +5775,14 @@ agar NON
 Organda NON 
 bisa NON 
 mewadahi NON 
-GrabCar NON 
+GrabCar 
 dan NON 
-Uber ORGANIZATION 
-. ORGANIZATION 
+Uber NON 
+. NON 
 
- Presiden NON 
-Joko PERSON 
-Widodo PERSON 
+Presiden NON 
+Joko NON 
+Widodo NON 
 dalam NON 
 waktu NON 
 dekat NON 
@@ -5796,10 +5796,10 @@ jilid NON
 II NON 
 . NON 
 
- Ketua NON 
-DPP NON 
-PDIP ORGANIZATION 
-Hendrawan PERSON 
+Ketua PERSON 
+DPP PERSON 
+PDIP PERSON 
+Hendrawan 
 Supratikno PERSON 
 mengatakan NON 
 ada NON 
@@ -5816,57 +5816,57 @@ membuat NON
 kegaduhan NON 
 . NON 
 
- Sudah NON 
+Sudah 
 sejak NON 
 lama NON 
-PDIP ORGANIZATION 
+PDIP NON 
 menuntut NON 
-Rini PERSON 
+Rini NON 
 diganti NON 
 , NON 
 namun NON 
 tak NON 
 kunjung NON 
 dikabulkan NON 
-Jokowi PERSON 
-. PERSON 
+Jokowi NON 
+. NON 
 
- Kali NON 
-ini NON 
-, NON 
+Kali LOCATION 
+ini LOCATION 
+, LOCATION 
 Hendrawan NON 
-menggunakan NON 
+menggunakan LOCATION 
 rekomendasi NON 
-Pansus NON 
+Pansus 
 Pelindo NON 
 II NON 
-sebagai NON 
-alasan NON 
+sebagai ORGANIZATION 
+alasan ORGANIZATION 
 mendorong NON 
 pencopotan NON 
 Menteri NON 
-Rini PERSON 
-. PERSON 
+Rini NON 
+. NON 
 
- Menteri NON 
+Menteri NON 
 Rini NON 
 ini NON 
 menimbulkan NON 
 pro NON 
 dan NON 
 kontra NON 
-yang NON 
+yang LOCATION 
 luas NON 
 , NON 
 " NON 
 kata NON 
-Hendrawan PERSON 
+Hendrawan NON 
 saat NON 
 dihubungi NON 
 , NON 
 Senin NON 
-( NON 
-21 NON 
+( ORGANIZATION 
+21 ORGANIZATION 
 / NON 
 3 NON 
 / NON 
@@ -5874,7 +5874,7 @@ Senin NON
 ) NON 
 . NON 
 
- Alasan NON 
+Alasan NON 
 lain NON 
 , NON 
 yaitu NON 
@@ -5884,18 +5884,18 @@ Modal NON
 Negara NON 
 ( NON 
 PMN NON 
-) NON 
-untuk NON 
-BUMN ORGANIZATION 
+) PERSON 
+untuk PERSON 
+BUMN NON 
 yang NON 
 menjadi NON 
 kritikan NON 
-untuk NON 
-Rini PERSON 
-. PERSON 
+untuk 
+Rini NON 
+. NON 
 
- Kebijakan NON 
-ini NON 
+Kebijakan NON 
+ini PERSON 
 menurutnya NON 
 justru NON 
 tak NON 
@@ -5906,30 +5906,30 @@ untuk NON
 negara NON 
 . NON 
 
- Tak NON 
+Tak NON 
 akrabnya NON 
 Menteri NON 
-Rini PERSON 
+Rini NON 
 dengan NON 
 DPR NON 
-sering NON 
-membuat NON 
-Komisi NON 
+sering ORGANIZATION 
+membuat ORGANIZATION 
+Komisi ORGANIZATION 
 VI NON 
-dan NON 
+dan 
 XI NON 
 menolak NON 
 kehadirannya NON 
 . NON 
 
- Bila NON 
+Bila NON 
 memang NON 
 reshuffle NON 
 jadi NON 
 dilakukan NON 
 , NON 
 maka NON 
-Jokowi PERSON 
+Jokowi NON 
 diharapkan NON 
 menempatkan NON 
 sosok NON 
@@ -5938,26 +5938,26 @@ sesuai NON
 kapasitasnya NON 
 . NON 
 
- Direktorat NON 
+Direktorat NON 
 Jenderal NON 
 Keimigrasian NON 
 akan NON 
 melakukan NON 
-evaluasi NON 
+evaluasi PERSON 
 terhadap NON 
-Tim ORGANIZATION 
-Pengawas ORGANIZATION 
-Orang ORGANIZATION 
-Asing ORGANIZATION 
-( ORGANIZATION 
-Timpora ORGANIZATION 
+Tim NON 
+Pengawas NON 
+Orang NON 
+Asing NON 
+( NON 
+Timpora NON 
 ) NON 
 di NON 
-33 NON 
+33 
 provinsi NON 
 . NON 
 
- Analisis NON 
+Analisis NON 
 awal NON 
 mengungkap NON 
 bahwa NON 
@@ -5974,18 +5974,18 @@ dan NON
 sekitarnya NON 
 mengakibatkan NON 
 pergeseran NON 
-Sumatera LOCATION 
+Sumatera NON 
 . NON 
 
- Hendrawan PERSON 
+Hendrawan NON 
 pun NON 
 menceritakan NON 
-bila NON 
-awalnya NON 
-sebelum NON 
+bila PERSON 
+awalnya PERSON 
+sebelum 
 pengumuman NON 
-Kabinet NON 
-Kerja NON 
+Kabinet PERSON 
+Kerja PERSON 
 , NON 
 diperkirakan NON 
 sejumlah NON 
@@ -5994,12 +5994,12 @@ sudah NON
 cocok NON 
 di NON 
 pos NON 
-masing NON 
+masing ORGANIZATION 
 - NON 
-masing NON 
+masing ORGANIZATION 
 . NON 
 
- " NON 
+" 
 Di NON 
 wilayah NON 
 Kepulauan NON 
@@ -6013,7 +6013,7 @@ maupun NON
 sinyal NON 
 yang NON 
 kadang NON 
-- NON 
+- PERSON 
 kadang NON 
 bisa NON 
 kami NON 
@@ -6023,35 +6023,35 @@ baik NON
 , NON 
 " NON 
 kata NON 
-Bambang PERSON 
-. PERSON 
+Bambang NON 
+. 
 
- Pegawai NON 
+Pegawai PERSON 
 Kemenhub NON 
 menempati NON 
 peringkat NON 
 teratas NON 
-yang NON 
+yang ORGANIZATION 
 paling NON 
-patuh NON 
+patuh ORGANIZATION 
 melaporkan NON 
 Laporan NON 
 Harta NON 
 Kekayaan NON 
 Penyelenggara NON 
 Negara NON 
-( NON 
+( ORGANIZATION 
 LHKPN NON 
 ) NON 
-ke NON 
-KPK ORGANIZATION 
+ke ORGANIZATION 
+KPK NON 
 . ORGANIZATION 
 
- Gempa NON 
-terjadi NON 
+Gempa NON 
+terjadi 
 dengan NON 
-mekanisme NON 
-sesar NON 
+mekanisme PERSON 
+sesar PERSON 
 geser NON 
 mendatar NON 
 , NON 
@@ -6060,21 +6060,21 @@ dengan NON
 gempa NON 
 yang NON 
 mengguncang NON 
-Aceh LOCATION 
+Aceh NON 
 pada NON 
 tahun NON 
 2012 NON 
-. NON 
+. 
 
- Pada NON 
+Pada NON 
 tahun NON 
-- NON 
-tahun NON 
-sebelumnya NON 
+- ORGANIZATION 
+tahun PERSON 
+sebelumnya PERSON 
 tingkat NON 
 kepatuhan NON 
 pegawai NON 
-Kemenhub ORGANIZATION 
+Kemenhub NON 
 dalam NON 
 melaporkan NON 
 LHKPN NON 
@@ -6085,46 +6085,46 @@ mencapai NON
 dari NON 
 3 NON 
 . NON 
-816 NON 
+816 
 pegawai NON 
 wajib NON 
 lapor NON 
-, NON 
+, ORGANIZATION 
 " NON 
-jelas NON 
-Kepala ORGANIZATION 
-Biro ORGANIZATION 
-Komunikasi ORGANIZATION 
-Kemenhub ORGANIZATION 
-JA ORGANIZATION 
-Barata ORGANIZATION 
-, NON 
+jelas PERSON 
+Kepala NON 
+Biro NON 
+Komunikasi NON 
+Kemenhub NON 
+JA NON 
+Barata NON 
+, PERSON 
 Kamis NON 
-( NON 
+( 
 17 NON 
 / NON 
 3 NON 
-/ NON 
+/ PERSON 
 2016 NON 
 ) NON 
-. NON 
+. ORGANIZATION 
 
- Data NON 
-tingkat NON 
+Data ORGANIZATION 
+tingkat ORGANIZATION 
 kepatuhan NON 
 ini NON 
 sesuai NON 
 laporan NON 
 dari NON 
-KPK ORGANIZATION 
-dengan NON 
-data NON 
+KPK PERSON 
+dengan PERSON 
+data 
 per NON 
-Januari NON 
+Januari PERSON 
 2016 NON 
 . NON 
 
- " NON 
+" NON 
 Pencapaian NON 
 tersebut NON 
 menempatkan NON 
@@ -6132,20 +6132,20 @@ Kementerian NON
 Perhubungan NON 
 pada NON 
 peringkat NON 
-pertama NON 
+pertama PERSON 
 dalam NON 
 kepatuhan NON 
 pelaporan NON 
 LHKPN NON 
 di NON 
 antara NON 
-Kementerian ORGANIZATION 
-, ORGANIZATION 
-Lembaga ORGANIZATION 
-, ORGANIZATION 
-Pemerintah ORGANIZATION 
+Kementerian NON 
 , NON 
-Provinsi NON 
+Lembaga NON 
+, NON 
+Pemerintah NON 
+, NON 
+Provinsi 
 , NON 
 Kota NON 
 , NON 
@@ -6153,49 +6153,49 @@ dan NON
 Kabupaten NON 
 se NON 
 - NON 
-Indonesia LOCATION 
+Indonesia NON 
 , NON 
 " NON 
 urai NON 
-Barata ORGANIZATION 
+Barata NON 
 . ORGANIZATION 
 
- Barata PERSON 
+Barata NON 
 melanjutkan NON 
 , NON 
 berdasarkan NON 
-hasil NON 
+hasil PERSON 
 itu NON 
-, NON 
+, 
 Kementerian NON 
 Perhubungan NON 
 tahun NON 
 2016 NON 
 ini NON 
 dipilih NON 
-KPK ORGANIZATION 
-sebagai NON 
+KPK NON 
+sebagai ORGANIZATION 
 pilot NON 
 project NON 
 dalam NON 
-implementasi NON 
+implementasi 
 aplikasi NON 
 e NON 
 - NON 
-LHKPN NON 
+LHKPN PERSON 
 . NON 
 
- Hanya NON 
+Hanya ORGANIZATION 
 empat NON 
 pulau NON 
 di NON 
 pantai NON 
 utara NON 
-Jakarta LOCATION 
+Jakarta NON 
 yang NON 
 merupakan NON 
 kawasan NON 
-strategis NON 
+strategis 
 nasional NON 
 dan NON 
 berada NON 
@@ -6203,7 +6203,7 @@ di NON
 bawah NON 
 kewenangan NON 
 kementerian NON 
-, NON 
+, PERSON 
 yaitu NON 
 Pulau NON 
 Onrust NON 
@@ -6211,29 +6211,29 @@ Onrust NON
 Cipir NON 
 , NON 
 Kelor NON 
-, NON 
+, 
 dan NON 
 Bidadari NON 
 . NON 
 
- Selain NON 
+Selain NON 
 itu NON 
 Undang NON 
 - NON 
-undang NON 
-Nomor NON 
-30 NON 
-Tahun NON 
+undang ORGANIZATION 
+Nomor ORGANIZATION 
+30 ORGANIZATION 
+Tahun ORGANIZATION 
 2002 NON 
 tentang NON 
-Komisi ORGANIZATION 
-Pemberantasan ORGANIZATION 
-Tindak ORGANIZATION 
-Pidana ORGANIZATION 
-Korupsi ORGANIZATION 
-telah NON 
+Komisi NON 
+Pemberantasan NON 
+Tindak NON 
+Pidana NON 
+Korupsi NON 
+telah 
 mengamanatkan NON 
-KPK ORGANIZATION 
+KPK NON 
 untuk NON 
 melakukan NON 
 pencegahan NON 
@@ -6247,21 +6247,21 @@ penyelenggara NON
 negara NON 
 . NON 
 
- 4 NON 
+4 NON 
 Tahun NON 
 2007 NON 
-dan NON 
+dan LOCATION 
 KM NON 
-23 NON 
-Tahun NON 
+23 
+Tahun PERSON 
 2006 NON 
 sebagai NON 
 bentuk NON 
 penyempurnaan NON 
 menyesuaikan NON 
 dengan NON 
-kondisi NON 
-terkini NON 
+kondisi ORGANIZATION 
+terkini ORGANIZATION 
 , NON 
 dan NON 
 berbagai NON 
@@ -6272,15 +6272,15 @@ telah NON
 dilaksanakan NON 
 di NON 
 lingkungan NON 
-Kementerian ORGANIZATION 
-Perhubungan ORGANIZATION 
-. ORGANIZATION 
+Kementerian NON 
+Perhubungan NON 
+. 
 
- Aktris NON 
+Aktris NON 
 Gal NON 
 Gadot NON 
 menjalani NON 
-syuting NON 
+syuting PERSON 
 film NON 
 Wonder NON 
 Woman NON 
@@ -6288,10 +6288,10 @@ di NON
 sebuah NON 
 pantai NON 
 di NON 
-Italia LOCATION 
+Italia NON 
 . NON 
 
- Bagi NON 
+Bagi NON 
 saya NON 
 , NON 
 Affleck NON 
@@ -6301,12 +6301,12 @@ membawa NON
 citranya NON 
 sendiri NON 
 sebagai NON 
-Ksatria ORGANIZATION 
-Kota ORGANIZATION 
-Gotham ORGANIZATION 
-. ORGANIZATION 
+Ksatria PERSON 
+Kota PERSON 
+Gotham 
+. NON 
 
- Di NON 
+Di ORGANIZATION 
 sini NON 
 juga NON 
 kita NON 
@@ -6323,14 +6323,14 @@ kocak NON
 dan NON 
 Jesse NON 
 Eisenberg NON 
-sebagai NON 
+sebagai ORGANIZATION 
 Lex NON 
-Luthor NON 
+Luthor 
 yang NON 
 psikopat NON 
 . NON 
 
- Salah NON 
+Salah NON 
 satu NON 
 pertanyaan NON 
 dari NON 
@@ -6340,12 +6340,12 @@ penonton NON
 adalah NON 
 ketika NON 
 Superman NON 
-pertama NON 
+pertama LOCATION 
 kali NON 
 beraksi NON 
 di NON 
-Afrika LOCATION 
-untuk NON 
+Afrika NON 
+untuk 
 menyelamatkan NON 
 Lois NON 
 Lane NON 
@@ -6353,16 +6353,16 @@ yang NON
 diculik NON 
 . NON 
 
- Andai NON 
+Andai NON 
 memang NON 
-pemerintah NON 
+pemerintah ORGANIZATION 
 sudah NON 
 memeriksa NON 
 jenazah NON 
 pelaku NON 
 pembantaian NON 
 di NON 
-Afrika LOCATION 
+Afrika NON 
 , NON 
 dan NON 
 mereka NON 
@@ -6376,13 +6376,13 @@ maka NON
 ada NON 
 yang NON 
 salah NON 
-dengan NON 
-skenario NON 
-film NON 
+dengan ORGANIZATION 
+skenario ORGANIZATION 
+film ORGANIZATION 
 ini NON 
 . NON 
 
- Sebagai NON 
+Sebagai NON 
 seorang NON 
 jurnalis NON 
 , NON 
@@ -6390,7 +6390,7 @@ minimal NON
 Clark NON 
 Kent NON 
 harus NON 
-tahu NON 
+tahu 
 siapa NON 
 itu NON 
 Bruce NON 
@@ -6398,37 +6398,37 @@ Wayne NON
 , NON 
 miliarder NON 
 terkaya NON 
-sekota NON 
+sekota ORGANIZATION 
 Gotham NON 
 . NON 
 
- Sejak NON 
+Sejak NON 
 awal NON 
 film NON 
 , NON 
-kita NON 
+kita 
 melihat NON 
 Superman NON 
 menyelamatkan NON 
 Lois NON 
-Lane NON 
-saat NON 
+Lane ORGANIZATION 
+saat ORGANIZATION 
 di NON 
-Afrika LOCATION 
+Afrika NON 
 dan NON 
 ketika NON 
 nyaris NON 
 tewas NON 
 oleh NON 
-Lex ORGANIZATION 
-Luthor ORGANIZATION 
+Lex NON 
+Luthor NON 
 . ORGANIZATION 
 
- Akhirnya NON 
-, NON 
+Akhirnya NON 
+, LOCATION 
 sutradara NON 
-Zack PERSON 
-Snyder PERSON 
+Zack NON 
+Snyder NON 
 dan NON 
 aktor NON 
 Henry NON 
@@ -6437,31 +6437,31 @@ diketahui NON
 kini NON 
 sedang NON 
 menggarapnya NON 
-secara NON 
+secara LOCATION 
 diam NON 
 - NON 
 diam NON 
-. NON 
+. ORGANIZATION 
 
- Memang NON 
-, NON 
-gubernur NON 
-DKI LOCATION 
-Basuki PERSON 
-Tjahaja PERSON 
-Purnama PERSON 
+Memang NON 
+, 
+gubernur PERSON 
+DKI NON 
+Basuki NON 
+Tjahaja NON 
+Purnama NON 
 telah NON 
 menyampaikan NON 
-rencana NON 
-untuk NON 
+rencana LOCATION 
+untuk LOCATION 
 memindahkan NON 
 nelayan NON 
 ke NON 
-Kepulauan ORGANIZATION 
+Kepulauan NON 
 Seribu ORGANIZATION 
-. ORGANIZATION 
+. NON 
 
- " NON 
+" NON 
 Kita NON 
 undang NON 
 hari NON 
@@ -6470,14 +6470,14 @@ misalnya NON
 kita NON 
 juga NON 
 akan NON 
-mengundang NON 
+mengundang 
 Ridwan NON 
 Kamil NON 
 untuk NON 
 rapat NON 
 kerja NON 
 nasional NON 
-memberikan NON 
+memberikan LOCATION 
 materi NON 
 bidang NON 
 pemuda NON 
@@ -6486,56 +6486,56 @@ pemuda NON
 tuturnya NON 
 . NON 
 
- Seperti NON 
+Seperti NON 
 diberitakan NON 
 sebelumnya NON 
 , NON 
 program NON 
 pelatihan NON 
-manajer NON 
-kampanye NON 
+manajer LOCATION 
+kampanye LOCATION 
 digelar NON 
-PDIP ORGANIZATION 
+PDIP LOCATION 
 sebagai NON 
 persiapan NON 
 menghadapi NON 
 Pilkada NON 
 serentak NON 
 2017 NON 
-. NON 
+. 
 
- Wali ORGANIZATION 
-Kota ORGANIZATION 
-Tri ORGANIZATION 
-Rismaharini ORGANIZATION 
+Wali NON 
+Kota NON 
+Tri NON 
+Rismaharini NON 
 masih NON 
 berat NON 
 meninggalkan NON 
 Kota NON 
 Surabaya NON 
 ketika NON 
-mendapat NON 
-tawaran NON 
-menjadi NON 
-menteri NON 
-atau NON 
+mendapat ORGANIZATION 
+tawaran ORGANIZATION 
+menjadi ORGANIZATION 
+menteri ORGANIZATION 
+atau ORGANIZATION 
 maju NON 
 ke NON 
-Pilgub NON 
-DKI LOCATION 
-Jakarta LOCATION 
+Pilgub ORGANIZATION 
+DKI NON 
+Jakarta NON 
 . NON 
 
- Namun NON 
+Namun NON 
 , NON 
 kata NON 
-Risma PERSON 
+Risma NON 
 , NON 
 Pemkot NON 
 Surabaya NON 
 saat NON 
 ini NON 
-mengubah NON 
+mengubah 
 pola NON 
 perilaku NON 
 masyarakat NON 
@@ -6548,10 +6548,10 @@ lebih NON
 sejahtera NON 
 . NON 
 
- Bahkan NON 
+Bahkan NON 
 saat NON 
 ke NON 
-Jakarta LOCATION 
+Jakarta NON 
 kemarin NON 
 untuk NON 
 menghadiri NON 
@@ -6559,45 +6559,45 @@ Munas NON
 Surabaya NON 
 Community NON 
 , NON 
-Risma PERSON 
+Risma NON 
 mengaku NON 
 sembunyi NON 
-- NON 
-sembunyi NON 
+- ORGANIZATION 
+sembunyi ORGANIZATION 
 agar NON 
-tidak NON 
+tidak 
 kepergok NON 
 media NON 
-. NON 
+. PERSON 
 
- Pengerjaan NON 
+Pengerjaan NON 
 frontage NON 
 road NON 
-sisi NON 
-barat NON 
+sisi ORGANIZATION 
+barat ORGANIZATION 
 kembali NON 
 dilanjutkan NON 
 khususnya NON 
 depan NON 
-Mapolda NON 
+Mapolda LOCATION 
 Jatim NON 
-dan NON 
+dan 
 kampus NON 
-Universitas ORGANIZATION 
-Bhayangkara ORGANIZATION 
-( ORGANIZATION 
-Ubhara ORGANIZATION 
+Universitas NON 
+Bhayangkara NON 
+( NON 
+Ubhara NON 
 ) NON 
 , NON 
 yang NON 
 sempat NON 
 terkendala NON 
 pembebasan NON 
-lahan NON 
-. NON 
+lahan LOCATION 
+. LOCATION 
 
- Realisasinya NON 
-sepertinya NON 
+Realisasinya LOCATION 
+sepertinya 
 tahun NON 
 ini NON 
 karena NON 
@@ -6606,24 +6606,24 @@ DED NON
 nya NON 
 sudah NON 
 jadi NON 
-, NON 
-" NON 
+, LOCATION 
+" LOCATION 
 kata NON 
-Wali ORGANIZATION 
-Kota ORGANIZATION 
-Surabaya ORGANIZATION 
+Wali NON 
+Kota NON 
+Surabaya NON 
 , NON 
 Tri PERSON 
 Rismaharini PERSON 
 kepada NON 
-wartawan NON 
-di NON 
+wartawan PERSON 
+di PERSON 
 ruang NON 
 kerjanya NON 
 di NON 
-Balai NON 
+Balai 
 Kota NON 
-Surabaya LOCATION 
+Surabaya NON 
 , NON 
 Kamis NON 
 ( NON 
@@ -6635,27 +6635,27 @@ Kamis NON
 ) NON 
 . NON 
 
- Lebih NON 
+Lebih NON 
 berpotensi NON 
-dibandingkan NON 
-Yusril PERSON 
+dibandingkan LOCATION 
+Yusril NON 
 , NON 
-karena NON 
-faktor NON 
+karena LOCATION 
+faktor LOCATION 
 partai NON 
 dan NON 
 track NON 
-record NON 
-lebih NON 
+record 
+lebih PERSON 
 memihak NON 
-Risma PERSON 
+Risma NON 
 , NON 
 " NON 
 kata NON 
 Yunarto NON 
 kepada NON 
 wartawan NON 
-usai NON 
+usai LOCATION 
 paparan NON 
 hasil NON 
 survei NON 
@@ -6665,37 +6665,37 @@ kantor NON
 Charta NON 
 Politika NON 
 , NON 
-Jl LOCATION 
-Cisanggira LOCATION 
+Jl NON 
+Cisanggira NON 
 , NON 
-Jakarta LOCATION 
-Selatan LOCATION 
+Jakarta NON 
+Selatan NON 
 , NON 
 Rabu NON 
 ( NON 
 30 NON 
-/ NON 
+/ 
 3 NON 
 / NON 
 2016 NON 
 ) NON 
 . NON 
 
- Menurutnya NON 
-, NON 
+Menurutnya PERSON 
+, PERSON 
 fokus NON 
 tersebut NON 
 untuk NON 
 menjawab NON 
-tantangan NON 
-era NON 
+tantangan PERSON 
+era PERSON 
 Masyarakat NON 
 Ekonomi NON 
-ASEAN ORGANIZATION 
-( ORGANIZATION 
+ASEAN NON 
+( NON 
 MEA ORGANIZATION 
 ) NON 
-yang NON 
+yang 
 sudah NON 
 bergulir NON 
 pada NON 
@@ -6705,29 +6705,29 @@ ini NON
 ini NON 
 . NON 
 
- Pada NON 
-masa NON 
+Pada LOCATION 
+masa LOCATION 
 kepemimpinannya NON 
 sebagai NON 
-wali NON 
+wali LOCATION 
 kota NON 
 , NON 
 Kota NON 
 Surabaya NON 
 meraih NON 
-empat NON 
-kali NON 
-piala NON 
-Adipura NON 
+empat PERSON 
+kali PERSON 
+piala PERSON 
+Adipura 
 berturut NON 
 - NON 
 turut NON 
-, NON 
-yaitu NON 
+, PERSON 
+yaitu PERSON 
 tahun NON 
 2011 NON 
-, NON 
-2012 NON 
+, PERSON 
+2012 PERSON 
 , NON 
 2013 NON 
 , NON 
@@ -6737,15 +6737,15 @@ untuk NON
 kategori NON 
 kota NON 
 metropolitan NON 
-. NON 
+. 
 
- Selain NON 
+Selain NON 
 itu NON 
 , NON 
-Risma PERSON 
-juga NON 
-membawa NON 
-Surabaya NON 
+Risma LOCATION 
+juga PERSON 
+membawa PERSON 
+Surabaya PERSON 
 mendapat NON 
 penghargaan NON 
 dari NON 
@@ -6753,10 +6753,10 @@ CityNet NON
 tahun NON 
 2012 NON 
 lalu NON 
-, NON 
-sebagai NON 
+, LOCATION 
+sebagai LOCATION 
 kota NON 
-dengan NON 
+dengan 
 partisipasi NON 
 rakyat NON 
 dalam NON 
@@ -6765,11 +6765,11 @@ lingkungan NON
 terbaik NON 
 se NON 
 - NON 
-Asia LOCATION 
-Pasifik LOCATION 
-. NON 
+Asia NON 
+Pasifik NON 
+. PERSON 
 
- Pada NON 
+Pada PERSON 
 Oktober NON 
 2013 NON 
 , NON 
@@ -6782,7 +6782,7 @@ juga NON
 memperoleh NON 
 penghargaan NON 
 tingkat NON 
-Asia LOCATION 
+Asia 
 - NON 
 Pasifik NON 
 , NON 
@@ -6792,7 +6792,7 @@ Government NON
 Awards NON 
 2013 NON 
 di NON 
-dua NON 
+dua ORGANIZATION 
 bidang NON 
 sekaligus NON 
 , NON 
@@ -6800,19 +6800,19 @@ yaitu NON
 data NON 
 center NON 
 dan NON 
-inklusi NON 
+inklusi 
 digital NON 
-menyisihkan NON 
-800 NON 
-kota NON 
+menyisihkan LOCATION 
+800 LOCATION 
+kota LOCATION 
 di NON 
 seluruh NON 
-Asia ORGANIZATION 
-- ORGANIZATION 
-Pasifik ORGANIZATION 
-. ORGANIZATION 
+Asia NON 
+- NON 
+Pasifik LOCATION 
+. NON 
 
- Irman NON 
+Irman NON 
 menilai NON 
 semakin NON 
 banyak NON 
@@ -6820,56 +6820,56 @@ calon NON
 baik NON 
 di NON 
 Pilgub NON 
-DKI NON 
-2017 NON 
+DKI LOCATION 
+2017 LOCATION 
 , NON 
-maka NON 
+maka 
 akan NON 
 baik NON 
 karena NON 
-warga NON 
+warga PERSON 
 memiliki NON 
 beragam NON 
-pilihan NON 
+pilihan LOCATION 
 . NON 
 
- Bupati ORGANIZATION 
-Bantaeng ORGANIZATION 
-Nurdin ORGANIZATION 
-Abdullah ORGANIZATION 
-, ORGANIZATION 
-Bupati ORGANIZATION 
-Banyuwangi ORGANIZATION 
-Abdullah ORGANIZATION 
-Azwar ORGANIZATION 
-Anas ORGANIZATION 
-, ORGANIZATION 
-Wali ORGANIZATION 
-Kota ORGANIZATION 
-Makassar ORGANIZATION 
-Mohammad ORGANIZATION 
-Ramdhan ORGANIZATION 
-Pomanto ORGANIZATION 
-, ORGANIZATION 
-dan ORGANIZATION 
-Wali ORGANIZATION 
-Kota ORGANIZATION 
-Pangkalpinang ORGANIZATION 
-Muhammad ORGANIZATION 
-Irwansyah ORGANIZATION 
+Bupati NON 
+Bantaeng NON 
+Nurdin NON 
+Abdullah NON 
+, NON 
+Bupati NON 
+Banyuwangi NON 
+Abdullah NON 
+Azwar NON 
+Anas NON 
+, NON 
+Wali NON 
+Kota NON 
+Makassar 
+Mohammad NON 
+Ramdhan NON 
+Pomanto NON 
+, LOCATION 
+dan NON 
+Wali NON 
+Kota NON 
+Pangkalpinang NON 
+Muhammad LOCATION 
+Irwansyah LOCATION 
 juga NON 
-pernah NON 
+pernah PERSON 
 disebut NON 
 layak NON 
 berlaga NON 
 di NON 
-Jakarta LOCATION 
+Jakarta NON 
 . NON 
 
- Selain NON 
+Selain NON 
 itu NON 
 , NON 
-jembatan NON 
+jembatan 
 yang NON 
 menghubungkan NON 
 Sentra NON 
@@ -6879,24 +6879,24 @@ Bulak NON
 SIB NON 
 ) NON 
 dan NON 
-hingga NON 
-akses NON 
+hingga PERSON 
+akses PERSON 
 ke NON 
-Jembatan LOCATION 
-Suramadu LOCATION 
-. NON 
+Jembatan NON 
+Suramadu ORGANIZATION 
+. ORGANIZATION 
 
- Wali ORGANIZATION 
+Wali NON 
 Kota ORGANIZATION 
-Surabaya ORGANIZATION 
-Tri ORGANIZATION 
-Rismaharini ORGANIZATION 
+Surabaya NON 
+Tri NON 
+Rismaharini NON 
 berpesan NON 
 kepada NON 
 siswa NON 
 siswi NON 
 calon NON 
-peserta NON 
+peserta 
 Ujian NON 
 Nasional NON 
 berbasis NON 
@@ -6913,49 +6913,49 @@ takut NON
 menghadapinya NON 
 . NON 
 
- Sementara NON 
+Sementara LOCATION 
 Sekretaris NON 
-Dirjen ORGANIZATION 
-Cipta ORGANIZATION 
-Karya ORGANIZATION 
-Kementerian ORGANIZATION 
-Pekerjaan ORGANIZATION 
-Umum ORGANIZATION 
-dan ORGANIZATION 
-Perumahan ORGANIZATION 
-Rakyat ORGANIZATION 
-( ORGANIZATION 
-PUPR ORGANIZATION 
-) ORGANIZATION 
-, ORGANIZATION 
-Rina ORGANIZATION 
-Agustin ORGANIZATION 
-Indriani ORGANIZATION 
+Dirjen PERSON 
+Cipta PERSON 
+Karya NON 
+Kementerian NON 
+Pekerjaan NON 
+Umum NON 
+dan NON 
+Perumahan NON 
+Rakyat NON 
+( NON 
+PUPR LOCATION 
+) NON 
+, NON 
+Rina NON 
+Agustin NON 
+Indriani NON 
 , NON 
 menuturkan NON 
 , NON 
 substansi NON 
 materi NON 
-itu NON 
+itu 
 nantinya NON 
 akan NON 
 dibahas NON 
-dalam NON 
+dalam PERSON 
 PrepCom NON 
 III NON 
-UN ORGANIZATION 
-Habitat ORGANIZATION 
-. ORGANIZATION 
+UN NON 
+Habitat NON 
+. NON 
 
- Selanjutnya NON 
+Selanjutnya NON 
 , NON 
-Risma PERSON 
+Risma NON 
 menceritakan NON 
-sejumlah NON 
+sejumlah PERSON 
 program NON 
 pembangunan NON 
 yang NON 
-telah NON 
+telah PERSON 
 dilakukannya NON 
 di NON 
 kota NON 
@@ -6966,14 +6966,14 @@ fisik NON
 maupun NON 
 non NON 
 fisik NON 
-. NON 
+. ORGANIZATION 
 
- Ratusan NON 
-pedagang NON 
-mengancam NON 
+Ratusan NON 
+pedagang LOCATION 
+mengancam LOCATION 
 akan NON 
-memblokir NON 
-grand NON 
+memblokir LOCATION 
+grand LOCATION 
 opening NON 
 Pasar NON 
 Turi NON 
@@ -6984,19 +6984,19 @@ Jumat NON
 / NON 
 3 NON 
 ) NON 
-mendatang NON 
+mendatang 
 , NON 
 jika NON 
-Pemkot ORGANIZATION 
-Surabaya ORGANIZATION 
+Pemkot NON 
+Surabaya NON 
 tidak NON 
 segera NON 
 menyegel NON 
 bangunannya NON 
 . NON 
 
- Kami NON 
-akan NON 
+Kami NON 
+akan ORGANIZATION 
 blokir NON 
 jika NON 
 Pemkot NON 
@@ -7009,7 +7009,7 @@ kuasa NON
 hukum NON 
 pedagang NON 
 Pasar NON 
-Turi NON 
+Turi 
 , NON 
 Wayan NON 
 Titib NON 
@@ -7018,12 +7018,12 @@ orasi NON
 di NON 
 depan NON 
 Balai NON 
-Kota NON 
-Surabaya LOCATION 
+Kota LOCATION 
+Surabaya NON 
 , NON 
 Rabu NON 
 ( NON 
-16 NON 
+16 ORGANIZATION 
 / NON 
 3 NON 
 / NON 
@@ -7031,7 +7031,7 @@ Rabu NON
 ) NON 
 . NON 
 
- Alangkah NON 
+Alangkah NON 
 tercengangnya NON 
 saya NON 
 ternyata NON 
@@ -7043,25 +7043,25 @@ bersihnya NON
 , NON 
 " NON 
 kata NON 
-Yoyok PERSON 
-. PERSON 
+Yoyok NON 
+. 
 
- Risma PERSON 
+Risma NON 
 pun NON 
 menanggapi NON 
-permintaan NON 
+permintaan PERSON 
 petani NON 
 itu NON 
-dan NON 
+dan LOCATION 
 memberi NON 
 saran NON 
 yang NON 
-membuat NON 
+membuat LOCATION 
 warga NON 
 terbahak NON 
 . NON 
 
- " NON 
+" NON 
 Kalau NON 
 mau NON 
 ketemu NON 
@@ -7073,16 +7073,16 @@ istirahat NON
 dulu NON 
 , NON 
 biar NON 
-fresh NON 
-, NON 
+fresh LOCATION 
+, LOCATION 
 " NON 
-ujar NON 
+ujar 
 Yoyok NON 
 kepada NON 
 para NON 
 petani NON 
 yang NON 
-menunggu NON 
+menunggu LOCATION 
 di NON 
 depan NON 
 ruang NON 
@@ -7091,9 +7091,9 @@ rumah NON
 dinasnya NON 
 . NON 
 
- " NON 
-Maka NON 
-, NON 
+" LOCATION 
+Maka LOCATION 
+, LOCATION 
 masalah NON 
 berikut NON 
 yang NON 
@@ -7111,7 +7111,7 @@ mencapai NON
 persen NON 
 . NON 
 
- Di NON 
+Di NON 
 antara NON 
 manuver NON 
 parpol NON 
@@ -7121,17 +7121,17 @@ DKI LOCATION
 , NON 
 yang NON 
 cukup NON 
-menarik NON 
+menarik 
 adalah NON 
 langkah NON 
 PD NON 
 mendekati NON 
-PDIP ORGANIZATION 
-. ORGANIZATION 
+PDIP NON 
+. NON 
 
- Kalau NON 
+Kalau NON 
 dari NON 
-PDIP ORGANIZATION 
+PDIP LOCATION 
 yang NON 
 bisa NON 
 menyalip NON 
@@ -7143,42 +7143,42 @@ mau NON
 nggak NON 
 mau NON 
 memang NON 
-Ganjar NON 
+Ganjar 
 atau NON 
-Risma PERSON 
-. PERSON 
+Risma LOCATION 
+. LOCATION 
 
- Rencananya NON 
+Rencananya LOCATION 
 rangkaian NON 
 acara NON 
-itu NON 
-akan NON 
-digelar NON 
-hari NON 
+itu LOCATION 
+akan PERSON 
+digelar PERSON 
+hari PERSON 
 ini NON 
-, NON 
-Minggu NON 
-( NON 
-13 NON 
-/ NON 
-3 NON 
+, ORGANIZATION 
+Minggu ORGANIZATION 
+( ORGANIZATION 
+13 PERSON 
+/ PERSON 
+3 PERSON 
 ) NON 
 bersama NON 
-Gubernur NON 
+Gubernur ORGANIZATION 
 DKI ORGANIZATION 
 Jakarta ORGANIZATION 
 , ORGANIZATION 
 Basuki ORGANIZATION 
-Tjahaja ORGANIZATION 
-Purnama ORGANIZATION 
-atau ORGANIZATION 
-Ahok ORGANIZATION 
-. ORGANIZATION 
+Tjahaja NON 
+Purnama NON 
+atau NON 
+Ahok NON 
+. NON 
 
- " NON 
-Mencoba NON 
+" NON 
+Mencoba LOCATION 
 kumpulkan NON 
-teman NON 
+teman 
 - NON 
 teman NON 
 di NON 
@@ -7195,24 +7195,24 @@ ilmu NON
 " NON 
 kata NON 
 Yoyok NON 
-kepada NON 
-detikcom ORGANIZATION 
+kepada LOCATION 
+detikcom LOCATION 
 , NON 
-Minggu NON 
+Minggu 
 ( NON 
 13 NON 
-/ NON 
-3 NON 
-/ NON 
+/ LOCATION 
+3 LOCATION 
+/ PERSON 
 2016 NON 
 ) NON 
 . NON 
 
- " NON 
+" NON 
 Selama NON 
 ini NON 
-kita NON 
-- NON 
+kita PERSON 
+- PERSON 
 kita NON 
 menganggap NON 
 mbak NON 
@@ -7225,36 +7225,36 @@ inovasi NON
 daerah NON 
 . NON 
 
- Diberitakan NON 
+Diberitakan NON 
 sebelumnya NON 
-, NON 
+, 
 Pemkab NON 
 Batang NON 
 menggelar NON 
 Festival NON 
 Anggaran NON 
-yang NON 
-isinya NON 
-tentang NON 
+yang ORGANIZATION 
+isinya ORGANIZATION 
+tentang ORGANIZATION 
 tranparasi NON 
 anggaran NON 
 . NON 
 
- Bahkan NON 
-nominal NON 
+Bahkan NON 
+nominal ORGANIZATION 
 gaji NON 
 Yoyok NON 
-dan NON 
-Wakilnya NON 
-, NON 
-Soetadi PERSON 
+dan PERSON 
+Wakilnya PERSON 
+, PERSON 
+Soetadi NON 
 dipamerkan NON 
 agar NON 
 masyarakat NON 
 tahu NON 
 . NON 
 
- Kalau NON 
+Kalau NON 
 bilang NON 
 calon NON 
 independen NON 
@@ -7263,20 +7263,20 @@ saya NON
 enggak NON 
 minta NON 
 juga NON 
-, NON 
+, 
 " NON 
 kata NON 
 Ahok PERSON 
 di NON 
-RSUD ORGANIZATION 
-Budhi ORGANIZATION 
-Asih ORGANIZATION 
-, ORGANIZATION 
-Cawang ORGANIZATION 
-, ORGANIZATION 
-Jakarta ORGANIZATION 
-Timur ORGANIZATION 
+RSUD NON 
+Budhi NON 
+Asih NON 
 , NON 
+Cawang NON 
+, NON 
+Jakarta NON 
+Timur NON 
+, LOCATION 
 Jumat NON 
 ( NON 
 11 NON 
@@ -7284,42 +7284,42 @@ Jumat NON
 3 NON 
 / NON 
 2016 NON 
-) NON 
+) 
 . NON 
 
- " NON 
+" NON 
 Sejauh NON 
 ini NON 
 Bu NON 
-Risma PERSON 
+Risma NON 
 sudah NON 
 menghadap NON 
-ke NON 
+ke LOCATION 
 Bu NON 
-Mega PERSON 
+Mega NON 
 memohon NON 
 agar NON 
 tidak NON 
 ditugaskan NON 
 ke NON 
-DKI LOCATION 
+DKI NON 
 karena NON 
 masih NON 
-berat NON 
-untuk NON 
+berat ORGANIZATION 
+untuk ORGANIZATION 
 menyelesaikan NON 
 di NON 
 Surabaya NON 
 ( NON 
 amanah NON 
-) NON 
+) 
 , NON 
 kita NON 
 lihat NON 
 saja NON 
 . NON 
 
- PDIP ORGANIZATION 
+PDIP NON 
 tengah NON 
 asyik NON 
 dengan NON 
@@ -7328,30 +7328,30 @@ tarik NON
 - NON 
 menarik NON 
 pencalonan NON 
-Basuki ORGANIZATION 
-Tjahaja ORGANIZATION 
-Purnama ORGANIZATION 
-( ORGANIZATION 
-Ahok ORGANIZATION 
-) ORGANIZATION 
+Basuki PERSON 
+Tjahaja NON 
+Purnama NON 
+( NON 
+Ahok NON 
+) NON 
 lewat NON 
 jalur NON 
 independen NON 
 atau NON 
-parpol NON 
+parpol LOCATION 
 , NON 
 namun NON 
-PDIP ORGANIZATION 
+PDIP NON 
 sendiri NON 
 tak NON 
 memunculkan NON 
 calon NON 
 kuat NON 
 penantang NON 
-Ahok PERSON 
-. PERSON 
+Ahok NON 
+. 
 
- Kita NON 
+Kita NON 
 kan NON 
 bisa NON 
 maju NON 
@@ -7359,51 +7359,51 @@ sendiri NON
 ( NON 
 ke NON 
 Pilgub NON 
-DKI LOCATION 
+DKI NON 
 ) NON 
 , NON 
 waktu NON 
-kita NON 
-enggak NON 
-terburu NON 
-- NON 
+kita PERSON 
+enggak PERSON 
+terburu 
+- PERSON 
 buru NON 
 , NON 
 " NON 
 kata NON 
 Sekretaris NON 
 DPD NON 
-PDIP ORGANIZATION 
-DKI ORGANIZATION 
-Prasetio ORGANIZATION 
-Edi ORGANIZATION 
-Marsudi ORGANIZATION 
-di ORGANIZATION 
-Ruang ORGANIZATION 
-Pers ORGANIZATION 
-Balai ORGANIZATION 
-Kota ORGANIZATION 
-- ORGANIZATION 
-DPRD ORGANIZATION 
-DKI LOCATION 
+PDIP NON 
+DKI NON 
+Prasetio NON 
+Edi NON 
+Marsudi NON 
+di NON 
+Ruang NON 
+Pers 
+Balai NON 
+Kota NON 
+- NON 
+DPRD NON 
+DKI NON 
 , NON 
-Jl LOCATION 
-Kebon LOCATION 
-Sirih LOCATION 
+Jl NON 
+Kebon NON 
+Sirih NON 
 , NON 
-Jakarta LOCATION 
+Jakarta NON 
 , NON 
 Selasa NON 
 ( NON 
 8 NON 
 / NON 
-3 NON 
+3 PERSON 
 / NON 
 2016 NON 
 ) NON 
 . NON 
 
- " NON 
+" NON 
 Nama NON 
 - NON 
 nama NON 
@@ -7411,70 +7411,70 @@ potensial NON
 adalah NON 
 seperti NON 
 yang NON 
-beredar NON 
+beredar 
 sebelumnya NON 
-, NON 
+, LOCATION 
 yakni NON 
-Djarot ORGANIZATION 
-Saiful ORGANIZATION 
-Hidayat ORGANIZATION 
-( ORGANIZATION 
-Wagub ORGANIZATION 
-DKI ORGANIZATION 
-) ORGANIZATION 
-, ORGANIZATION 
-Boy ORGANIZATION 
-Sadikin ORGANIZATION 
+Djarot NON 
+Saiful NON 
+Hidayat NON 
 ( NON 
+Wagub NON 
+DKI NON 
+) NON 
+, NON 
+Boy NON 
+Sadikin NON 
+( ORGANIZATION 
 Ketua NON 
-PDIP ORGANIZATION 
-DKI ORGANIZATION 
-) ORGANIZATION 
-, ORGANIZATION 
-Tri ORGANIZATION 
-Rismaharini ORGANIZATION 
+PDIP NON 
+DKI NON 
+) NON 
+, NON 
+Tri 
+Rismaharini NON 
 , NON 
 dan NON 
 Ganjar NON 
 Pranowo NON 
 , NON 
-" NON 
+" LOCATION 
 kata NON 
 Prasetio NON 
-Edi PERSON 
-Marsudi PERSON 
-. PERSON 
+Edi NON 
+Marsudi NON 
+. NON 
 
- Beda NON 
-dengan NON 
+Beda NON 
+dengan ORGANIZATION 
 Pemkot NON 
-Blitar NON 
+Blitar ORGANIZATION 
 yang NON 
-mengajukan NON 
+mengajukan 
 gugatan NON 
 keberatan NON 
-pengambilalihan NON 
+pengambilalihan ORGANIZATION 
 SMA NON 
 / NON 
-SMK ORGANIZATION 
-oleh ORGANIZATION 
-Pemrov ORGANIZATION 
-Jatim ORGANIZATION 
-, ORGANIZATION 
-Pemerintah ORGANIZATION 
-Kota ORGANIZATION 
-Surabaya ORGANIZATION 
+SMK NON 
+oleh NON 
+Pemrov PERSON 
+Jatim NON 
+, NON 
+Pemerintah NON 
+Kota NON 
+Surabaya NON 
 memilih NON 
-melakukan NON 
+melakukan PERSON 
 pendekatan NON 
-langsung NON 
+langsung PERSON 
 ke NON 
-Kementerian ORGANIZATION 
-Pendidikan ORGANIZATION 
-Nasional ORGANIZATION 
-. ORGANIZATION 
+Kementerian 
+Pendidikan NON 
+Nasional NON 
+. NON 
 
- Risma NON 
+Risma NON 
 sebenarnya NON 
 tidak NON 
 mempermasalahkan NON 
@@ -7488,29 +7488,29 @@ alih NON
 Pemrov NON 
 Jatim NON 
 , NON 
-dengan NON 
-catatan NON 
+dengan LOCATION 
+catatan LOCATION 
 daerah NON 
-yang NON 
-memang NON 
-tidak NON 
+yang PERSON 
+memang PERSON 
+tidak PERSON 
 sanggup NON 
-mengelola NON 
-dan NON 
-kewalahan NON 
+mengelola PERSON 
+dan PERSON 
+kewalahan 
 . NON 
 
- Hal NON 
+Hal NON 
 itu NON 
 diungkapkan NON 
 di NON 
 di NON 
 depan NON 
 pejabat NON 
-Pemkot ORGANIZATION 
-Jayapura ORGANIZATION 
-, ORGANIZATION 
-Papua ORGANIZATION 
+Pemkot NON 
+Jayapura NON 
+, NON 
+Papua NON 
 , NON 
 saat NON 
 talkshow NON 
@@ -7518,30 +7518,30 @@ talkshow NON
 Strategi NON 
 Jayapura NON 
 menuju NON 
-Kota NON 
+Kota PERSON 
 Metropolitan NON 
-' NON 
+' ORGANIZATION 
 di NON 
-Kantor ORGANIZATION 
-Wali ORGANIZATION 
-Kota ORGANIZATION 
-Jayapura ORGANIZATION 
+Kantor NON 
+Wali NON 
+Kota NON 
+Jayapura NON 
 , NON 
 Jumat NON 
 ( NON 
 4 NON 
 / NON 
-3 NON 
+3 
 / NON 
 2016 NON 
 ) NON 
 . NON 
 
- Kita NON 
+Kita NON 
 dengan NON 
 pemanfaatan NON 
 teknologi NON 
-ini NON 
+ini PERSON 
 semua NON 
 menjadi NON 
 cepat NON 
@@ -7549,61 +7549,61 @@ cepat NON
 termasuk NON 
 surat NON 
 menyurat NON 
-juga NON 
+juga 
 , NON 
 " NON 
 kata NON 
-Risma PERSON 
-. PERSON 
+Risma NON 
+. NON 
 
- " NON 
-Termasuk NON 
-program NON 
+" NON 
+Termasuk PERSON 
+program PERSON 
 - NON 
 program NON 
 berbasis NON 
 IT NON 
 yang NON 
 digunakan NON 
-Pemkot ORGANIZATION 
-Surabaya ORGANIZATION 
+Pemkot 
+Surabaya NON 
 juga NON 
 diadopsi NON 
-KPK ORGANIZATION 
+KPK PERSON 
 , NON 
 " NON 
 katanya NON 
-. NON 
+. PERSON 
 ' NON 
 
- Wali NON 
+Wali NON 
 Kota NON 
 yang NON 
 mengantongi NON 
-segudang NON 
+segudang 
 penghargaan NON 
 ini NON 
 diundang NON 
 oleh NON 
-Wali ORGANIZATION 
-Kota ORGANIZATION 
-Jayapura ORGANIZATION 
-Benhor ORGANIZATION 
-Tomi ORGANIZATION 
-Mano ORGANIZATION 
+Wali NON 
+Kota NON 
+Jayapura NON 
+Benhor NON 
+Tomi NON 
+Mano NON 
 untuk NON 
 memberikan NON 
-motivasi NON 
+motivasi PERSON 
 . NON 
 
- Pemkot NON 
-Surabaya NON 
-membuka NON 
+Pemkot NON 
+Surabaya LOCATION 
+membuka LOCATION 
 pintu NON 
-lebar NON 
+lebar LOCATION 
 - NON 
-lebar NON 
-dan NON 
+lebar LOCATION 
+dan LOCATION 
 tidak NON 
 keberatan NON 
 bila NON 
@@ -7614,24 +7614,24 @@ good NON
 governance NON 
 dicontoh NON 
 oleh NON 
-daerah NON 
+daerah 
 - NON 
 daerah NON 
 lain NON 
 . NON 
 
- Sekarang NON 
+Sekarang PERSON 
 tinggal NON 
 di NON 
 DPP NON 
 pusat NON 
-, NON 
+, PERSON 
 " NON 
 kata NON 
 Sekjen NON 
-PDIP ORGANIZATION 
-Hasto PERSON 
-Kristiyanto PERSON 
+PDIP NON 
+Hasto NON 
+Kristiyanto LOCATION 
 kepada NON 
 wartawan NON 
 usai NON 
@@ -7647,9 +7647,9 @@ digelar NON
 PWNU NON 
 Jatim NON 
 di NON 
-Hotel LOCATION 
-Mercure LOCATION 
-Surabaya LOCATION 
+Hotel 
+Mercure ORGANIZATION 
+Surabaya NON 
 , NON 
 Selasa NON 
 ( NON 
@@ -7657,40 +7657,40 @@ Selasa NON
 / NON 
 3 NON 
 / NON 
-2016 NON 
-) NON 
-. NON 
+2016 PERSON 
+) PERSON 
+. PERSON 
 
- Ketika NON 
-disinggung NON 
+Ketika NON 
+disinggung PERSON 
 mengenai NON 
 nama NON 
-Walikota ORGANIZATION 
-Surabaya ORGANIZATION 
-Tri ORGANIZATION 
-Rismaharini ORGANIZATION 
+Walikota NON 
+Surabaya NON 
+Tri NON 
+Rismaharini NON 
 untuk NON 
 dipinang NON 
-sebagai NON 
+sebagai ORGANIZATION 
 calon NON 
 Gubernur NON 
-DKI LOCATION 
+DKI NON 
 , NON 
-Hasto PERSON 
+Hasto NON 
 menerangkan NON 
-pembicaraan NON 
-antara NON 
-Risma NON 
+pembicaraan PERSON 
+antara PERSON 
+Risma 
 dengan NON 
 Ketua NON 
 Umum NON 
 DPP NON 
-PDIP ORGANIZATION 
-Megawati ORGANIZATION 
-Soekarnoputri ORGANIZATION 
-. ORGANIZATION 
+PDIP NON 
+Megawati NON 
+Soekarnoputri NON 
+. NON 
 
- Kita NON 
+Kita LOCATION 
 akan NON 
 mencermati NON 
 bagaimana NON 
@@ -7700,90 +7700,90 @@ politik NON
 yang NON 
 ada NON 
 di NON 
-DKI LOCATION 
+DKI NON 
 . NON 
 
- Gubernur ORGANIZATION 
-DKI ORGANIZATION 
+Gubernur NON 
+DKI NON 
 Jakarta ORGANIZATION 
-Basuki ORGANIZATION 
-Tjahaja ORGANIZATION 
-Purnama ORGANIZATION 
-( ORGANIZATION 
-Ahok ORGANIZATION 
+Basuki LOCATION 
+Tjahaja LOCATION 
+Purnama PERSON 
+( PERSON 
+Ahok NON 
 ) NON 
 berharap NON 
 tahun NON 
 2019 NON 
 pemilihan NON 
-presiden NON 
-- NON 
+presiden ORGANIZATION 
+- LOCATION 
 wakil NON 
-presiden NON 
-dan NON 
-pemilihan NON 
+presiden LOCATION 
+dan LOCATION 
+pemilihan LOCATION 
 anggota NON 
-legislatif NON 
+legislatif LOCATION 
 bisa NON 
 dilakukan NON 
 bersaman NON 
 . NON 
 
- Dia NON 
+Dia NON 
 menyebut NON 
 sosok NON 
-Wali ORGANIZATION 
-Kota ORGANIZATION 
-Surabaya ORGANIZATION 
-Tri ORGANIZATION 
-Rismaharini ORGANIZATION 
-dan ORGANIZATION 
-Nurdin ORGANIZATION 
-Abdullah ORGANIZATION 
-Bupati ORGANIZATION 
-Bantaeng ORGANIZATION 
+Wali NON 
+Kota NON 
+Surabaya NON 
+Tri 
+Rismaharini NON 
+dan NON 
+Nurdin NON 
+Abdullah NON 
+Bupati NON 
+Bantaeng NON 
 di NON 
-Sulsel LOCATION 
+Sulsel NON 
 . NON 
 
- Pria NON 
+Pria NON 
 yang NON 
 akrab NON 
-disapa NON 
-Emil NON 
-itu NON 
+disapa PERSON 
+Emil PERSON 
+itu PERSON 
 ingin NON 
 ' NON 
-membongkar NON 
+membongkar LOCATION 
 ' NON 
 paradigma NON 
-bahwa NON 
-Jakarta LOCATION 
+bahwa ORGANIZATION 
+Jakarta ORGANIZATION 
 menjadi NON 
 pusat NON 
-segalanya NON 
-, NON 
+segalanya ORGANIZATION 
+, LOCATION 
 termasuk NON 
 sebagai NON 
-panggung NON 
-politik NON 
+panggung PERSON 
+politik PERSON 
 utama NON 
 . NON 
 
- Dengan NON 
-tergopoh NON 
+Dengan PERSON 
+tergopoh PERSON 
 - NON 
 gopoh NON 
 keluar NON 
-dari NON 
-mobil NON 
-, NON 
-Risma NON 
-langsung NON 
+dari PERSON 
+mobil PERSON 
+, PERSON 
+Risma PERSON 
+langsung 
 masuk NON 
 ke NON 
-Kantor NON 
-Satpol NON 
+Kantor ORGANIZATION 
+Satpol ORGANIZATION 
 PP NON 
 dan NON 
 menginterogasi NON 
@@ -7794,35 +7794,35 @@ siswa NON
 yang NON 
 didata NON 
 oleh NON 
-anggota NON 
+anggota LOCATION 
 Satpol NON 
 PP NON 
 serta NON 
-didampingi NON 
+didampingi LOCATION 
 petugas NON 
-Bapemas ORGANIZATION 
-Kota ORGANIZATION 
-Surabaya ORGANIZATION 
+Bapemas NON 
+Kota NON 
+Surabaya NON 
 , NON 
-Sabtu NON 
-( NON 
-27 NON 
+Sabtu ORGANIZATION 
+( ORGANIZATION 
+27 ORGANIZATION 
 / NON 
-2 NON 
+2 
 / NON 
 2016 NON 
 ) NON 
 malam NON 
 . NON 
 
- Selain NON 
+Selain NON 
 itu NON 
 , NON 
 Risma NON 
 juga NON 
 sempat NON 
 meminta NON 
-izin NON 
+izin LOCATION 
 kepada NON 
 para NON 
 orang NON 
@@ -7836,7 +7836,7 @@ tes NON
 urin NON 
 . NON 
 
- Salah NON 
+Salah 
 satu NON 
 untuk NON 
 kembali NON 
@@ -7844,37 +7844,37 @@ mendongkrak NON
 wisatawan NON 
 kembali NON 
 ' NON 
-menghargai NON 
-' NON 
+menghargai ORGANIZATION 
+' ORGANIZATION 
 kawasan NON 
 Pantai LOCATION 
-Ria LOCATION 
-Kenjeran LOCATION 
+Ria NON 
+Kenjeran NON 
 itu NON 
 , NON 
-Risma NON 
-dan NON 
+Risma PERSON 
+dan PERSON 
 kabinetnya NON 
 pun NON 
 membangun NON 
 Sentra NON 
 Ikan NON 
-Bulak NON 
-di NON 
-kawasan NON 
-yang NON 
+Bulak LOCATION 
+di LOCATION 
+kawasan LOCATION 
+yang LOCATION 
 mayoritas NON 
 penduduknya NON 
 nelayan NON 
 itu NON 
 . NON 
 
- Sentra NON 
+Sentra NON 
 Ikan NON 
 Bulak NON 
 ini NON 
 lokasinya NON 
-tak NON 
+tak 
 jauh NON 
 dari NON 
 jembatan NON 
@@ -7891,54 +7891,54 @@ atas NON
 pesisir NON 
 . NON 
 
- Tapi NON 
-, NON 
-di NON 
-tangan NON 
+Tapi NON 
+, PERSON 
+di PERSON 
+tangan 
 Wali NON 
 Kota NON 
 Risma NON 
 niat NON 
 mengubah NON 
 citra NON 
-Pantai LOCATION 
-Kenjeran LOCATION 
+Pantai NON 
+Kenjeran NON 
 mulai NON 
 ditempuh NON 
-. NON 
+. LOCATION 
 
- Jembatan NON 
+Jembatan NON 
 yang NON 
-memutar NON 
+memutar ORGANIZATION 
 dari NON 
 Kenjeran NON 
 menuju NON 
 Kecamatan NON 
 Bulak NON 
-itu NON 
+itu 
 sudah NON 
 bisa NON 
 disaksikan NON 
 dari NON 
-Taman LOCATION 
-Hiburan LOCATION 
+Taman NON 
+Hiburan NON 
 Pantau NON 
 ( NON 
 THP NON 
-) NON 
-Kenjeran NON 
-. NON 
+) ORGANIZATION 
+Kenjeran ORGANIZATION 
+. ORGANIZATION 
 
- Uji ORGANIZATION 
+Uji ORGANIZATION 
 coba ORGANIZATION 
 air ORGANIZATION 
-mancur ORGANIZATION 
+mancur NON 
 menari NON 
 makin NON 
 mempercantik NON 
-Jembatan LOCATION 
-Kenjeran LOCATION 
-yang NON 
+Jembatan 
+Kenjeran NON 
+yang LOCATION 
 melingkar NON 
 800 NON 
 meter NON 
@@ -7959,156 +7959,156 @@ Kamis NON
 malam NON 
 . NON 
 
- Ikut NON 
+Ikut NON 
 mendampingi NON 
-Risma PERSON 
+Risma 
 , NON 
 di NON 
 antaranya NON 
 adalah NON 
 Kepala NON 
-Dinas ORGANIZATION 
-Pekerjaan ORGANIZATION 
-Umum ORGANIZATION 
-Bina ORGANIZATION 
+Dinas NON 
+Pekerjaan NON 
+Umum NON 
+Bina NON 
 Marga ORGANIZATION 
-dan ORGANIZATION 
-Pematusan ORGANIZATION 
-Erna ORGANIZATION 
-Purnawati ORGANIZATION 
-dan ORGANIZATION 
-Camat ORGANIZATION 
-Bulak ORGANIZATION 
-Suprayitno ORGANIZATION 
+dan PERSON 
+Pematusan PERSON 
+Erna NON 
+Purnawati NON 
+dan NON 
+Camat NON 
+Bulak NON 
+Suprayitno NON 
 . ORGANIZATION 
 
- Banjir NON 
+Banjir NON 
 yang NON 
 menggenangi NON 
 permukiman NON 
 Gang NON 
 VI NON 
 , NON 
-Jl LOCATION 
+Jl NON 
 Raya LOCATION 
 Menganti LOCATION 
-, NON 
+, LOCATION 
 Wiyung NON 
 , NON 
 ini NON 
 mengundang NON 
 perhatian NON 
-Wali ORGANIZATION 
-Kota ORGANIZATION 
-Tri ORGANIZATION 
-Rismaharini ORGANIZATION 
-. ORGANIZATION 
+Wali NON 
+Kota NON 
+Tri NON 
+Rismaharini NON 
+. NON 
 
- " NON 
+" 
 Saluran NON 
 air NON 
 yang NON 
 terhalang NON 
 gapura NON 
 dibongkar NON 
-Satpol NON 
-, NON 
+Satpol PERSON 
+, PERSON 
 " NON 
 kata NON 
 Kusnan NON 
 , NON 
 warga NON 
-Dukuh NON 
+Dukuh LOCATION 
 Karangan NON 
-, NON 
+, PERSON 
 saat NON 
 melihat NON 
 banjir NON 
-. NON 
+. PERSON 
 
- " NON 
+" NON 
 Dan NON 
 kita NON 
 tidak NON 
-tahu NON 
-apakah NON 
-rombongan NON 
-dari NON 
-Bandung LOCATION 
+tahu ORGANIZATION 
+apakah PERSON 
+rombongan PERSON 
+dari PERSON 
+Bandung 
 itu NON 
 sudah NON 
 ke NON 
-Surabaya LOCATION 
+Surabaya NON 
 atau NON 
 tidak NON 
 pada NON 
 tanggal NON 
 18 NON 
 hingga NON 
-20 NON 
+20 LOCATION 
 Februari NON 
-itu NON 
+itu 
 , NON 
-" NON 
-katanya NON 
-. NON 
+" LOCATION 
+katanya LOCATION 
+. PERSON 
 
- Ya NON 
-manajemen NON 
+Ya PERSON 
+manajemen PERSON 
 raskin NON 
-kita NON 
+kita PERSON 
 ( NON 
 Pemkot NON 
-Bandung LOCATION 
+Bandung NON 
 ) NON 
 kan NON 
 juara NON 
 se NON 
 - NON 
-Jawa ORGANIZATION 
-Barat ORGANIZATION 
-kerena ORGANIZATION 
+Jawa NON 
+Barat NON 
+kerena NON 
 bisa NON 
 gratis NON 
 , NON 
 " NON 
 ujar NON 
-Emil PERSON 
-di NON 
-Bandung LOCATION 
+Emil NON 
+di 
+Bandung NON 
 , NON 
 Rabu NON 
 ( NON 
 24 NON 
-/ NON 
-2 NON 
-/ NON 
+/ LOCATION 
+2 LOCATION 
+/ LOCATION 
 2016 NON 
-) NON 
-. NON 
+) PERSON 
+. PERSON 
 
- " NON 
-Kalian NON 
+" PERSON 
+Kalian PERSON 
 semua NON 
-kalau NON 
+kalau LOCATION 
 tertangkap NON 
-lagi NON 
+lagi 
 , NON 
 tak NON 
 suruh NON 
 merawat NON 
-orang NON 
+orang PERSON 
 gila NON 
 , NON 
 " NON 
 ujar NON 
-Risma PERSON 
+Risma NON 
 dengan NON 
 nada NON 
-tinggi NON 
+tinggi LOCATION 
 . NON 
 
- Saat NON 
+Saat NON 
 ini NON 
 Jalan NON 
 Kalianak NON 
@@ -8117,23 +8117,23 @@ kerusakan NON
 parah NON 
 dan NON 
 tergenang NON 
-air NON 
+air 
 . NON 
 
- Risma NON 
+Risma NON 
 akan NON 
 memberikan NON 
 penjelasan NON 
 atas NON 
 pencabutan NON 
 5 NON 
-Peraturan NON 
+Peraturan PERSON 
 Daerah NON 
 ( NON 
 Perda NON 
-) NON 
-Kota NON 
-Surabaya LOCATION 
+) PERSON 
+Kota PERSON 
+Surabaya PERSON 
 , NON 
 Selasa NON 
 ( NON 
@@ -8145,7 +8145,7 @@ Selasa NON
 ) NON 
 . NON 
 
- Imbas NON 
+Imbas NON 
 kepadatan NON 
 lalu NON 
 lintas NON 
@@ -8153,11 +8153,11 @@ juga NON
 berimbas NON 
 di NON 
 Jalan LOCATION 
-Gubernur LOCATION 
-Suryo LOCATION 
+Gubernur NON 
+Suryo NON 
 . NON 
 
- Kan NON 
+Kan NON 
 kita NON 
 bisa NON 
 bicarakan NON 
@@ -8165,28 +8165,28 @@ dulu NON
 , NON 
 " NON 
 kata NON 
-Ketua NON 
+Ketua 
 DPP NON 
 Bidang NON 
 Keanggotaan NON 
-dan NON 
+dan PERSON 
 Organisasi NON 
-PDIP ORGANIZATION 
-Djarot ORGANIZATION 
-Saiful ORGANIZATION 
-Hidayat ORGANIZATION 
+PDIP NON 
+Djarot NON 
+Saiful NON 
+Hidayat NON 
 di NON 
 Balai NON 
 Kota NON 
 , NON 
-Jl LOCATION 
-Medan LOCATION 
-Merdeka LOCATION 
-Selatan LOCATION 
+Jl NON 
+Medan NON 
+Merdeka NON 
+Selatan NON 
 , NON 
-Jakarta LOCATION 
+Jakarta NON 
 , NON 
-Senin NON 
+Senin 
 ( NON 
 22 NON 
 / NON 
@@ -8196,15 +8196,15 @@ Senin NON
 ) NON 
 . NON 
 
- " NON 
+" NON 
 Saya NON 
 sangat NON 
-yakin NON 
-, NON 
-saya NON 
+yakin LOCATION 
+, LOCATION 
+saya LOCATION 
 ingin NON 
 seluruh NON 
-warga NON 
+warga PERSON 
 Putat NON 
 punya NON 
 hak NON 
@@ -8220,12 +8220,12 @@ anak NON
 anak NON 
 disini NON 
 untuk NON 
-memimpin NON 
+memimpin 
 dunia NON 
 , NON 
 " NON 
 kata NON 
-Risma PERSON 
+Risma NON 
 dalam NON 
 sambutannya NON 
 yang NON 
@@ -8242,67 +8242,67 @@ hadir NON
 Minggu NON 
 ( NON 
 21 NON 
-/ NON 
+/ 
 2 NON 
 / NON 
 2016 NON 
 ) NON 
 . NON 
 
- Menteri NON 
-Siti ORGANIZATION 
-Nurbaya ORGANIZATION 
+Menteri NON 
+Siti PERSON 
+Nurbaya NON 
 yang NON 
 berada NON 
-di NON 
+di LOCATION 
 Jakarta LOCATION 
 mengapresiasi NON 
 capaian NON 
 yang NON 
-sudah NON 
+sudah 
 dilakukan NON 
 Risma NON 
 dan NON 
 Pemkot NON 
 Surabaya NON 
 terhadap NON 
-kepedulian NON 
-lingkungan NON 
+kepedulian LOCATION 
+lingkungan LOCATION 
 . NON 
 
- " NON 
+" NON 
 Keberhasilan NON 
 Kota NON 
-Surabaya LOCATION 
-bisa NON 
-menjadi NON 
+Surabaya NON 
+bisa LOCATION 
+menjadi LOCATION 
 model NON 
 kepala NON 
-daerah NON 
+daerah ORGANIZATION 
 lain NON 
 yang NON 
 akan NON 
-diusung NON 
+diusung 
 PDIP ORGANIZATION 
-, NON 
+, ORGANIZATION 
 " NON 
 pungkas NON 
 dia NON 
 . NON 
 
- Dinas NON 
-yang NON 
-dimaksud NON 
+Dinas NON 
+yang LOCATION 
+dimaksud LOCATION 
 yakni NON 
 , NON 
-Dinas ORGANIZATION 
-Pariwisata ORGANIZATION 
-dan ORGANIZATION 
-Dinas ORGANIZATION 
-Kependudukan ORGANIZATION 
-dan ORGANIZATION 
-Catatan ORGANIZATION 
-Sipil ORGANIZATION 
+Dinas NON 
+Pariwisata NON 
+dan NON 
+Dinas NON 
+Kependudukan NON 
+dan NON 
+Catatan NON 
+Sipil NON 
 yang NON 
 ditempatkan NON 
 di NON 
@@ -8310,34 +8310,34 @@ Gedung NON
 Siola NON 
 . NON 
 
- Penelitian NON 
+Penelitian NON 
 yang NON 
 dilakukan NON 
 oleh NON 
-Taruna ORGANIZATION 
-Ikrar ORGANIZATION 
-, ORGANIZATION 
-ilmuwan ORGANIZATION 
-Indonesia ORGANIZATION 
+Taruna 
+Ikrar NON 
+, NON 
+ilmuwan PERSON 
+Indonesia NON 
 yang NON 
 bekerja NON 
 di NON 
 University NON 
-of NON 
-California NON 
-di NON 
-Irvine NON 
-, NON 
-Amerika LOCATION 
-Serikat LOCATION 
-, NON 
-membuka NON 
+of ORGANIZATION 
+California ORGANIZATION 
+di ORGANIZATION 
+Irvine ORGANIZATION 
+, ORGANIZATION 
+Amerika ORGANIZATION 
+Serikat ORGANIZATION 
+, ORGANIZATION 
+membuka ORGANIZATION 
 gerbang NON 
-untuk NON 
-mengatasi NON 
-masalah NON 
-yang NON 
-dihadapi NON 
+untuk PERSON 
+mengatasi PERSON 
+masalah PERSON 
+yang PERSON 
+dihadapi 
 oleh NON 
 orang NON 
 dengan NON 
@@ -8345,10 +8345,10 @@ kecemasan NON
 akut NON 
 . NON 
 
- " NON 
-Ya NON 
-sekarang NON 
-coba NON 
+" NON 
+Ya LOCATION 
+sekarang LOCATION 
+coba LOCATION 
 teman NON 
 - NON 
 teman NON 
@@ -8356,11 +8356,11 @@ teman NON
 ENAMEX NON 
 TYPE NON 
 = NON 
-" NON 
-ORGANIZTION NON 
-" NON 
+" LOCATION 
+ORGANIZTION LOCATION 
+" LOCATION 
 > NON 
-SKPD NON 
+SKPD 
 tidak NON 
 hanya NON 
 kinerjanya NON 
@@ -8372,17 +8372,17 @@ lagi NON
 , NON 
 " NON 
 ujarnya NON 
-kepada NON 
+kepada PERSON 
 wartawan NON 
 di NON 
-Balai NON 
-Kota NON 
-Surabaya LOCATION 
+Balai LOCATION 
+Kota LOCATION 
+Surabaya NON 
 usai NON 
 pelantikan NON 
 Ketua NON 
 PKK NON 
-Kota NON 
+Kota 
 Surabaya NON 
 , NON 
 Kamis NON 
@@ -8391,12 +8391,12 @@ Kamis NON
 / NON 
 2 NON 
 / NON 
-2016 NON 
+2016 LOCATION 
 ) NON 
 . NON 
 
- Maria PERSON 
-pun NON 
+Maria NON 
+pun LOCATION 
 langsung NON 
 menjawab NON 
 pihaknya NON 
@@ -8410,32 +8410,32 @@ Kalidami NON
 , NON 
 karena NON 
 selama NON 
-ini NON 
+ini 
 tiap NON 
 kali NON 
 hujan NON 
 . NON 
 
- Risma NON 
+Risma NON 
 sore NON 
-ini NON 
+ini LOCATION 
 memantau NON 
 titik NON 
 genangan NON 
 karena NON 
 guyuran NON 
-hujan NON 
-deras NON 
+hujan LOCATION 
+deras LOCATION 
 . NON 
 
- Bahkan NON 
+Bahkan NON 
 tidak NON 
 jarang NON 
 walkot NON 
 yang NON 
-diusung NON 
-PDI ORGANIZATION 
-Perjuangan ORGANIZATION 
+diusung PERSON 
+PDI NON 
+Perjuangan LOCATION 
 ini NON 
 turun NON 
 langsung NON 
@@ -8446,12 +8446,12 @@ ketinggian NON
 air NON 
 di NON 
 kawasan NON 
-yang NON 
+yang 
 terkena NON 
 banjir NON 
 . NON 
 
- Usai NON 
+Usai NON 
 memberikan NON 
 pesan NON 
 perdana NON 
@@ -8459,31 +8459,31 @@ di NON
 Pesta NON 
 Rakyat NON 
 , NON 
-Risma PERSON 
-- PERSON 
-Whisnu PERSON 
+Risma NON 
+- NON 
+Whisnu NON 
 ikut NON 
-mencoba NON 
+mencoba PERSON 
 kuliner NON 
 yang NON 
 disediakan NON 
 . NON 
 
- Gaung ORGANIZATION 
-kinerja ORGANIZATION 
-Wali ORGANIZATION 
-Kota ORGANIZATION 
-Surabaya ORGANIZATION 
-Tri ORGANIZATION 
-Rismaharini ORGANIZATION 
+Gaung 
+kinerja NON 
+Wali NON 
+Kota LOCATION 
+Surabaya LOCATION 
+Tri NON 
+Rismaharini NON 
 juga NON 
 terdengar NON 
 di NON 
 luar NON 
 negeri NON 
-. NON 
+. 
 
- Rencananya NON 
+Rencananya NON 
 Khalid NON 
 juga NON 
 akan NON 
@@ -8491,12 +8491,12 @@ menyampaikan NON
 langsung NON 
 ke NON 
 Dubes NON 
-Malaysia LOCATION 
+Malaysia NON 
 untuk NON 
-Indonesia LOCATION 
+Indonesia NON 
 di NON 
-Jakarta LOCATION 
-soal NON 
+Jakarta NON 
+soal LOCATION 
 kinerja NON 
 Risma NON 
 pada NON 
@@ -8504,30 +8504,30 @@ periode NON
 sebelumnya NON 
 . NON 
 
- Melihat NON 
+Melihat NON 
 kinerja NON 
 Risma NON 
 , NON 
-Khalid NON 
+Khalid 
 menyebut NON 
 adanya NON 
 peluang NON 
 kerjasama NON 
 pemerintah NON 
-Malaysia LOCATION 
+Malaysia NON 
 dengan NON 
-Pemkot ORGANIZATION 
-Surabaya ORGANIZATION 
-juga NON 
+Pemkot LOCATION 
+Surabaya LOCATION 
+juga LOCATION 
 kota NON 
-- NON 
+- 
 kota NON 
 lain NON 
 di NON 
-Indonesia LOCATION 
+Indonesia NON 
 . NON 
 
- Risma NON 
+Risma NON 
 - NON 
 Whisnu NON 
 sendiri NON 
@@ -8537,41 +8537,41 @@ kader NON
 dan NON 
 simpatisan NON 
 PDIP ORGANIZATION 
-menuju NON 
-ke NON 
-Grahadi NON 
+menuju PERSON 
+ke PERSON 
+Grahadi PERSON 
 turut NON 
 truk NON 
 bak NON 
 terbuka NON 
-berisi NON 
-band NON 
-musik NON 
-ikut NON 
+berisi LOCATION 
+band LOCATION 
+musik LOCATION 
+ikut LOCATION 
 mengiringi NON 
-arak NON 
+arak LOCATION 
 arakan NON 
 pasangan NON 
-Wali ORGANIZATION 
-Kota ORGANIZATION 
-dan ORGANIZATION 
-Wakil ORGANIZATION 
-Wali ORGANIZATION 
-Kota ORGANIZATION 
-Surabaya ORGANIZATION 
+Wali NON 
+Kota NON 
+dan NON 
+Wakil NON 
+Wali NON 
+Kota NON 
+Surabaya NON 
 terpilih NON 
-. NON 
+. 
 
- Di NON 
+Di NON 
 depan NON 
 rumah NON 
 Wali NON 
 Kota NON 
-Surabaya LOCATION 
+Surabaya NON 
 terpilih NON 
 ini NON 
 hanya NON 
-terdapat NON 
+terdapat PERSON 
 tenda NON 
 polos NON 
 tanpa NON 
@@ -8584,64 +8584,64 @@ ucapan NON
 selamat NON 
 atas NON 
 pelantikan NON 
-Risma PERSON 
-. PERSON 
+Risma NON 
+. NON 
 
- Sekitar NON 
+Sekitar NON 
 3 NON 
 ribu NON 
 kader NON 
-PDI ORGANIZATION 
-Perjuangan ORGANIZATION 
-Surabaya ORGANIZATION 
+PDI NON 
+Perjuangan PERSON 
+Surabaya NON 
 akan NON 
 mengantar NON 
-Tri ORGANIZATION 
-Rismaharini ORGANIZATION 
-- ORGANIZATION 
-< ORGANIZATION 
-ENAMEX ORGANIZATION 
-TYPE ORGANIZATION 
-= ORGANIZATION 
-" ORGANIZATION 
-PERSON ORGANIZATION 
-> ORGANIZATION 
-Whisnu ORGANIZATION 
-Sakti ORGANIZATION 
-Buana ORGANIZATION 
+Tri NON 
+Rismaharini NON 
+- NON 
+< NON 
+ENAMEX NON 
+TYPE NON 
+= NON 
+" NON 
+PERSON NON 
+> NON 
+Whisnu NON 
+Sakti NON 
+Buana NON 
 menuju NON 
 tempat NON 
 pelantikan NON 
 di NON 
-Gedung LOCATION 
-Negara LOCATION 
-Grahadi LOCATION 
+Gedung NON 
+Negara NON 
+Grahadi 
 , NON 
-Rabu NON 
-( NON 
+Rabu ORGANIZATION 
+( ORGANIZATION 
 17 NON 
 / NON 
 2 NON 
-/ NON 
+/ LOCATION 
 2016 NON 
 ) NON 
 . NON 
 
- Mantan ORGANIZATION 
-Camat ORGANIZATION 
-Sukolilo ORGANIZATION 
+Mantan NON 
+Camat NON 
+Sukolilo PERSON 
 ini NON 
 menambahkan NON 
-, NON 
+, LOCATION 
 jadwal NON 
 pesta NON 
 rakyat NON 
 pada NON 
-sore NON 
+sore 
 hari NON 
 dipilih NON 
 karena NON 
-Risma NON 
+Risma LOCATION 
 - NON 
 Whisnu NON 
 akan NON 
@@ -8651,56 +8651,56 @@ Jatim NON
 Soekarwo NON 
 pada NON 
 gelombang NON 
-kedua NON 
+kedua ORGANIZATION 
 bersama NON 
 dengan NON 
 8 NON 
 kepala NON 
 daerah NON 
-lain NON 
+lain 
 . NON 
 
- " NON 
+" NON 
 Sampai NON 
 akhir NON 
 bulan NON 
-saya NON 
-ada NON 
+saya ORGANIZATION 
+ada ORGANIZATION 
 undangan NON 
-- NON 
-undangan NON 
+- ORGANIZATION 
+undangan ORGANIZATION 
 dari NON 
-forum NON 
-- NON 
+forum PERSON 
+- PERSON 
 forum NON 
 warga NON 
 di NON 
 Jakarta LOCATION 
-. NON 
+. LOCATION 
 
- Gubernur ORGANIZATION 
-DKI ORGANIZATION 
-Basuki ORGANIZATION 
-T ORGANIZATION 
-Purnama ORGANIZATION 
+Gubernur NON 
+DKI 
+Basuki NON 
+T NON 
+Purnama NON 
 diminta NON 
-meniru NON 
-Kepala NON 
+meniru LOCATION 
+Kepala LOCATION 
 BIN NON 
 Sutiyoso NON 
-saat NON 
+saat LOCATION 
 menjabat NON 
 Gubernur NON 
-DKI LOCATION 
+DKI NON 
 dan NON 
 menertibkan NON 
-Kramat ORGANIZATION 
-Tunggak ORGANIZATION 
-. ORGANIZATION 
+Kramat LOCATION 
+Tunggak NON 
+. LOCATION 
 
- Setelah NON 
-dilantik NON 
-, NON 
+Setelah NON 
+dilantik LOCATION 
+, LOCATION 
 Risma NON 
 akan NON 
 melanjutkan NON 
@@ -8715,9 +8715,9 @@ Surabaya NON
 hingga NON 
 memberikan NON 
 beasiswa NON 
-. NON 
+. 
 
- Sepatu NON 
+Sepatu NON 
 yang NON 
 harganya NON 
 Rp NON 
@@ -8732,11 +8732,11 @@ yang NON
 tinggal NON 
 dikawasan NON 
 eks NON 
-lokalisasi NON 
+lokalisasi ORGANIZATION 
 Dolly NON 
 . NON 
 
- Setelah NON 
+Setelah NON 
 Tri NON 
 Rismaharini NON 
 purna NON 
@@ -8750,39 +8750,39 @@ penghargaan NON
 level NON 
 nasional NON 
 masih NON 
-mengalir NON 
+mengalir LOCATION 
 untuk NON 
-Pemkot ORGANIZATION 
-Surabaya ORGANIZATION 
-yang ORGANIZATION 
-dpimpin ORGANIZATION 
-Penjabat ORGANIZATION 
-( ORGANIZATION 
-Pj ORGANIZATION 
-) ORGANIZATION 
-Nurwiyatno ORGANIZATION 
-. ORGANIZATION 
+Pemkot NON 
+Surabaya NON 
+yang NON 
+dpimpin NON 
+Penjabat LOCATION 
+( NON 
+Pj NON 
+) NON 
+Nurwiyatno NON 
+. NON 
 
- Diantara NON 
+Diantara NON 
 19 NON 
 itu NON 
 , NON 
-Tri ORGANIZATION 
-Rismaharini ORGANIZATION 
-dan ORGANIZATION 
-Whisnu ORGANIZATION 
-Sakti ORGANIZATION 
-Buana ORGANIZATION 
+Tri NON 
+Rismaharini 
+dan PERSON 
+Whisnu NON 
+Sakti NON 
+Buana NON 
 akan NON 
 dilantik NON 
 menjadi NON 
-Wali ORGANIZATION 
-Kota ORGANIZATION 
-dan ORGANIZATION 
-Wakil ORGANIZATION 
-Wali ORGANIZATION 
-Kota ORGANIZATION 
-Surabaya ORGANIZATION 
+Wali NON 
+Kota NON 
+dan NON 
+Wakil NON 
+Wali NON 
+Kota NON 
+Surabaya NON 
 untuk NON 
 periode NON 
 lima NON 
@@ -8790,9 +8790,9 @@ tahun NON
 mendatang NON 
 . NON 
 
- Presiden NON 
-Joko PERSON 
-Widodo PERSON 
+Presiden 
+Joko NON 
+Widodo NON 
 membuat NON 
 dua NON 
 keputusan NON 
@@ -8802,16 +8802,16 @@ pengembangan NON
 ekonomi NON 
 di NON 
 wilayah NON 
-Suramadu NON 
+Suramadu 
 . NON 
 
- Adhyaksa NON 
+Adhyaksa NON 
 Dault NON 
 merespons NON 
 keras NON 
 pernyataan NON 
-Ahok PERSON 
-yang NON 
+Ahok ORGANIZATION 
+yang ORGANIZATION 
 menyindir NON 
 analisis NON 
 eks NON 
@@ -8824,89 +8824,89 @@ CSIS NON
 soal NON 
 elektabilitas NON 
 cagub NON 
-DKI LOCATION 
-Jakarta LOCATION 
-. NON 
+DKI NON 
+Jakarta NON 
+. 
 
- Basuki ORGANIZATION 
-Tjahaja ORGANIZATION 
-Purnama ORGANIZATION 
-( ORGANIZATION 
-Ahok ORGANIZATION 
+Basuki NON 
+Tjahaja NON 
+Purnama NON 
+( NON 
+Ahok NON 
 ) NON 
 dipastikan NON 
 akan NON 
-maju NON 
-dalam NON 
-Pemilihan NON 
+maju PERSON 
+dalam PERSON 
+Pemilihan PERSON 
 Gubernur NON 
 dan NON 
 Wakil NON 
 Gubernur NON 
-DKI LOCATION 
-Jakarta LOCATION 
-dari NON 
+DKI NON 
+Jakarta NON 
+dari 
 jalur NON 
 independen NON 
 . NON 
 
- Namun NON 
-sejumlah NON 
-partai NON 
-politik NON 
+Namun NON 
+sejumlah LOCATION 
+partai LOCATION 
+politik LOCATION 
 sepertinya NON 
 ingin NON 
 ikut NON 
 menjadi NON 
 pendukung NON 
-Ahok PERSON 
-. PERSON 
+Ahok NON 
+. 
 
- Beda NON 
-cerita NON 
+Beda NON 
+cerita ORGANIZATION 
 dengan NON 
 Tri NON 
 Rismaharini NON 
 yang NON 
 jauh NON 
 hari NON 
-sebelum NON 
+sebelum LOCATION 
 Pilkada NON 
-Surabaya NON 
+Surabaya LOCATION 
 elektabilitasnya NON 
-menyentuh NON 
+menyentuh LOCATION 
 70 NON 
 persen NON 
-. NON 
+. PERSON 
 
- DPRD ORGANIZATION 
-Surabaya ORGANIZATION 
+DPRD NON 
+Surabaya NON 
 segera NON 
 gelar NON 
-paripurna NON 
+paripurna 
 istimewa NON 
 sebagai NON 
-salah NON 
+salah PERSON 
 satu NON 
-syarat NON 
+syarat PERSON 
 sebelum NON 
 pelantikan NON 
-Tri ORGANIZATION 
-Rismaharini ORGANIZATION 
-- ORGANIZATION 
-Whisnu ORGANIZATION 
-Sakti ORGANIZATION 
-Buana ORGANIZATION 
-sebagai ORGANIZATION 
-Wali ORGANIZATION 
-Kota ORGANIZATION 
-dan ORGANIZATION 
-Wakil ORGANIZATION 
-Wali ORGANIZATION 
-Kota ORGANIZATION 
-, NON 
+Tri NON 
+Rismaharini NON 
+- NON 
+Whisnu LOCATION 
+Sakti NON 
+Buana NON 
+sebagai LOCATION 
+Wali NON 
+Kota NON 
+dan NON 
+Wakil NON 
+Wali NON 
+Kota NON 
+, LOCATION 
 Senin NON 
-( NON 
+( 
 1 NON 
 / NON 
 2 NON 
@@ -8915,72 +8915,72 @@ pekan NON
 depan NON 
 . NON 
 
- Sosok NON 
+Sosok NON 
 Ahok NON 
-yang NON 
+yang ORGANIZATION 
 populer NON 
 dan NON 
-kebijakannya NON 
+kebijakannya ORGANIZATION 
 yang NON 
 tegas NON 
 banyak NON 
 disukai NON 
 publik NON 
-Jakarta LOCATION 
+Jakarta NON 
 . NON 
 
- Survei NON 
+Survei NON 
 ini NON 
 dilakukan NON 
 pada NON 
 400 NON 
-sample NON 
-warga NON 
-Jakarta LOCATION 
+sample ORGANIZATION 
+warga ORGANIZATION 
+Jakarta NON 
 yang NON 
 telah NON 
 memiliki NON 
-hak NON 
+hak LOCATION 
 pilih NON 
 dalam NON 
-pemilu NON 
+pemilu 
 pada NON 
 5 NON 
 - NON 
 10 NON 
 Januari NON 
-2016 NON 
+2016 LOCATION 
 . NON 
 
- Menurutnya NON 
+Menurutnya NON 
 , NON 
 wacana NON 
 pengusungan NON 
 Risma NON 
 ke NON 
-DKI LOCATION 
+DKI NON 
 hanya NON 
 sebatas NON 
 omongan NON 
 sejumlah NON 
 kader NON 
-PDIP ORGANIZATION 
+PDIP NON 
 saja NON 
 dan NON 
-mustahil NON 
+mustahil PERSON 
 menjadi NON 
-kenyataan NON 
+kenyataan 
 , NON 
 meski NON 
 wacana NON 
 seperti NON 
-itu NON 
-boleh NON 
-saja NON 
+itu ORGANIZATION 
+boleh ORGANIZATION 
+saja ORGANIZATION 
 dimunculkan NON 
 . NON 
 
- Namun NON 
+Namun PERSON 
 Djarot PERSON 
 sudah NON 
 memastikan NON 
@@ -8990,32 +8990,32 @@ akan NON
 maju NON 
 ke NON 
 Ibu NON 
-Kota NON 
-. NON 
+Kota PERSON 
+. PERSON 
 
- Bila NON 
+Bila PERSON 
 ditunjuk NON 
 partai NON 
 untuk NON 
 maju NON 
-di NON 
-Pilgub NON 
-, NON 
+di LOCATION 
+Pilgub LOCATION 
+, LOCATION 
 maka NON 
 dia NON 
 akan NON 
 siap NON 
 . NON 
 
- Mantan ORGANIZATION 
-Bupati ORGANIZATION 
-Belitung ORGANIZATION 
-Timur ORGANIZATION 
+Mantan NON 
+Bupati NON 
+Belitung NON 
+Timur NON 
 itu NON 
-disebut NON 
-Paloh NON 
-memiliki NON 
-kualitas NON 
+disebut 
+Paloh LOCATION 
+memiliki LOCATION 
+kualitas LOCATION 
 yang NON 
 diperlukan NON 
 untuk NON 
@@ -9025,29 +9025,29 @@ kota NON
 negara NON 
 . NON 
 
- Bali ORGANIZATION 
-- ORGANIZATION 
-Partai ORGANIZATION 
-NasDem ORGANIZATION 
-menyatakan NON 
-dukungannya NON 
+Bali NON 
+- NON 
+Partai NON 
+NasDem PERSON 
+menyatakan PERSON 
+dukungannya PERSON 
 kepada NON 
-Basuki ORGANIZATION 
-T ORGANIZATION 
-Purnama ORGANIZATION 
-( ORGANIZATION 
-Ahok ORGANIZATION 
+Basuki NON 
+T PERSON 
+Purnama PERSON 
+( PERSON 
+Ahok NON 
 ) NON 
 untuk NON 
 Pilgub NON 
-DKI LOCATION 
+DKI NON 
 . NON 
 
- Tekad NON 
+Tekad NON 
 menghidupkan NON 
 kawasan NON 
 Tunjungan NON 
-sebagai NON 
+sebagai 
 ikon NON 
 Surabaya NON 
 , NON 
@@ -9056,42 +9056,42 @@ sejak NON
 wali NON 
 kota NON 
 dijabat NON 
-Tri PERSON 
-Rismaharini PERSON 
-. PERSON 
+Tri NON 
+Rismaharini NON 
+. NON 
 
- Risma NON 
+Risma NON 
 juga NON 
 sudah NON 
 menyulap NON 
-bangunan NON 
+bangunan LOCATION 
 eks NON 
-Pertokoan NON 
+Pertokoan 
 Siola NON 
-menjadi NON 
-museum NON 
-sejarah NON 
-Pemkot ORGANIZATION 
-Surabaya ORGANIZATION 
+menjadi LOCATION 
+museum PERSON 
+sejarah PERSON 
+Pemkot PERSON 
+Surabaya NON 
 dan NON 
 kantor NON 
 sejumlah NON 
-dinas NON 
+dinas LOCATION 
 yang NON 
 langsung NON 
 berurusan NON 
-dengan NON 
+dengan LOCATION 
 pelayanan NON 
 publik NON 
 . NON 
 
- " NON 
-Kita NON 
-pasti NON 
+" PERSON 
+Kita PERSON 
+pasti 
 keberatan NON 
 karena NON 
-Surabaya LOCATION 
-masih NON 
+Surabaya NON 
+masih PERSON 
 membutuhkan NON 
 beliau NON 
 dan NON 
@@ -9101,12 +9101,12 @@ saja NON
 memenangkan NON 
 Pilkada NON 
 , NON 
-" NON 
+" LOCATION 
 ujar NON 
 Whisnu NON 
 kepada NON 
-detikcom ORGANIZATION 
-, NON 
+detikcom NON 
+, 
 Rabu NON 
 ( NON 
 6 NON 
@@ -9118,95 +9118,95 @@ Rabu NON
 malam NON 
 . NON 
 
- Sebelumnya NON 
+Sebelumnya NON 
 , NON 
 wacana NON 
 mendukung NON 
-Wali ORGANIZATION 
-Kota ORGANIZATION 
-Surabaya ORGANIZATION 
-Tri ORGANIZATION 
-Rismaharini ORGANIZATION 
+Wali NON 
+Kota NON 
+Surabaya LOCATION 
+Tri NON 
+Rismaharini 
 maju NON 
-di NON 
-Pilgub NON 
-DKI LOCATION 
+di PERSON 
+Pilgub PERSON 
+DKI NON 
 sudah NON 
 santer NON 
 terdengar NON 
 di NON 
 kalangan NON 
-PDIP ORGANIZATION 
-DKI ORGANIZATION 
-Jakarta ORGANIZATION 
-. ORGANIZATION 
+PDIP NON 
+DKI NON 
+Jakarta NON 
+. NON 
 
- Sebagaimana NON 
+Sebagaimana NON 
 diketahui NON 
 , NON 
-Pilgub NON 
-DKI NON 
+Pilgub ORGANIZATION 
+DKI ORGANIZATION 
 2017 NON 
 sudah NON 
 diawali NON 
 dengan NON 
 rencana NON 
 Gubernur NON 
-DKI ORGANIZATION 
-Basuki ORGANIZATION 
-T ORGANIZATION 
-Purnama ORGANIZATION 
-( ORGANIZATION 
-Ahok ORGANIZATION 
+DKI PERSON 
+Basuki PERSON 
+T 
+Purnama NON 
+( NON 
+Ahok NON 
 ) NON 
-untuk NON 
-ikut NON 
+untuk PERSON 
+ikut PERSON 
 lewat NON 
-jalur NON 
-independen NON 
-. NON 
+jalur PERSON 
+independen PERSON 
+. PERSON 
 
- Terakhir NON 
+Terakhir NON 
 saya NON 
 mendapat NON 
-pesanan NON 
-jilbab NON 
+pesanan ORGANIZATION 
+jilbab ORGANIZATION 
 dan NON 
 baju NON 
 gamis NON 
 dari NON 
-Yaman NON 
+Yaman LOCATION 
 , NON 
 " NON 
 ungkapnya NON 
 . NON 
 
- " NON 
+" NON 
 Acara NON 
-pagi NON 
+pagi 
 ini NON 
-melengkapi NON 
-carut NON 
+melengkapi PERSON 
+carut PERSON 
 marutnya NON 
 penyelenggaraan NON 
 pilkada NON 
 , NON 
 " NON 
 kata NON 
-Whisnu PERSON 
-Sakti PERSON 
-Buana PERSON 
+Whisnu NON 
+Sakti NON 
+Buana NON 
 dalam NON 
 sambutan NON 
-usai NON 
+usai 
 penetapan NON 
 di NON 
 ruang NON 
-Amarta ORGANIZATION 
-, ORGANIZATION 
-Hotel ORGANIZATION 
-Singgasana ORGANIZATION 
-Surabaya ORGANIZATION 
+Amarta NON 
+, NON 
+Hotel PERSON 
+Singgasana NON 
+Surabaya NON 
 , NON 
 Selasa NON 
 ( NON 
@@ -9218,106 +9218,106 @@ Selasa NON
 ) NON 
 . NON 
 
- " NON 
-Rasanya NON 
-acara NON 
+" NON 
+Rasanya LOCATION 
+acara LOCATION 
 pagi NON 
-ini NON 
-kurang NON 
-afdhol NON 
-, NON 
+ini 
+kurang PERSON 
+afdhol PERSON 
+, PERSON 
 karena NON 
-tidak NON 
+tidak PERSON 
 ada NON 
-Bu ORGANIZATION 
-< ORGANIZATION 
-ENAMEX ORGANIZATION 
-TYPE ORGANIZATION 
-= ORGANIZATION 
-" ORGANIZATION 
-PERSON ORGANIZATION 
-> ORGANIZATION 
-Risma ORGANIZATION 
-, ORGANIZATION 
-" ORGANIZATION 
-kata ORGANIZATION 
-Whisnu ORGANIZATION 
-Sakti ORGANIZATION 
-Buana ORGANIZATION 
-dalam ORGANIZATION 
-sambutannya ORGANIZATION 
-. ORGANIZATION 
+Bu NON 
+< NON 
+ENAMEX NON 
+TYPE NON 
+= NON 
+" NON 
+PERSON NON 
+> NON 
+Risma NON 
+, LOCATION 
+" LOCATION 
+kata NON 
+Whisnu NON 
+Sakti NON 
+Buana NON 
+dalam 
+sambutannya NON 
+. NON 
 
- Dapat NON 
+Dapat NON 
 sumbangan NON 
 dari NON 
 mana NON 
 , NON 
 dari NON 
 siapa NON 
-, NON 
-" NON 
-kata NON 
+, PERSON 
+" PERSON 
+kata 
 anggota NON 
-Tim ORGANIZATION 
-Pemenangan ORGANIZATION 
-Rasiyo ORGANIZATION 
-- ORGANIZATION 
-Lucy ORGANIZATION 
-, ORGANIZATION 
-Achmad ORGANIZATION 
-Zainul ORGANIZATION 
-Arifin ORGANIZATION 
-pada ORGANIZATION 
-detikcom ORGANIZATION 
-, ORGANIZATION 
-Sabtu ORGANIZATION 
+Tim NON 
+Pemenangan NON 
+Rasiyo PERSON 
+- PERSON 
+Lucy NON 
+, NON 
+Achmad NON 
+Zainul NON 
+Arifin NON 
+pada NON 
+detikcom NON 
+, NON 
+Sabtu NON 
 ( NON 
 19 NON 
-/ NON 
-12 NON 
-/ NON 
+/ 
+12 ORGANIZATION 
+/ ORGANIZATION 
 2015 NON 
 ) NON 
 . NON 
 
- Tim NON 
+Tim NON 
 paslon NON 
 yang NON 
 diusung NON 
 Partai NON 
 Demokrat NON 
 - NON 
-PAN ORGANIZATION 
-juga NON 
-menegaskan NON 
-pihaknya NON 
-tidak NON 
-mencari NON 
+PAN PERSON 
+juga PERSON 
+menegaskan PERSON 
+pihaknya PERSON 
+tidak PERSON 
+mencari PERSON 
 cari NON 
-masalah NON 
-dan NON 
+masalah ORGANIZATION 
+dan ORGANIZATION 
 berprasangka NON 
 buruk NON 
-. NON 
+. ORGANIZATION 
 
- Tekad NON 
+Tekad ORGANIZATION 
 menghidupkan NON 
 Tunjungan NON 
 sebagai NON 
 ikon NON 
-Surabaya LOCATION 
+Surabaya NON 
 itu NON 
 digagas NON 
 sejak NON 
 wali NON 
 kota NON 
-dijabat NON 
-Tri PERSON 
+dijabat 
+Tri NON 
 Rismaharini PERSON 
-. PERSON 
+. NON 
 
- Muhamad NON 
+Muhamad NON 
 Ketut NON 
 Purnomo NON 
 juga NON 
@@ -9325,9 +9325,9 @@ bangga NON
 bisa NON 
 mendapat NON 
 hadiah NON 
-sepeda NON 
+sepeda LOCATION 
 puluhan NON 
-juta NON 
+juta 
 dari NON 
 Tri NON 
 Rismaharini NON 
@@ -9335,14 +9335,14 @@ sebelum NON
 lengser NON 
 dari NON 
 jabatan NON 
-Wali NON 
+Wali LOCATION 
 Kota NON 
 Surabaya NON 
 2015 NON 
 . NON 
 
- Leicester ORGANIZATION 
-City ORGANIZATION 
+Leicester NON 
+City NON 
 kian NON 
 mantap NON 
 di NON 
@@ -9351,50 +9351,50 @@ klasemen NON
 Premier NON 
 League NON 
 usai NON 
-menundukkan NON 
+menundukkan 
 Sunderland NON 
 2 NON 
 - NON 
 0 NON 
-di NON 
+di PERSON 
 Stadium NON 
-of NON 
+of LOCATION 
 Light NON 
 , NON 
 Minggu NON 
 ( NON 
 10 NON 
-/ NON 
+/ ORGANIZATION 
 4 NON 
 / NON 
 2016 NON 
 ) NON 
 . NON 
 
- Kemenangan NON 
-Leicester LOCATION 
+Kemenangan NON 
+Leicester NON 
 ditentukan NON 
 oleh NON 
 Jamie NON 
-Vardy PERSON 
-. PERSON 
+Vardy NON 
+. NON 
 
- Vardy NON 
+Vardy NON 
 yang NON 
-merupakan NON 
+merupakan 
 andalan NON 
-lini NON 
+lini PERSON 
 depan NON 
-Leicester LOCATION 
-, NON 
+Leicester NON 
+, PERSON 
 mencetak NON 
 kedua NON 
 gol NON 
-Leicester LOCATION 
+Leicester NON 
 pada NON 
 menit NON 
 ke NON 
-menit NON 
+menit 
 ke NON 
 - NON 
 66 NON 
@@ -9405,80 +9405,80 @@ dan NON
 5 NON 
 . NON 
 
- Dengan NON 
+Dengan NON 
 demikian NON 
 , NON 
 kini NON 
-Leicester LOCATION 
+Leicester 
 mengemas NON 
 72 NON 
-poin NON 
-, NON 
+poin LOCATION 
+, LOCATION 
 unggul NON 
 10 NON 
-poin NON 
+poin LOCATION 
 dengan NON 
-Tottenham ORGANIZATION 
-Hotspur ORGANIZATION 
+Tottenham NON 
+Hotspur NON 
 di NON 
 posisi NON 
 kedua NON 
 . NON 
 
- Tim NON 
+Tim NON 
 asuhan NON 
 Claudio NON 
-Ranieri NON 
+Ranieri 
 juga NON 
 sanggup NON 
-melepaskan NON 
-tujuh NON 
+melepaskan ORGANIZATION 
+tujuh ORGANIZATION 
 tembakan NON 
 tepat NON 
 sasaran NON 
 dari NON 
-tujuh NON 
-percobaan NON 
+tujuh ORGANIZATION 
+percobaan ORGANIZATION 
 . NON 
 
- Menteri NON 
+Menteri PERSON 
 Pendidikan NON 
 dan NON 
 Kebudayaan NON 
-( NON 
+( LOCATION 
 Mendikbud NON 
-) NON 
-Anies PERSON 
-Baswedan PERSON 
+) 
+Anies NON 
+Baswedan NON 
 mengatakan NON 
-, NON 
+, LOCATION 
 pelaksanaan NON 
 hari NON 
-pertama NON 
+pertama LOCATION 
 penyelenggaraan NON 
-Ujian ORGANIZATION 
-Nasional ORGANIZATION 
-( ORGANIZATION 
-UN ORGANIZATION 
-) ORGANIZATION 
-dan ORGANIZATION 
-Ujian ORGANIZATION 
-Nasional ORGANIZATION 
-Berbasis ORGANIZATION 
-Komputer ORGANIZATION 
-( ORGANIZATION 
-UNBK ORGANIZATION 
+Ujian NON 
+Nasional NON 
+( NON 
+UN NON 
+) NON 
+dan PERSON 
+Ujian PERSON 
+Nasional PERSON 
+Berbasis 
+Komputer PERSON 
+( NON 
+UNBK NON 
 ) NON 
 berjalan NON 
 lancar NON 
-. NON 
+. PERSON 
 
- Hal NON 
+Hal PERSON 
 ini NON 
 disampaikan NON 
 Anies NON 
-Baswedan NON 
-di NON 
+Baswedan ORGANIZATION 
+di ORGANIZATION 
 kantor NON 
 Kemendikbud NON 
 usai NON 
@@ -9486,97 +9486,97 @@ memantau NON
 penyelenggaraan NON 
 UN NON 
 di NON 
-Surabaya LOCATION 
+Surabaya NON 
 
- Anies NON 
+Anies NON 
 lantas NON 
 mengapresiasi NON 
-kinerja NON 
+kinerja 
 PLN NON 
 dan NON 
 Telkom NON 
 yang NON 
 mendukung NON 
-terlaksananya NON 
+terlaksananya LOCATION 
 UN NON 
 dengan NON 
 baik NON 
 . NON 
 
- Menteri NON 
+Menteri NON 
 Pendidikan NON 
 dan NON 
 Kebudayaan NON 
 ( NON 
 Mendikbud NON 
 ) NON 
-Anies PERSON 
-Baswedan PERSON 
+Anies NON 
+Baswedan LOCATION 
 mengatakan NON 
-, NON 
+, ORGANIZATION 
 distribusi NON 
 soal NON 
-Ujian ORGANIZATION 
-Nasional ORGANIZATION 
-( ORGANIZATION 
-UN ORGANIZATION 
-) ORGANIZATION 
-dan ORGANIZATION 
-persiapan ORGANIZATION 
-Ujian ORGANIZATION 
-Nasional ORGANIZATION 
-Berbasis ORGANIZATION 
-Komputer ORGANIZATION 
-( ORGANIZATION 
-UNBK ORGANIZATION 
+Ujian NON 
+Nasional NON 
+( NON 
+UN NON 
+) NON 
+dan NON 
+persiapan NON 
+Ujian NON 
+Nasional NON 
+Berbasis 
+Komputer NON 
+( NON 
+UNBK NON 
 ) NON 
 sudah NON 
 100 NON 
 persen NON 
-selesai NON 
-. NON 
+selesai PERSON 
+. PERSON 
 
- Mendikbud NON 
+Mendikbud NON 
 Anies NON 
 Baswedan NON 
-membuka NON 
+membuka LOCATION 
 kelas NON 
 inspirasi NON 
 sineas NON 
 bagi NON 
 para NON 
-pelajar NON 
-. NON 
+pelajar ORGANIZATION 
+. LOCATION 
 
- Anies NON 
+Anies LOCATION 
 mengenakan NON 
-pakaian NON 
+pakaian 
 adat NON 
-Yogyakarta LOCATION 
+Yogyakarta NON 
 yaitu NON 
 baju NON 
-surjan NON 
+surjan LOCATION 
 / NON 
 beskap NON 
 , NON 
 belangkon NON 
 dan NON 
 kain NON 
-jarik NON 
-yang NON 
-melapisi NON 
-celana NON 
+jarik LOCATION 
+yang PERSON 
+melapisi PERSON 
+celana PERSON 
 panjangnya NON 
-. NON 
+. PERSON 
 
- Dalam NON 
+Dalam NON 
 kesempatan NON 
 itu NON 
 , NON 
 Anies NON 
 menuturkan NON 
 , NON 
-SMKN NON 
+SMKN 
 57 NON 
 menjadi NON 
 sekolah NON 
@@ -9586,13 +9586,13 @@ menjalani NON
 kelas NON 
 inspirasi NON 
 sinema NON 
-. NON 
+. ORGANIZATION 
 
- Panglima NON 
-TNI ORGANIZATION 
-Jenderal ORGANIZATION 
-Gatot ORGANIZATION 
-Nurmantyo ORGANIZATION 
+Panglima NON 
+TNI NON 
+Jenderal NON 
+Gatot NON 
+Nurmantyo 
 memberikan NON 
 sambutan NON 
 saat NON 
@@ -9605,89 +9605,89 @@ di NON
 Poso NON 
 pada NON 
 Minggu NON 
-( NON 
-20 NON 
-/ NON 
+( PERSON 
+20 PERSON 
+/ PERSON 
 3 NON 
 ) NON 
 lalu NON 
 . NON 
 
- Hadir NON 
+Hadir NON 
 Presiden NON 
-Jokowi PERSON 
+Jokowi LOCATION 
 didampingi NON 
-isteri NON 
-Iriana NON 
-, NON 
+isteri LOCATION 
+Iriana LOCATION 
+, LOCATION 
 Menko NON 
-Polhukam ORGANIZATION 
-Luhut ORGANIZATION 
-Pandjaitan ORGANIZATION 
-, ORGANIZATION 
-Kapolri ORGANIZATION 
-Jenderal ORGANIZATION 
-Badrodin ORGANIZATION 
-Haiti ORGANIZATION 
-, ORGANIZATION 
-Mendagri ORGANIZATION 
-Tjahjo ORGANIZATION 
-Kumolo ORGANIZATION 
-, ORGANIZATION 
-Mensos ORGANIZATION 
-Khofifah ORGANIZATION 
-, ORGANIZATION 
-Mendikbud ORGANIZATION 
-Anies ORGANIZATION 
-Baswedan ORGANIZATION 
-, ORGANIZATION 
-Menteri ORGANIZATION 
-PUPERA ORGANIZATION 
-Basuki ORGANIZATION 
+Polhukam NON 
+Luhut NON 
+Pandjaitan NON 
+, NON 
+Kapolri NON 
+Jenderal NON 
+Badrodin NON 
+Haiti NON 
+, NON 
+Mendagri 
+Tjahjo NON 
+Kumolo NON 
+, NON 
+Mensos NON 
+Khofifah NON 
+, NON 
+Mendikbud NON 
+Anies NON 
+Baswedan NON 
+, NON 
+Menteri NON 
+PUPERA NON 
+Basuki NON 
 Hadimuljono ORGANIZATION 
 , ORGANIZATION 
-Menkes ORGANIZATION 
-Nila ORGANIZATION 
-Moeloek ORGANIZATION 
-, ORGANIZATION 
-Menteri ORGANIZATION 
-Agama ORGANIZATION 
-Lukman ORGANIZATION 
-Hakim ORGANIZATION 
-, ORGANIZATION 
-Menhan ORGANIZATION 
-Ryamizard ORGANIZATION 
-Ryacudu ORGANIZATION 
-dan ORGANIZATION 
-lainnya ORGANIZATION 
-. ORGANIZATION 
+Menkes NON 
+Nila NON 
+Moeloek NON 
+, NON 
+Menteri PERSON 
+Agama NON 
+Lukman NON 
+Hakim NON 
+, PERSON 
+Menhan PERSON 
+Ryamizard PERSON 
+Ryacudu NON 
+dan NON 
+lainnya NON 
+. 
 
- Gatot NON 
+Gatot NON 
 mengatakan NON 
 , NON 
 saat NON 
 di NON 
-Palu LOCATION 
+Palu NON 
 dan NON 
 Poso NON 
 , NON 
 dia NON 
 diperintahkan NON 
-Jokowi PERSON 
-juga NON 
-untuk NON 
-memberikan NON 
-semangat NON 
+Jokowi ORGANIZATION 
+juga ORGANIZATION 
+untuk ORGANIZATION 
+memberikan ORGANIZATION 
+semangat ORGANIZATION 
 kepada NON 
-prajurit NON 
-yang NON 
-sedang NON 
+prajurit PERSON 
+yang PERSON 
+sedang PERSON 
 melaksanakan NON 
-operasi NON 
+operasi ORGANIZATION 
 Tinombala NON 
 . NON 
 
- Gatot NON 
+Gatot NON 
 juga NON 
 dikabari NON 
 bahwa NON 
@@ -9695,7 +9695,7 @@ tadi NON
 malam NON 
 Presiden NON 
 menandatangani NON 
-Keppres NON 
+Keppres 
 nomor NON 
 22 NON 
 tahun NON 
@@ -9703,7 +9703,7 @@ tahun NON
 tentang NON 
 kenaikan NON 
 pangkat NON 
-luar NON 
+luar ORGANIZATION 
 biasa NON 
 kepada NON 
 semua NON 
@@ -9715,29 +9715,29 @@ jatuhnya NON
 heli NON 
 di NON 
 Poso NON 
-, NON 
+, 
 satu NON 
 tingkat NON 
-lebih NON 
+lebih PERSON 
 tinggi NON 
 . NON 
 
- Menteri NON 
+Menteri LOCATION 
 Pendidikan NON 
 dan NON 
 Kebudayaan NON 
 Anies NON 
 Baswedan NON 
 mencanangkan NON 
-kebijakan NON 
-baru NON 
-untuk NON 
-jajaran NON 
+kebijakan PERSON 
+baru PERSON 
+untuk PERSON 
+jajaran 
 di NON 
 kantornya NON 
-. NON 
+. PERSON 
 
- Para NON 
+Para NON 
 pegawai NON 
 Kemdikbud NON 
 diwajibkan NON 
@@ -9746,21 +9746,21 @@ pakaian NON
 adat NON 
 setiap NON 
 hari NON 
-Selasa NON 
-pada NON 
+Selasa PERSON 
+pada PERSON 
 pekan NON 
 pertama NON 
 dan NON 
 ketiga NON 
 . NON 
 
- Jauh NON 
+Jauh NON 
 hari NON 
 sebelum NON 
 Telkom NON 
-akhirnya NON 
-memutuskan NON 
-memblokir NON 
+akhirnya 
+memutuskan ORGANIZATION 
+memblokir ORGANIZATION 
 Netflix NON 
 , NON 
 Menteri NON 
@@ -9782,42 +9782,42 @@ itu NON
 bisa NON 
 bikin NON 
 heboh NON 
-Indonesia LOCATION 
+Indonesia NON 
 di NON 
 kemudian NON 
 hari NON 
 . NON 
 
- Sudah NON 
-hampir NON 
+Sudah NON 
+hampir 
 setahun NON 
-Presiden NON 
-Joko PERSON 
-Widodo PERSON 
-memimpin NON 
-pemerintahan NON 
-Republik ORGANIZATION 
-Indonesia ORGANIZATION 
-. ORGANIZATION 
+Presiden LOCATION 
+Joko NON 
+Widodo NON 
+memimpin PERSON 
+pemerintahan PERSON 
+Republik PERSON 
+Indonesia 
+. NON 
 
- Presiden NON 
+Presiden NON 
 ketiga NON 
 RI NON 
 BJ NON 
 Habibie NON 
-menitipkan NON 
+menitipkan LOCATION 
 pesan NON 
 kepada NON 
 ' NON 
 anak NON 
-intelektual NON 
+intelektual LOCATION 
 ' NON 
 - NON 
 nya NON 
 itu NON 
 . NON 
 
- " NON 
+" NON 
 Saya NON 
 pesankan NON 
 supaya NON 
@@ -9825,12 +9825,12 @@ pemerintah NON
 tetap NON 
 konsisten NON 
 memperjuangkan NON 
-agar NON 
+agar 
 kualitas NON 
 kehidupan NON 
 di NON 
 bumi NON 
-Indonesia NON 
+Indonesia LOCATION 
 tetap NON 
 meningkat NON 
 , NON 
@@ -9838,18 +9838,18 @@ meningkat NON
 kata NON 
 Habibie NON 
 didampingi NON 
-Jokowi PERSON 
-di NON 
-Istana NON 
+Jokowi NON 
+di ORGANIZATION 
+Istana ORGANIZATION 
 Merdeka NON 
 , NON 
-Jl LOCATION 
-Medan LOCATION 
-Merdeka LOCATION 
-Utara LOCATION 
+Jl NON 
+Medan NON 
+Merdeka 
+Utara NON 
 , NON 
-Jakarta LOCATION 
-Pusat LOCATION 
+Jakarta PERSON 
+Pusat PERSON 
 , NON 
 Selasa NON 
 ( NON 
@@ -9861,81 +9861,81 @@ Selasa NON
 ) NON 
 . NON 
 
- Dalam NON 
-kesempatan NON 
+Dalam NON 
+kesempatan 
 itu NON 
 pula NON 
 Habibie NON 
 menyebut NON 
-Jokowi PERSON 
+Jokowi NON 
 sebagai NON 
 anak NON 
-intelektualnya NON 
-. NON 
+intelektualnya PERSON 
+. PERSON 
 
- Dia NON 
+Dia NON 
 menaruh NON 
 harap NON 
 kepada NON 
-Jokowi PERSON 
+Jokowi NON 
 untuk NON 
-bisa NON 
-menjalankan NON 
+bisa ORGANIZATION 
+menjalankan ORGANIZATION 
 roda NON 
-pemerintahan NON 
+pemerintahan ORGANIZATION 
 . NON 
 
- " NON 
-Sebelum NON 
-saya NON 
-meninggalkan NON 
-tanah NON 
+" NON 
+Sebelum ORGANIZATION 
+saya ORGANIZATION 
+meninggalkan ORGANIZATION 
+tanah ORGANIZATION 
 air NON 
-saya NON 
+saya ORGANIZATION 
 mau NON 
 sampaikan NON 
 ke NON 
 anak NON 
-intelektual NON 
+intelektual 
 saya NON 
 ini NON 
 Presiden NON 
-Republik NON 
-Indonesia NON 
+Republik PERSON 
+Indonesia PERSON 
 bahwa NON 
 saya NON 
-akan NON 
+akan ORGANIZATION 
 permisi NON 
 dulu NON 
 , NON 
-" NON 
+" ORGANIZATION 
 tutur NON 
-Habibie NON 
-sambil NON 
-menepuk NON 
+Habibie LOCATION 
+sambil 
+menepuk PERSON 
 pundak NON 
-Jokowi PERSON 
-. PERSON 
+Jokowi NON 
+. NON 
 
- Beberapa NON 
+Beberapa ORGANIZATION 
 mantan NON 
-Presiden NON 
+Presiden ORGANIZATION 
 dan NON 
 mantan NON 
 Wakil NON 
-Presiden NON 
+Presiden ORGANIZATION 
 pagi NON 
 ini NON 
 mendatangi NON 
-kompleks NON 
+kompleks 
 parlemen NON 
 Senayan NON 
 , NON 
-Jakarta LOCATION 
+Jakarta NON 
 , NON 
 untuk NON 
 menghadiri NON 
-sidang NON 
-tahunan NON 
-MPR ORGANIZATION 
-. ORGANIZATION 
+sidang PERSON 
+tahunan PERSON 
+MPR NON 
+. NON 
