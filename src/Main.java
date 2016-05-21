@@ -99,6 +99,7 @@ public class Main {
 				br.readLine();
 			}
 			bw.write("\n");
+		
 		}
 
 		br.close();
