@@ -11,7 +11,6 @@ import java.util.List;
 import java.util.StringTokenizer;
 
 import cc.mallet.fst.SimpleTagger;
-import edu.stanford.nlp.ling.CoreAnnotations.GazetteerAnnotation;
 import edu.stanford.nlp.tagger.maxent.MaxentTagger;
 
 public class Main {
@@ -27,6 +26,7 @@ public class Main {
 	private static ArrayList<String> corpusToken = new ArrayList<String>();
 	private static ArrayList<String> corpusLabel = new ArrayList<String>();
 	private static ArrayList<String> corpusPOS = new ArrayList<String>();
+	private static ArrayList<String> corpusGazetteer = new ArrayList<String>();
 
 	private static int limit = 0;
 
@@ -38,11 +38,11 @@ public class Main {
 	private static String suffixLocationFilename = "data/resources/list-suffix-location.txt";
 
 	private static String gazetteerFootballClubEuropeFilename = "data/gazetteer/football-club-europe.txt";
-	private static String gazetteerFootballClubIndonesiaFilename = "data/gazetteer/football-club-europe.txt";
+	private static String gazetteerFootballClubIndonesiaFilename = "data/gazetteer/football-club-indonesia.txt";
 	private static String gazetteerLocationFilename = "data/gazetteer/location.txt";
 	private static String gazetteerOrganizationFilename = "data/gazetteer/organization.txt";
-	private static String gazetteerPartaiFilename = "data/gazetteer/football-club-europe.txt";
-	private static String gazetteerUniversitasFilename = "data/gazetteer/football-club-europe.txt";
+	private static String gazetteerPartaiFilename = "data/gazetteer/partai.txt";
+	private static String gazetteerUniversitasFilename = "data/gazetteer/universitas.txt";
 
 	private static String prefixModelFilename = "model/tagger-model";
 
@@ -52,14 +52,14 @@ public class Main {
 	private static HashSet<String> setSuffixPerson = new HashSet<String>();
 	private static HashSet<String> setSuffixOrganization = new HashSet<String>();
 	private static HashSet<String> setSuffixLocation = new HashSet<String>();
-	private static List<String> gazetteerFootballClub = new ArrayList<>();
-	private static List<String> gazetteerOrganization = new ArrayList<>();
-	private static List<String> gazetteerLocation = new ArrayList<>();
-	private static List<String> gazetteerUniversity = new ArrayList<>();
+	private static HashSet<String> gazetteerFootballClub = new HashSet<>();
+	private static HashSet<String> gazetteerOrganization = new HashSet<>();
+	private static HashSet<String> gazetteerLocation = new HashSet<>();
+	private static HashSet<String> gazetteerUniversity = new HashSet<>();
 	private static MaxentTagger tagger = new MaxentTagger(prefixModelFilename + ".tagger");
-	
+
 	public static void main(String[] args) throws Exception {
-		generateDatasetMaterial(corpusFilename);
+		/*generateDatasetMaterial(corpusFilename);
 		generateDataset(datasetFilename);
 
 		args = new String[5];
@@ -70,8 +70,8 @@ public class Main {
 		args[3] = modelFilename;
 		args[4] = datasetFilename;
 
-		SimpleTagger.main(args);
-
+		SimpleTagger.main(args);*/
+		generateGazetteer();
 		generateDatasetMaterialUnlabeled(unlabeledFilename);
 		generateDataset(unlabeledDatasetFilename);
 
@@ -95,18 +95,20 @@ public class Main {
 			if (!corpusToken.get(ii).equals("\n")) {
 				bw.write(corpusToken.get(ii).trim() + " " + br.readLine());
 			}
+			else {
+				br.readLine();
+			}
 			bw.write("\n");
 		}
 
 		br.close();
 		bw.close();
 	}
-
+	
 	public static void generateDatasetMaterial(String filename) throws Exception {
 		clearCorpusData();
 
 		BufferedReader br = new BufferedReader(new FileReader(filename));
-
 		try {
 			String s;
 			while ((s = br.readLine()) != null && !s.equals("")) {
@@ -128,7 +130,7 @@ public class Main {
 				s = s.replaceAll("\\s+", " ");
 
 				StringTokenizer stTagged = new StringTokenizer(tagString(s.replaceAll("<[^>]*>", "")));
-				insertGazzetteer(s.replaceAll("<[^>]*>", ""));
+				corpusGazetteer.addAll(getGazetteerLabel(s.replaceAll("<[^>]*>", "")));
 				StringTokenizer st = new StringTokenizer(s);
 				String type = "NON";
 
@@ -156,12 +158,14 @@ public class Main {
 				corpusToken.add("\n");
 				corpusPOS.add("\n");
 				corpusLabel.add("\n");
+				corpusGazetteer.add("\n");
 			}
 			corpusToken.remove(corpusToken.size() - 1);
 			corpusPOS.remove(corpusPOS.size() - 1);
 			corpusLabel.remove(corpusLabel.size() - 1);
+			corpusGazetteer.remove(corpusGazetteer.size() - 1);
 
-			if (corpusToken.size() != corpusLabel.size() && corpusPOS.size() != corpusToken.size())
+			if (corpusToken.size() != corpusLabel.size() && corpusPOS.size() != corpusToken.size() && corpusGazetteer.size() != corpusToken.size())
 				throw new Exception();
 
 			limit = corpusToken.size();
@@ -174,18 +178,19 @@ public class Main {
 		clearCorpusData();
 
 		BufferedReader br = new BufferedReader(new FileReader(filename));
-
+		int i = 0;
 		try {
 			String s;
 			while ((s = br.readLine()) != null && !s.equals("")) {
+				i++;
 				String[] temps = s.split("\\t");
 
 				s = temps[0];
 				s = s.replaceAll("(?<=\\S)(?:(?<=\\p{Punct})|(?=\\p{Punct}))(?=\\S)", " ");
 
 				StringTokenizer stTagged = new StringTokenizer(tagString(s.replaceAll("<[^>]*>", "")));
-				StringTokenizer st = new StringTokenizer(s);
-
+				StringTokenizer st = new StringTokenizer(s.replaceAll("\\s+", " ").trim());
+				corpusGazetteer.addAll(getGazetteerLabel(s.replaceAll("\\s+", " ")));
 				while (st.hasMoreTokens()) {
 					String temp = st.nextToken();
 					String tag = "";
@@ -199,11 +204,12 @@ public class Main {
 
 				corpusToken.add("\n");
 				corpusPOS.add("\n");
+				corpusGazetteer.add("\n");
 			}
 			corpusToken.remove(corpusToken.size() - 1);
 			corpusPOS.remove(corpusPOS.size() - 1);
-
-			if (corpusToken.size() != corpusPOS.size())
+			corpusGazetteer.remove(corpusGazetteer.size()-1);
+			if (corpusToken.size() != corpusPOS.size() && corpusGazetteer.size() != corpusToken.size())
 				throw new Exception();
 
 			limit = corpusToken.size();
@@ -215,7 +221,7 @@ public class Main {
 	public static void generateDataset(String filename) throws IOException {
 		BufferedWriter bw = new BufferedWriter(new FileWriter(filename));
 		generateResources();
-
+		
 		String firstToken = " FIRSTOKEN";
 		String firstCapitalized = "";
 		String allCapitalized = "";
@@ -229,7 +235,7 @@ public class Main {
 		String nextPOS = "";
 		String nextTokenRaw = "";
 		String nextTokenLower = "";
-
+		
 		for (int ii = 0; ii < limit; ii++) {
 			String tokenRaw = corpusToken.get(ii);
 			String tokenLower = corpusToken.get(ii).toLowerCase();
@@ -273,10 +279,11 @@ public class Main {
 				allCapitalized = allCapitalized(tokenRaw) ? " ALLCAPITALIZED" : "";
 
 				String toWrite = ((corpusLabel == null || corpusLabel.size() == 0 ? "" : tokenLower) + firstCapitalized
-						+ allCapitalized + firstToken + " " + prevPOS + " " + corpusPOS.get(ii) + " " + nextPOS
+						+ allCapitalized + firstToken + " " + prevPOS + " " + corpusPOS.get(ii) + " " + (corpusGazetteer.get(ii).equals("") ? "" : corpusGazetteer.get(ii) + " ") + nextPOS
 						+ prefixPerson + prefixOrganization + prefixLocation + suffixPerson + suffixLocation
 						+ suffixOrganization + valPrefixOneChar + valPrefixTwoChar + valPrefixThreeChar + " "
 						+ (corpusLabel == null || corpusLabel.size() == 0 ? tokenLower : corpusLabel.get(ii)) + "\n");
+				// toWrite = toWrite.trim();
 				toWrite = toWrite.replaceAll("^\\s+", "");
 				bw.write(toWrite);
 
@@ -309,6 +316,7 @@ public class Main {
 		return true;
 	}
 
+
 	public static void generateResources() throws IOException {
 		loadFileToSet(prefixPersonFilename, setPrefixPerson);
 		loadFileToSet(prefixOrganizationFilename, setPrefixOrganization);
@@ -316,6 +324,15 @@ public class Main {
 		loadFileToSet(suffixPersonFilename, setSuffixPerson);
 		loadFileToSet(suffixOrganizationFilename, setSuffixOrganization);
 		loadFileToSet(suffixLocationFilename, setSuffixLocation);
+	}
+	
+	public static void generateGazetteer() throws IOException {
+		loadFileToSet(gazetteerFootballClubEuropeFilename,gazetteerFootballClub);
+		loadFileToSet(gazetteerFootballClubIndonesiaFilename,gazetteerFootballClub);
+		loadFileToSet(gazetteerLocationFilename,gazetteerLocation);
+		loadFileToSet(gazetteerOrganizationFilename,gazetteerOrganization);
+		loadFileToSet(gazetteerPartaiFilename,gazetteerOrganization);
+		loadFileToSet(gazetteerUniversitasFilename,gazetteerUniversity);
 	}
 
 	private static void loadFileToSet(String filename, HashSet<String> set) throws IOException {
@@ -333,69 +350,61 @@ public class Main {
 		return tagged.trim();
 	}
 
-	private static void readGazetteer() throws Exception {
-		BufferedReader reader = new BufferedReader(new FileReader(gazetteerFootballClubEuropeFilename));
-		try {
-			String s;
-			while ((s = reader.readLine()) != null && !s.equals("")) {
-				gazetteerFootballClub.add(s.trim());
-			}
-			reader.close();
-
-			reader = new BufferedReader(new FileReader(gazetteerFootballClubIndonesiaFilename));
-
-			while ((s = reader.readLine()) != null && !s.equals("")) {
-				gazetteerFootballClub.add(s.trim());
-			}
-			reader.close();
-
-			reader = new BufferedReader(new FileReader(gazetteerLocationFilename));
-			while ((s = reader.readLine()) != null && !s.equals("")) {
-				gazetteerLocation.add(s.trim());
-			}
-			reader.close();
-
-			reader = new BufferedReader(new FileReader(gazetteerOrganizationFilename));
-			while ((s = reader.readLine()) != null && !s.equals("")) {
-				gazetteerOrganization.add(s.trim());
-			}
-			reader.close();
-
-			reader = new BufferedReader(new FileReader(gazetteerPartaiFilename));
-			while ((s = reader.readLine()) != null && !s.equals("")) {
-				gazetteerOrganization.add(s.trim());
-			}
-			reader.close();
-
-			reader = new BufferedReader(new FileReader(gazetteerUniversitasFilename));
-			while ((s = reader.readLine()) != null && !s.equals("")) {
-				gazetteerUniversity.add(s.trim());
-			}
-		} finally {
-			reader.close();
-		}
-	}
-
-	private static void insertGazzetteer(String s) {
-		List<List<String>> gazetteerResult = new ArrayList<>(4);
-		for (int i = 0; i < gazetteerResult.size(); i++)
-			gazetteerResult.add(new ArrayList<String>());
-		for (String gFootball : gazetteerFootballClub) {
-			if (s.toLowerCase().contains(gFootball.toLowerCase())) {
-				StringTokenizer gToken = new StringTokenizer(gFootball);  
-				List<String> tagFootball = gazetteerResult.get(0);
-				  
-			}
-		}
-	}
-	
 	private static void clearCorpusData() {
 		corpusToken.clear();
 		corpusPOS.clear();
 		corpusLabel.clear();
+		corpusGazetteer.clear();
 	}
 
 	private static void clearCorpusData(ArrayList<String> arr) {
 		arr.clear();
+	}
+
+	private static List<String> getGazetteerLabel(String s) {
+		String[] splittedS = s.replaceAll("\\s+", " ").trim().split(" ");
+		List<String> joinedLabel = new ArrayList<>();
+		List<String> cleanedWord = new ArrayList<>();
+		for (int i = 0; i < splittedS.length; i++) {
+			if (!splittedS[i].equals("")) {
+				joinedLabel.add("");
+				cleanedWord.add(splittedS[i]);
+			}
+		}
+		List<List<String>> notJoinedLabel = new ArrayList<>();
+		// TODO tentuin siapa yg boleh nimpa kalo ada problem
+		// misal universitas indonesia bakal di tag di univ dan di location
+		// yg harusnya diambil di letakin paling bawah (rulenya nimpa tag yg lama)
+		notJoinedLabel.add(getListLabel(gazetteerLocation, s.replaceAll("\\s+", " "), cleanedWord, "GLOC"));
+		notJoinedLabel.add(getListLabel(gazetteerFootballClub, s.replaceAll("\\s+", " "), cleanedWord, "GORG"));
+		notJoinedLabel.add(getListLabel(gazetteerOrganization, s.replaceAll("\\s+", " "), cleanedWord, "GORG"));
+		notJoinedLabel.add(getListLabel(gazetteerUniversity, s.replaceAll("\\s+", " "), cleanedWord, "GUNIV"));
+		for (int i = 0; i < notJoinedLabel.size(); i++) {
+			for (int j = 0; j < cleanedWord.size(); j++) {
+				if (joinedLabel.get(i) == null || joinedLabel.get(i).equals(""))
+					joinedLabel.set(j, notJoinedLabel.get(i).get(j));
+			}
+		}
+		return joinedLabel;
+	}
+	
+	private static List<String> getListLabel(HashSet<String> gazetteerSet, String s, List<String> cleanedWord, String label) {
+		List<String> currentGLabel = new ArrayList<>();
+		for (int i = 0; i < cleanedWord.size(); i++)
+			currentGLabel.add("");
+		for (String g : gazetteerSet) {
+			if (s.toLowerCase().contains(g.toLowerCase())) {
+				String[] splittedG = g.split(" ");
+				for (int i = 0; i < cleanedWord.size(); i++) {
+					if (splittedG[0].toLowerCase().equals(cleanedWord.get(i).toLowerCase())) {
+						for (int j = 0; j < splittedG.length; j++) {
+							if (i+j < currentGLabel.size())
+								currentGLabel.set(i+j, label);
+						}
+					}
+				}
+			}
+		}
+		return currentGLabel;
 	}
 }

@@ -8,18 +8,43 @@
 /** 
    @author Fernando Pereira <a href="mailto:pereira@cis.upenn.edu">pereira@cis.upenn.edu</a>
  */
-
-package edu.umass.cs.mallet.share.upenn;
-
-import java.util.regex.*;
-import edu.umass.cs.mallet.base.classify.*;
-import edu.umass.cs.mallet.base.types.*;
-import edu.umass.cs.mallet.base.pipe.*;
-import edu.umass.cs.mallet.base.util.*;
-import edu.umass.cs.mallet.base.pipe.iterator.*;
-import java.io.*;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.util.List;
-import java.util.logging.*;
+import java.util.logging.Logger;
+import java.util.regex.Pattern;
+
+import cc.mallet.classify.Classification;
+import cc.mallet.classify.Classifier;
+import cc.mallet.classify.ClassifierTrainer;
+import cc.mallet.classify.MaxEntTrainer;
+import cc.mallet.pipe.CharSequence2TokenSequence;
+import cc.mallet.pipe.CharSequenceArray2TokenSequence;
+import cc.mallet.pipe.FeatureSequence2FeatureVector;
+import cc.mallet.pipe.Pipe;
+import cc.mallet.pipe.SerialPipes;
+import cc.mallet.pipe.Target2Label;
+import cc.mallet.pipe.TokenSequence2FeatureSequence;
+import cc.mallet.pipe.iterator.ArrayDataAndTargetIterator;
+import cc.mallet.pipe.iterator.ArrayIterator;
+import cc.mallet.pipe.iterator.LineIterator;
+import cc.mallet.pipe.iterator.PipeExtendedIterator;
+import cc.mallet.pipe.iterator.PipeInputIterator;
+import cc.mallet.types.Alphabet;
+import cc.mallet.types.Instance;
+import cc.mallet.types.InstanceList;
+import cc.mallet.types.LabelAlphabet;
+import cc.mallet.types.Labeling;
+import cc.mallet.types.TokenSequence;
+import cc.mallet.util.CharSequenceLexer;
+import cc.mallet.util.CommandOption;
+import cc.mallet.util.MalletLogger;
 
 /**
  * Simple wrapper for training a MALLET maxent classifier.
