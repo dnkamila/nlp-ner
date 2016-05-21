@@ -20,6 +20,11 @@ import cc.mallet.types.InstanceList;
 import cc.mallet.util.Randoms;
 
 public class TrainHMM {
+	private static String corpusFilename = "data/training_data.txt";
+	private static String datasetFilename = "data/dataset.txt";
+	
+	private static String modelFilename = "model/ner_crf.model";
+	
 	public static void run(String datasetFilename, String modelFilename) throws IOException {
 		ArrayList<Pipe> pipes = new ArrayList<Pipe>();
 
@@ -59,8 +64,9 @@ public class TrainHMM {
 	}
 
 	public static void main(String[] args) throws Exception {
-		/*Main.generateDatasetMaterial();
-		Main.generateDataset();*/
-		TrainHMM.run("data/dataset.txt", "model/ner_hmm.model");
+		Main.generateDatasetMaterial(corpusFilename);
+		Main.generateDataset(datasetFilename);
+		
+		TrainHMM.run(datasetFilename, modelFilename);
 	}
 }

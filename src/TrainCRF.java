@@ -25,6 +25,11 @@ import cc.mallet.types.Sequence;
 import cc.mallet.util.Randoms;
 
 public class TrainCRF {
+	private static String corpusFilename = "data/training_data.txt";
+	private static String datasetFilename = "data/dataset.txt";
+	
+	private static String modelFilename = "model/ner_crf.model";
+	
 	public static void run(String datasetFilename, String modelFilename) throws IOException {
 		ArrayList<Pipe> pipes = new ArrayList<Pipe>();
 
@@ -71,7 +76,10 @@ public class TrainCRF {
 	}
 
 	public static void main(String[] args) throws Exception {
-		// TrainCRF.run("data/dataset.txt", "model/ner_crf.model");
+		Main.generateDatasetMaterial(corpusFilename);
+		Main.generateDataset(datasetFilename);
+		
+		TrainCRF.run(datasetFilename, modelFilename);
 	}
 
 	public static void label() throws Exception {
