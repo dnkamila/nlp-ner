@@ -72,6 +72,7 @@ public class TrainCRF {
 	}
 
 	public static void main(String[] args) throws Exception {
+		Main.generateGazetteer();
 		 Main.generateDatasetMaterial(corpusFilename);
 		 Main.generateDataset(datasetFilename);
 //		

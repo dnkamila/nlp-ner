@@ -191,7 +191,6 @@ public class Main {
 
 				StringTokenizer stTagged = new StringTokenizer(tagString(s.replaceAll("<[^>]*>", "")));
 				StringTokenizer st = new StringTokenizer(s.replaceAll("\\s+", " ").trim());
-				System.out.println(i + " " +corpusToken.size() + " " + corpusGazetteer.size());
 				corpusGazetteer.addAll(getGazetteerLabel(s.replaceAll("\\s+", " ")));
 				while (st.hasMoreTokens()) {
 					String temp = st.nextToken();
@@ -281,12 +280,12 @@ public class Main {
 				allCapitalized = allCapitalized(tokenRaw) ? " ALLCAPITALIZED" : "";
 
 				String toWrite = ((corpusLabel == null || corpusLabel.size() == 0 ? "" : tokenLower) + firstCapitalized
-						+ allCapitalized + firstToken + " " + prevPOS + " " + corpusPOS.get(ii) + " " + (corpusGazetteer.get(ii).equals("") ? "" : corpusGazetteer.get(ii) + " ") + nextPOS
+						+ allCapitalized + firstToken + " " + prevPOS + " " + corpusPOS.get(ii) + " " + (corpusGazetteer.get(ii).equals("") ? "" : (corpusGazetteer.get(ii) + " ")) + nextPOS
 						+ prefixPerson + prefixOrganization + prefixLocation + suffixPerson + suffixLocation
 						+ suffixOrganization + valPrefixOneChar + valPrefixTwoChar + valPrefixThreeChar + " "
-						+ (corpusLabel == null || corpusLabel.size() == 0 ? tokenLower : corpusLabel.get(ii)) + "\n");
+						+ (corpusLabel == null || corpusLabel.size() == 0 ? tokenLower : corpusLabel.get(ii)));
 				// toWrite = toWrite.trim();
-				toWrite = toWrite.replaceAll("^\\s+", "");
+				toWrite = toWrite.replaceAll("\\s+", " ") + "\n";
 				bw.write(toWrite);
 
 				prefixPerson = setPrefixPerson.contains(tokenLower) ? " PREFIXPERSON" : "";
