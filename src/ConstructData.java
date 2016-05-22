@@ -4,7 +4,6 @@ import java.io.FileReader;
 import java.io.FileWriter;
 
 public class ConstructData {
-
     public static BufferedReader br;
     public static BufferedWriter bw;
 

@@ -25,6 +25,15 @@ public class TrainCRF {
 
 	private static String modelFilename = "model/ner_crf.model";
 
+	public TrainCRF() throws Exception {
+		DataGenerator dataGenerator = new DataGenerator();
+		dataGenerator.generateGazetteer();
+		dataGenerator.generateDatasetMaterial(corpusFilename);
+		dataGenerator.generateDataset(datasetFilename, 3);
+//
+		run(datasetFilename, modelFilename);
+	}
+
 	public static void run(String datasetFilename, String modelFilename) throws IOException {
 		ArrayList<Pipe> pipes = new ArrayList<Pipe>();
 
@@ -72,10 +81,6 @@ public class TrainCRF {
 	}
 
 	public static void main(String[] args) throws Exception {
-		Main.generateGazetteer();
-		 Main.generateDatasetMaterial(corpusFilename);
-		 Main.generateDataset(datasetFilename);
-//		
-		 TrainCRF.run(datasetFilename, modelFilename);
+		new TrainCRF();
 	}
 }

@@ -63,11 +63,16 @@ public class TrainHMM {
 		oos.close();
 	}
 
+	public TrainHMM() throws Exception {
+		DataGenerator dataGenerator = new DataGenerator();
+		dataGenerator.generateGazetteer();
+		dataGenerator.generateDatasetMaterial(corpusFilename);
+		dataGenerator.generateDataset(datasetFilename, 3);
+
+		run(datasetFilename, modelFilename);
+	}
+
 	public static void main(String[] args) throws Exception {
-		Main.generateGazetteer();
-		Main.generateDatasetMaterial(corpusFilename);
-		Main.generateDataset(datasetFilename);
-		
-		TrainHMM.run(datasetFilename, modelFilename);
+		new TrainHMM();
 	}
 }
