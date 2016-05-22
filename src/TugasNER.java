@@ -14,6 +14,10 @@ public class TugasNER {
   public TugasNER() {}
 
   private void run(String[] args) throws Exception {
+    if (args.length == 0)
+      System.out.print("write file input name and feature number! [data/input.txt 3] ");
+    else
+      System.out.print("write file input name and feature number! [data/training_data.txt 3] ");
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     String input = br.readLine();
     String[] sp = input.split("\\s");
