@@ -187,3 +187,483 @@ Polisi Daerah
 Polisi Republik Indonesia
 Polri
 PSSI
+kantor akuntan publik
+KAP
+Telkom
+PT PSN
+KPU
+Excelcom
+PT Telekomunikasi Indonesia Tbk
+PT Telkom
+PT Indosat
+PT Pertamina
+Semen Gresik
+PT BA
+Medco
+PT Timah
+Indosat
+PT Indosat Tbk
+PT Telkom Tbk
+Depkominfo
+PT Semen Padang
+PT Semen Tonasa
+Telkomsel
+Kejagung
+Kejaksaan Agung
+XL
+StarOne
+Astratel
+BUMN
+Flexi
+Pramindo Ikat Nusantara
+Kementrian Negara BUMN
+PLN
+PT Indonesia Comnets Plus (Icon+)
+PT Barito Pacific Timber
+Polri
+Bappenas
+Ditjen Pajak
+Diknas
+Temasek Holdings Pte. Ltd.
+PT Pos
+Seputar Indonesia
+PT Komselindo
+Ditjen Postel
+Global Comm
+PT Telkom
+detikINET
+Sekar
+Data Center & System Management, PT
+Polda
+Indosat Tbk
+Serikat Karyawan
+PT Excelcomindo Pratama Tbk
+Finnet
+PT PLN (Persero)
+Bukaka SingTel
+Hellas Verona
+AC Milan
+AS Roma
+Carpi
+Sassuolo
+Inter
+Juventus
+Inter Milan
+Pemkot Surabaya
+Napoli
+Serigala Ibu Kota
+Roma
+Stuttgart
+Atalanta
+Torino
+Genoa
+Football Italia
+Chievo
+South Notts College
+Leicester City
+Arsenal
+Leicester
+West Ham United
+Sky Sport
+Notts County
+Dunkirk
+Squawka
+Bologna
+Manchester United
+Manchester City
+MU
+Spurs
+FA
+Tottenham Hotspur
+Swansea City
+Stoke
+Chelsea
+Polda Metro Jaya
+Dinas Pendidikan
+Lembaga Sandi Negara
+Les Bleus
+PSG
+LPDP
+Radio Monte-Carlo
+Barcelona
+ESPNFC
+Everton
+Himpunan Psikologi
+KemenPAN-RB
+BAN PT
+Disdukcapil
+Dinas Kependudukan dan Catatan Sipil
+Universitas Gunadarma
+Ombudsman
+IPW
+Indonesia Police Watch
+Kompolnas
+The Foxes
+IDI
+Ikatan Dokter Indonesia
+Barca
+Real Sociedad
+Bayern Munich
+Atletico
+Sociedad
+Espanyol
+PSSI
+detikSport
+FIFA
+Badminton Indonesia
+Thunder
+Adhoc
+Semen Padang
+Yamaha
+Honda Repsol
+Ferrari
+Mercedes
+Borussia Dortmund
+UEFA
+Los Blancos
+Wolfsburg
+Madrid
+Real Madrid
+Die Wolfe
+manchestereveningnews
+City
+Paris Saint Germain
+Les Parisiens
+Paris Saint-Germain
+Daily Star
+Manchester "The Citizens" City
+Opta
+UGM
+Soccerway
+Paris St. Germain
+Uefa.com
+ISEI
+PSG TV
+Ikatan Sarjana Ekonomi Indonesia
+Kamar Dagang dan Industin (Kadin) Indonesia
+KPK
+VfL Wolfsburg
+Bayer Leverkusen
+AS
+El Real
+ESPN
+Sky Sports
+Football Espana
+InfostradaLive
+Dortmund
+Liverpool
+The Citizens
+Klopp
+The Reds
+Man City
+Samsung
+Samsung Group
+Caris & Co
+Sanggar Alang@lang
+Samsung Electronics
+Mainz
+Die Borussen
+detikcom
+Google
+Vodafone Group Services
+NTT DocoMo
+DPR
+Panasonic Mobile Communication
+NEC
+Motorola
+Alcatel-Lucent
+SSC
+Samsung Service Centre
+Suara Pembaharuan
+Intel
+Bola
+Toshiba
+HTC
+IDC
+Nokia
+LG
+Samsung Service Tomang
+Microsoft
+Gizmodo
+Twitter
+PT Samsung Electronics Indonesia
+Asus
+Apple
+RIM
+Research In Motion
+Uni Eropa
+Compal
+Quanta
+Pegatron
+Financial Post
+BlackBerry
+Texas Instruments
+Huawei
+Wall Street
+AFP
+Reuters
+Strategy Analytics
+TechRadar
+Skybee
+Pertamina
+Partai Amanat Nasional
+Barisan Remaja Nahdlatul Ulama Bersatu
+PDIP
+PDI Perjuangan
+Campos Racing
+Kompas
+BOLumat
+PKB
+NU
+Bapilu
+Badan Pemenangan Pemilu
+BARANUSA
+PAN
+Partai Golkar
+Partai Demokrat
+Seventeen
+Drive
+FPPP
+Megawati Institute
+FPDIP
+Pansus Angket BBM
+Golkar
+IFES
+International Foundation of Electoral System
+RS Omni International
+Mahkamah Konstitusi
+MK
+Gerindra
+DGSBI
+WWF Internasional
+Kalpataru
+PPP
+MPR
+PDI
+KEIN
+A Pink
+Kementrian Sekretariat Negara
+Walt Disney Pictures
+AllKpop
+Ducati
+Big Bang
+Kementrian Pertahanan
+Ducati
+Chrysler
+PKB
+Mahkamah Agung
+Kementrian Pemuda dan Olahraga
+PGAN
+Ford
+Peugot
+SD Kalibaru
+Fakultaas Hukum
+Universitas Islam Jakarta
+Pengadilan Negeri Bogor
+DPP
+Kabinet Kerja
+Komite Ekonomi dan Industri Nasional
+Badan Litbang Diklat Kumdil MA
+PT Putraja
+TNI
+TNI AD, AU, dan AL
+Keselamatan Pantai Timur Sabah
+PMI
+Unit Pelaksanaan Teknis Perparkiran Dinas Perhubungan dan Transportasi
+Kemenkeu
+Mossac Fonseca
+PKS
+Fakultas Psikologi
+Universitas Indonesia
+Undip
+BNN
+BBM
+Pengadilan Negeri Jakarta Selatan
+Dishub
+UPT Perparkiran Dishubtrans
+UI
+Lembaga Administrasi Negara
+LAN
+Kompas.com
+PT Maruki Internasional Indonesia
+Universitas Kyushu Jepang
+Universitas Hasanuddin
+Unhas
+Korea Tourism
+Komisi Kepolisian Nasional
+Kementrian Keuangan
+WBI
+PKB
+DPRD
+Ditjen Bea Cukai
+PDT
+Kemendes PDT
+Kemendes
+parpol
+Mendes PDT
+Komisi Pemberantasan Korupsi
+Blue Bird
+Pansus Pelindo II
+KIH
+PT Blue Bird Tbk
+Blue Bird Group
+PT Windhu Tunggal Utama
+Majelis Pertimbangan Partai
+KMP
+Kemenkum HAM
+Koalisi Indonesia Hebat
+PT Trimegah Sekuritas Tbk
+Indofood
+PT Bahana Securities
+PT Danareksa Sekuritas
+INDF
+Indofood Sukses Makmur
+ISG Asia Ltd
+BEJ
+Singco
+Bursa Efek Jakarta
+Bogasari
+Bumi Resources
+PT Indofood Sukses Makmur Tbk
+PT Boga Sari Flour Mill
+Lonsum
+INDF
+PT Sinarmas
+PT Indofood Sukses Makmur Internasional Tbk
+Salim Group
+detikFinance
+Bank Central Asia
+PT Indofood CBP Sukses Makmur
+Indofood CBP
+PT Indofood
+Inco
+BTPN
+BEI
+Kim Eng
+Deutsche Bank
+The Organization for Economic and Development
+OECD
+Bank Rakyat Indonesia
+Kementrian Perdagangan
+Kemendag
+Semen Gresik
+BRI
+BBRI
+Bank Mandiri
+BMRI
+Aneka Tambang
+ANTM
+Timah
+TINS
+UNTR
+United Tractors
+Aptindo
+INCO
+International Nickel Indonesia
+BBCA
+HM Sampoerna
+Indocement
+Asia Pulp and Paper
+INTP
+Kementrian Agama
+Astra Agro
+Badan Usaha Milik Negara
+Matahari
+AALI
+LPPF
+Indofood CBP
+ICBP
+Pizza Mini
+ITMG
+Unilever
+LION
+Minzhong
+China Minzhong Food Corporation Limited
+Mayora
+MYOR
+Wings Group
+HMSP
+PT Bank Central Asia Tbk
+Bank Tabungan Negara
+BCA
+Indo Tambangraya
+Gulf Times
+Disney
+Pixar
+Disney Channel
+ACS
+Apple Commuter Inc.
+Walt Disney Co.
+Shamrock Holdings
+Walt Disney
+Walt Disney Co
+The Walt Disney Company
+MySpace.com
+Cnet
+General Electric Co.
+Disney-Pixar
+Nike
+General Motors
+Formula 1
+Us Magazine
+AIG
+NASA
+ADP Employer Services
+Eurodisney
+Walt Disney Animation Studios
+The Brothers
+The Tracking Board
+Dow Jones
+detikHOT
+Pixar Animation Studio
+Lucasfilm
+Cheltenham Borough Council
+KBS 2TV
+Universal Indonesia
+Toyota
+GM Indonesia
+Universitas Szent Istvan Godollo
+Fakultas Ekonomi
+Universitas Pecs
+Budapest Business School
+BBS
+SHINee
+Fakultas Pertanian
+Toyota Astra Motor
+TMMIN
+Honda
+Toyota Motor Manufacturing Indonesia
+Twitter
+Nilesen Korea
+Garuda Indonesia
+BNPB
+ASEAN
+KBRI
+Tim Komunikasi Presiden
+Kementrian BUMN
+Kemenhub
+Lion Air
+Silk Air
+Citilink
+Xpress Air
+GMF AeroAsia
+Wings Air
+Pelabuhan dan Penyebrangan Gilimanuk
+Batik Air
+Airnav Indonesia
+TNI AU
+KNKT
+IATA
+PT Angkasa Pura II
+AP II
+Facebook
+TransNusa
+PT Pos Indonesia
+Serikat Pekerja Pos Indonesia
+LPPNPI
+Lembaga Penyelenggara Pelayanan Navigasi Penerbangan Indonesia
+air controller traffic
+BPJS
+BMKG
+EFTA
+KAI
