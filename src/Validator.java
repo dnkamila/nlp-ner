@@ -248,15 +248,33 @@ public class Validator {
       int cor = per.cor + loc.cor + org.cor;
       int act = per.act + loc.act + org.act;
       int pos = per.pos + loc.pos + org.pos;
-      recall = (double) cor / pos;
-      precision = (double) cor / act;
-      fmeasure = (double) 2*recall*precision/ (recall+precision);
+      if (pos == 0)
+        recall = 0.0;
+      else
+        recall = (double) cor / pos;
+      if (act == 0)
+        precision = 0.0;
+      else
+        precision = (double) cor / act;
+      if (recall+precision < 1e-6)
+        fmeasure = 0.0;
+      else
+        fmeasure = (double) 2*recall*precision/ (recall+precision);
     }
 
     public Result(int cor, int act, int pos) {
-      recall = (double) cor / pos;
-      precision = (double) cor / act;
-      fmeasure = (double) 2*recall*precision/ (recall+precision);
+      if (pos == 0)
+        recall = 0.0;
+      else
+        recall = (double) cor / pos;
+      if (act == 0)
+        precision = 0.0;
+      else
+        precision = (double) cor / act;
+      if (recall+precision < 1e-6)
+        fmeasure = 0.0;
+      else
+        fmeasure = (double) 2*recall*precision/ (recall+precision);
     }
 
     public Result(double recall, double precision, double fmeasure) {
