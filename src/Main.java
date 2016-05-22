@@ -131,7 +131,7 @@ public class Main {
 				s = s.replaceAll("\\s+", " ");
 
 				StringTokenizer stTagged = new StringTokenizer(tagString(s.replaceAll("<[^>]*>", "")));
-				corpusGazetteer.addAll(getGazetteerLabel(s.replaceAll("<[^>]*>", "")));
+				corpusGazetteer.addAll(getGazetteerLabel(s.replaceAll("\\s+", " ")));
 				StringTokenizer st = new StringTokenizer(s);
 				String type = "NON";
 
@@ -191,6 +191,7 @@ public class Main {
 
 				StringTokenizer stTagged = new StringTokenizer(tagString(s.replaceAll("<[^>]*>", "")));
 				StringTokenizer st = new StringTokenizer(s.replaceAll("\\s+", " ").trim());
+				System.out.println(i + " " +corpusToken.size() + " " + corpusGazetteer.size());
 				corpusGazetteer.addAll(getGazetteerLabel(s.replaceAll("\\s+", " ")));
 				while (st.hasMoreTokens()) {
 					String temp = st.nextToken();

@@ -64,6 +64,7 @@ public class TrainHMM {
 	}
 
 	public static void main(String[] args) throws Exception {
+		Main.generateGazetteer();
 		Main.generateDatasetMaterial(corpusFilename);
 		Main.generateDataset(datasetFilename);
 		
