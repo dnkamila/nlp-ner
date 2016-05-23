@@ -1,3 +1,5 @@
+Jalankan semua command dibawah ini dari dalam directory *src*
+
 Compile:
 - [ubuntu]	javac -cp .:library/* *.javac
 - [windows]	javac -cp .;library/* *.java
